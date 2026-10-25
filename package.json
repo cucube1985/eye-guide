@@ -1,0 +1,11 @@
+{
+  "name": "eye-guide",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "안과 외래에서 함께 보는 한국어 환자교육 사이트",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "check": "node scripts/check.mjs"
+  }
+}

@@ -1,0 +1,7 @@
+node_modules/
+.openai/local/
+*.tar.gz
+*.tgz
+*.log
+.DS_Store
+Thumbs.db

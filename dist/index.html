@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#176e62">
+  <meta name="description" content="전안부 질환, 백내장, 녹내장, 망막질환을 쉬운 한국어로 안내합니다. 안과 진료실에서 함께 보고, 질환별 링크로 공유하세요.">
+  <title>눈에 담다 · 안과 진료 안내</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">본문 바로가기</a>
+  <div class="mobile-bar"><a class="brand" href="#/"><span class="brand-symbol" aria-hidden="true"></span>눈에 담다</a><button id="menu-toggle" class="icon-button" aria-label="질환 메뉴 열기" aria-expanded="false">☰</button></div>
+  <aside class="sidebar" aria-label="질환 안내 메뉴">
+    <a class="brand" href="#/"><span class="brand-symbol" aria-hidden="true"></span>눈에 담다<span class="brand-dot">.</span></a>
+    <p class="brand-subtitle">안과 진료, 조금 더 쉽게</p>
+    <a class="home-link" href="#/" data-home><span aria-hidden="true">⌂</span> 전체 안내 <span class="count">13</span></a>
+    <p class="nav-label">눈 건강 라이브러리</p>
+    <nav id="navigation"></nav>
+    <div class="sidebar-note"><span class="note-icon" aria-hidden="true">✧</span><p>이해하는 만큼,<br><strong>내 눈을 더 잘 돌볼 수 있도록.</strong></p><span>환자와 보호자를 위한 진료 안내</span></div>
+    <div class="sidebar-footer"><span class="status-dot"></span> 한국어 · 환자교육 자료</div>
+  </aside>
+  <div class="page-shell">
+    <header class="topbar"><div id="breadcrumb">눈 건강 라이브러리 <span>/</span> 전체 안내</div><div class="topbar-right"><span class="edition">PATIENT GUIDE</span><button id="reading-toggle" class="text-button" aria-pressed="false"><span aria-hidden="true">Aa</span> 큰 글씨</button></div></header>
+    <main id="main" tabindex="-1"><div class="loading">눈 건강 안내를 불러오고 있습니다.</div></main>
+    <footer class="page-footer"><a href="#/" class="footer-brand">눈에 담다.</a><p>이 자료는 질환의 이해를 돕는 일반적인 안내입니다. 진단과 치료 계획은 진료 결과에 따라 달라집니다.</p><span>자료 확인 2026.10.25</span></footer>
+  </div>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <dialog id="share-dialog"><div class="dialog-head"><h2>이 설명 공유하기</h2><button class="icon-button" data-close-dialog aria-label="닫기">×</button></div><p>아래 주소를 복사해 환자나 보호자에게 전달하세요.</p><label for="share-url">질환별 주소</label><input id="share-url" readonly><button class="primary-button" id="dialog-copy">주소 복사</button></dialog>
+  <script type="module" src="./app.js"></script>
+</body>
+</html>
