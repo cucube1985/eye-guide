@@ -1,0 +1,250 @@
+[
+  {
+    "id": "lens-grade-nc1",
+    "src": "./images/lens-grade-nc1.jpg",
+    "title": "낮은 핵 색조 — NC1",
+    "originalTitle": "Nuclear Cataract Database for Biomedical and Machine Learning Applications — 35/DER/IM000000.JPG",
+    "alt": "낮은 핵 색조 — NC1 — 상대적으로 핵 색조가 옅은 수정체의 세극등 사진입니다.",
+    "caption": "상대적으로 핵 색조가 옅은 수정체의 세극등 사진입니다. NC는 LOCS III의 핵 색조 항목으로, 숫자가 높을수록 색조 변화가 큽니다. 공개 임상 데이터셋의 예시이며 공식 표준사진은 아닙니다. 핵 혼탁도(NO)·피질·후낭하 혼탁은 별도로 평가하며 사진 등급만으로 수술 시기를 정하지 않습니다.",
+    "author": "Israel Cruz-Vega; Hans Israel Morales",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": "https://data.mendeley.com/datasets/6wv33nbcvv/2",
+    "originalUrl": "https://data.mendeley.com/public-files/datasets/6wv33nbcvv/files/9c25787f-dc0c-48c5-a23e-4a71848c6b5d/file_downloaded",
+    "downloadUrl": "https://data.mendeley.com/public-files/datasets/6wv33nbcvv/files/9c25787f-dc0c-48c5-a23e-4a71848c6b5d/file_downloaded",
+    "width": 3264,
+    "height": 2448,
+    "kind": "clinical",
+    "checked": "2026-10-29",
+    "changes": "원본 JPG 파일을 내용 변경 없이 저장. 화면 크기에 맞춰 표시. 한국어 설명과 NC 등급 표기는 별도 캡션에 추가.",
+    "metadataEvidence": {
+      "DatasetTitle": "Nuclear Cataract Database for Biomedical and Machine Learning Applications",
+      "DatasetDOI": "10.17632/6wv33nbcvv.2",
+      "DatasetVersion": 2,
+      "DatasetLicense": {
+        "id": "01d9c749-3c4d-4431-9df3-620b2dcfe144",
+        "short_name": "CC BY 4.0",
+        "full_name": "Creative Commons Attribution 4.0 International",
+        "description": "You can share, copy and modify this dataset so long as you give appropriate credit, provide a link to the CC BY license, and indicate if changes were made, but you may not do so in a way that suggests the rights holder has endorsed you or your use of the dataset. Note that further permission may be required for any content within the dataset that is identified as belonging to a third party.",
+        "url": "http://creativecommons.org/licenses/by/4.0",
+        "category": "Creative",
+        "customer_id": null
+      },
+      "DatasetContributors": [
+        {
+          "id": "94343236-d64c-31a7-b781-7d13074d18c6",
+          "first_name": "Israel",
+          "last_name": "Cruz-Vega",
+          "$ref": "/profiles/94343236-d64c-31a7-b781-7d13074d18c6"
+        },
+        {
+          "first_name": "Hans Israel",
+          "last_name": "Morales"
+        }
+      ],
+      "ImageDescription": "The dataset collected for multi-class nuclear cataract classification consists of 1437 labeled images. The images were obtained from a digital Topcon DC-3 slit-lamp camera with a resolution of 3264 x 2448 RGB; they were focused with a Topcon SL-D7 slit-lamp, a slit angle of 45º and 135º for each eye, a 6 mm x 0.5 mm aperture and maximum luminous intensity. The number of volunteers for the multi-class dataset was 68 women and 47 men, with at least three images per right and left eye. The expert ophthalmologists from the Conde Valenciana Institute from Mexico classified this dataset according to the LOCS III Protocol.",
+      "DatasetPath": "35/DER/IM000000.JPG",
+      "FileId": "9c25787f-dc0c-48c5-a23e-4a71848c6b5d",
+      "FileSha256": "66abcc99a6172b3c2e73270678760a2837c68046dae35edaa99198d83f0ac75a",
+      "GradingEvidence": {
+        "publication": "Ignatowicz, A. A.; Marciniak, T.; Marciniak, E. AI-Powered Mobile App for Nuclear Cataract Detection. Sensors 2025, 25(13), 3954.",
+        "publicationUrl": "https://www.mdpi.com/1424-8220/25/13/3954",
+        "publicationDOI": "10.3390/s25133954",
+        "fileSelectionSourceUrl": "https://github.com/ignatowicz-alicja/AI-Powered-Mobile-App-for-Nuclear-Cataract-Detection/blob/main/NC_images_used_for_evaluation.xlsx",
+        "sheet": "Sheet1",
+        "Volunteer No.": "35",
+        "Case": "DER",
+        "Filename": "IM000000",
+        "NC classification": "1",
+        "scope": "Ophthalmology-specialist-selected image with NC nuclear color grade, per paper section 3.1 and its published file list. NC is not NO; this is a clinical dataset example, not a proprietary LOCS III standard plate."
+      },
+      "VisualCheck": "실제 세극등 사진이며 표기 없는 수정체 핵과 세극광을 확인함."
+    }
+  },
+  {
+    "id": "lens-grade-nc3",
+    "src": "./images/lens-grade-nc3.jpg",
+    "title": "중간 핵 색조 — NC3",
+    "originalTitle": "Nuclear Cataract Database for Biomedical and Machine Learning Applications — 50/DER/IM000000.JPG",
+    "alt": "중간 핵 색조 — NC3 — 핵 색조가 중간 수준인 수정체의 세극등 사진입니다.",
+    "caption": "핵 색조가 중간 수준인 수정체의 세극등 사진입니다. NC는 LOCS III의 핵 색조 항목으로, 숫자가 높을수록 색조 변화가 큽니다. 공개 임상 데이터셋의 예시이며 공식 표준사진은 아닙니다. 핵 혼탁도(NO)·피질·후낭하 혼탁은 별도로 평가하며 사진 등급만으로 수술 시기를 정하지 않습니다.",
+    "author": "Israel Cruz-Vega; Hans Israel Morales",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": "https://data.mendeley.com/datasets/6wv33nbcvv/2",
+    "originalUrl": "https://data.mendeley.com/public-files/datasets/6wv33nbcvv/files/b764bd5e-6aec-4c9a-bc2a-848e4616aa01/file_downloaded",
+    "downloadUrl": "https://data.mendeley.com/public-files/datasets/6wv33nbcvv/files/b764bd5e-6aec-4c9a-bc2a-848e4616aa01/file_downloaded",
+    "width": 3264,
+    "height": 2448,
+    "kind": "clinical",
+    "checked": "2026-10-29",
+    "changes": "원본 JPG 파일을 내용 변경 없이 저장. 화면 크기에 맞춰 표시. 한국어 설명과 NC 등급 표기는 별도 캡션에 추가.",
+    "metadataEvidence": {
+      "DatasetTitle": "Nuclear Cataract Database for Biomedical and Machine Learning Applications",
+      "DatasetDOI": "10.17632/6wv33nbcvv.2",
+      "DatasetVersion": 2,
+      "DatasetLicense": {
+        "id": "01d9c749-3c4d-4431-9df3-620b2dcfe144",
+        "short_name": "CC BY 4.0",
+        "full_name": "Creative Commons Attribution 4.0 International",
+        "description": "You can share, copy and modify this dataset so long as you give appropriate credit, provide a link to the CC BY license, and indicate if changes were made, but you may not do so in a way that suggests the rights holder has endorsed you or your use of the dataset. Note that further permission may be required for any content within the dataset that is identified as belonging to a third party.",
+        "url": "http://creativecommons.org/licenses/by/4.0",
+        "category": "Creative",
+        "customer_id": null
+      },
+      "DatasetContributors": [
+        {
+          "id": "94343236-d64c-31a7-b781-7d13074d18c6",
+          "first_name": "Israel",
+          "last_name": "Cruz-Vega",
+          "$ref": "/profiles/94343236-d64c-31a7-b781-7d13074d18c6"
+        },
+        {
+          "first_name": "Hans Israel",
+          "last_name": "Morales"
+        }
+      ],
+      "ImageDescription": "The dataset collected for multi-class nuclear cataract classification consists of 1437 labeled images. The images were obtained from a digital Topcon DC-3 slit-lamp camera with a resolution of 3264 x 2448 RGB; they were focused with a Topcon SL-D7 slit-lamp, a slit angle of 45º and 135º for each eye, a 6 mm x 0.5 mm aperture and maximum luminous intensity. The number of volunteers for the multi-class dataset was 68 women and 47 men, with at least three images per right and left eye. The expert ophthalmologists from the Conde Valenciana Institute from Mexico classified this dataset according to the LOCS III Protocol.",
+      "DatasetPath": "50/DER/IM000000.JPG",
+      "FileId": "b764bd5e-6aec-4c9a-bc2a-848e4616aa01",
+      "FileSha256": "b1edf529a83d18e4a872fd7f7ca5f8c4c2f9bfaa6b84ec65d4588acb0ccdcc33",
+      "GradingEvidence": {
+        "publication": "Ignatowicz, A. A.; Marciniak, T.; Marciniak, E. AI-Powered Mobile App for Nuclear Cataract Detection. Sensors 2025, 25(13), 3954.",
+        "publicationUrl": "https://www.mdpi.com/1424-8220/25/13/3954",
+        "publicationDOI": "10.3390/s25133954",
+        "fileSelectionSourceUrl": "https://github.com/ignatowicz-alicja/AI-Powered-Mobile-App-for-Nuclear-Cataract-Detection/blob/main/NC_images_used_for_evaluation.xlsx",
+        "sheet": "Sheet1",
+        "Volunteer No.": "50",
+        "Case": "DER",
+        "Filename": "IM000000",
+        "NC classification": "3",
+        "scope": "Ophthalmology-specialist-selected image with NC nuclear color grade, per paper section 3.1 and its published file list. NC is not NO; this is a clinical dataset example, not a proprietary LOCS III standard plate."
+      },
+      "VisualCheck": "실제 세극등 사진이며 표기 없는 수정체 핵과 세극광을 확인함."
+    }
+  },
+  {
+    "id": "lens-grade-nc6",
+    "src": "./images/lens-grade-nc6.jpg",
+    "title": "높은 핵 색조 — NC6",
+    "originalTitle": "Nuclear Cataract Database for Biomedical and Machine Learning Applications — 58/DER/IM000000.JPG",
+    "alt": "높은 핵 색조 — NC6 — 핵 색조가 진해진 수정체의 세극등 사진입니다.",
+    "caption": "핵 색조가 진해진 수정체의 세극등 사진입니다. NC는 LOCS III의 핵 색조 항목으로, 숫자가 높을수록 색조 변화가 큽니다. 공개 임상 데이터셋의 예시이며 공식 표준사진은 아닙니다. 핵 혼탁도(NO)·피질·후낭하 혼탁은 별도로 평가하며 사진 등급만으로 수술 시기를 정하지 않습니다.",
+    "author": "Israel Cruz-Vega; Hans Israel Morales",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": "https://data.mendeley.com/datasets/6wv33nbcvv/2",
+    "originalUrl": "https://data.mendeley.com/public-files/datasets/6wv33nbcvv/files/7f12fa78-9ac3-42f8-81ac-6805c7338bfa/file_downloaded",
+    "downloadUrl": "https://data.mendeley.com/public-files/datasets/6wv33nbcvv/files/7f12fa78-9ac3-42f8-81ac-6805c7338bfa/file_downloaded",
+    "width": 3264,
+    "height": 2448,
+    "kind": "clinical",
+    "checked": "2026-10-29",
+    "changes": "원본 JPG 파일을 내용 변경 없이 저장. 화면 크기에 맞춰 표시. 한국어 설명과 NC 등급 표기는 별도 캡션에 추가.",
+    "metadataEvidence": {
+      "DatasetTitle": "Nuclear Cataract Database for Biomedical and Machine Learning Applications",
+      "DatasetDOI": "10.17632/6wv33nbcvv.2",
+      "DatasetVersion": 2,
+      "DatasetLicense": {
+        "id": "01d9c749-3c4d-4431-9df3-620b2dcfe144",
+        "short_name": "CC BY 4.0",
+        "full_name": "Creative Commons Attribution 4.0 International",
+        "description": "You can share, copy and modify this dataset so long as you give appropriate credit, provide a link to the CC BY license, and indicate if changes were made, but you may not do so in a way that suggests the rights holder has endorsed you or your use of the dataset. Note that further permission may be required for any content within the dataset that is identified as belonging to a third party.",
+        "url": "http://creativecommons.org/licenses/by/4.0",
+        "category": "Creative",
+        "customer_id": null
+      },
+      "DatasetContributors": [
+        {
+          "id": "94343236-d64c-31a7-b781-7d13074d18c6",
+          "first_name": "Israel",
+          "last_name": "Cruz-Vega",
+          "$ref": "/profiles/94343236-d64c-31a7-b781-7d13074d18c6"
+        },
+        {
+          "first_name": "Hans Israel",
+          "last_name": "Morales"
+        }
+      ],
+      "ImageDescription": "The dataset collected for multi-class nuclear cataract classification consists of 1437 labeled images. The images were obtained from a digital Topcon DC-3 slit-lamp camera with a resolution of 3264 x 2448 RGB; they were focused with a Topcon SL-D7 slit-lamp, a slit angle of 45º and 135º for each eye, a 6 mm x 0.5 mm aperture and maximum luminous intensity. The number of volunteers for the multi-class dataset was 68 women and 47 men, with at least three images per right and left eye. The expert ophthalmologists from the Conde Valenciana Institute from Mexico classified this dataset according to the LOCS III Protocol.",
+      "DatasetPath": "58/DER/IM000000.JPG",
+      "FileId": "7f12fa78-9ac3-42f8-81ac-6805c7338bfa",
+      "FileSha256": "65563133df8d6accf4e0c39765921e35079d619941357dcc986abc563b3a2b86",
+      "GradingEvidence": {
+        "publication": "Ignatowicz, A. A.; Marciniak, T.; Marciniak, E. AI-Powered Mobile App for Nuclear Cataract Detection. Sensors 2025, 25(13), 3954.",
+        "publicationUrl": "https://www.mdpi.com/1424-8220/25/13/3954",
+        "publicationDOI": "10.3390/s25133954",
+        "fileSelectionSourceUrl": "https://github.com/ignatowicz-alicja/AI-Powered-Mobile-App-for-Nuclear-Cataract-Detection/blob/main/NC_images_used_for_evaluation.xlsx",
+        "sheet": "Sheet1",
+        "Volunteer No.": "58",
+        "Case": "DER",
+        "Filename": "IM000000",
+        "NC classification": "6",
+        "scope": "Ophthalmology-specialist-selected image with NC nuclear color grade, per paper section 3.1 and its published file list. NC is not NO; this is a clinical dataset example, not a proprietary LOCS III standard plate."
+      },
+      "VisualCheck": "실제 세극등 사진이며 표기 없는 수정체 핵과 세극광을 확인함."
+    }
+  },
+  {
+    "id": "lens-delayed-intumescent",
+    "src": "./images/lens-delayed-intumescent.jpg",
+    "title": "팽대 백내장 — 부풀어 오른 수정체",
+    "originalTitle": "Intumescent cataract.jpg",
+    "alt": "팽대 백내장 — 부풀어 오른 수정체 — 동공 안쪽 수정체 전체가 희게 혼탁해진 실제 눈 사진.",
+    "caption": "백내장으로 수정체가 팽대된 임상 예입니다. 이런 팽대는 일부 환자에서 전방을 좁혀 급격한 안압 상승을 일으킬 수 있습니다. 사진만으로 녹내장이나 안압을 판단할 수는 없습니다.",
+    "author": "Imrankabirhossain",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Intumescent_cataract.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/24/Intumescent_cataract.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/2/24/Intumescent_cataract.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 4160,
+    "height": 3120,
+    "kind": "clinical",
+    "checked": "2026-10-29",
+    "changes": "원본 JPG 파일을 내용 변경 없이 저장. 화면 크기에 맞춰 표시. 한국어 설명은 별도 캡션에 추가.",
+    "metadataEvidence": {
+      "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:Imrankabirhossain\" title=\"User:Imrankabirhossain\">Imrankabirhossain</a>",
+      "LicenseShortName": "CC BY-SA 4.0",
+      "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "Credit": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+      "ImageDescription": "Intumescent cataract of a 55 years old male",
+      "Copyrighted": "True",
+      "CommonsOriginalTitle": "File:Intumescent cataract.jpg",
+      "ClinicalContextSource": "https://www.aao.org/eyenet/article/lens-induced-glaucoma-diagnosis-management",
+      "ClinicalLimit": "Illustrates an advanced cataract example, not an inevitable result of observation or proof of glaucoma. Swollen lens photo does not document IOP; extracted nucleus photo does not measure hardness.",
+      "VisualCheck": "실제 눈의 흰색 팽대백내장 임상 사진 확인."
+    }
+  },
+  {
+    "id": "lens-delayed-nucleus",
+    "src": "./images/lens-delayed-nucleus.jpg",
+    "title": "수술로 제거한 진행된 수정체핵",
+    "originalTitle": "Nucleus of hypermature cataract.jpg",
+    "alt": "수술로 제거한 진행된 수정체핵 — 거즈 위에 놓인 황갈색 수정체핵의 실제 표본 사진.",
+    "caption": "진행된 백내장에서 수술로 꺼낸 수정체핵의 사진입니다. 백내장이 더 치밀해지면 수술 난도가 높아질 수 있습니다. 사진만으로 핵의 단단한 정도나 개인별 위험을 평가하지는 않습니다.",
+    "author": "Imrankabirhossain",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nucleus_of_hypermature_cataract.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/63/Nucleus_of_hypermature_cataract.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/6/63/Nucleus_of_hypermature_cataract.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1245,
+    "height": 1061,
+    "kind": "clinical",
+    "checked": "2026-10-29",
+    "changes": "원본 JPG 파일을 내용 변경 없이 저장. 화면 크기에 맞춰 표시. 한국어 설명은 별도 캡션에 추가.",
+    "metadataEvidence": {
+      "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:Imrankabirhossain\" title=\"User:Imrankabirhossain\">Imrankabirhossain</a>",
+      "LicenseShortName": "CC BY-SA 4.0",
+      "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "Credit": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+      "ImageDescription": "Nucleus of hypermature cataract after ECCE",
+      "Copyrighted": "True",
+      "CommonsOriginalTitle": "File:Nucleus of hypermature cataract.jpg",
+      "ClinicalContextSource": "https://www.nice.org.uk/guidance/ng77/chapter/recommendations",
+      "ClinicalLimit": "Illustrates an advanced cataract example, not an inevitable result of observation or proof of glaucoma. Swollen lens photo does not document IOP; extracted nucleus photo does not measure hardness.",
+      "VisualCheck": "ECCE 후 제거된 수정체핵 표본 사진 확인."
+    }
+  }
+]

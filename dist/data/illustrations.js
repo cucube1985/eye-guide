@@ -420,48 +420,6 @@ export const assets = {
     "bytes": 60609,
     "originalTitle": "Simulated floaters.jpg"
   },
-  "lens-cataract": {
-    "id": "lens-cataract",
-    "src": "./images/lens-cataract.png",
-    "title": "정상 수정체와 백내장의 비교",
-    "originalTitle": "Cataracts.png",
-    "alt": "정상 수정체와 백내장의 비교 — 위쪽은 투명한 수정체, 아래쪽은 혼탁해진 수정체를 비교한 그림입니다. 수정체가 흐려지면 빛이 퍼져 상이 선명하지 않게 됩니다.",
-    "caption": "위쪽은 투명한 수정체, 아래쪽은 혼탁해진 수정체를 비교한 그림입니다. 수정체가 흐려지면 빛이 퍼져 상이 선명하지 않게 됩니다.",
-    "author": "BruceBlaus",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cataracts.png",
-    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/07/Cataracts.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Cataracts.png/960px-Cataracts.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "width": 960,
-    "height": 1440,
-    "kind": "diagram",
-    "checked": "2026-10-29",
-    "changes": "원본 이미지 내용 변경 없음. 제공처의 미리보기 또는 원본을 저장하고 화면 크기에 맞춰 표시.",
-    "sha256": "ebbd50c75c953fa67492e39f9cf8033aba07213f370949dd2b77d48218bb3bbe",
-    "bytes": 746581
-  },
-  "lens-iol": {
-    "id": "lens-iol",
-    "src": "./images/lens-iol.png",
-    "title": "눈 안에 놓인 인공수정체",
-    "originalTitle": "Ocular Implant.png",
-    "alt": "눈 안에 놓인 인공수정체 — 눈을 옆에서 잘라 본 모식도입니다. 백내장 수술에서 혼탁한 수정체를 제거한 뒤 그 자리에 넣는 인공수정체의 위치를 보여줍니다.",
-    "caption": "눈을 옆에서 잘라 본 모식도입니다. 백내장 수술에서 혼탁한 수정체를 제거한 뒤 그 자리에 넣는 인공수정체의 위치를 보여줍니다.",
-    "author": "BruceBlaus",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ocular_Implant.png",
-    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/35/Ocular_Implant.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Ocular_Implant.png/960px-Ocular_Implant.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "width": 960,
-    "height": 960,
-    "kind": "diagram",
-    "checked": "2026-10-29",
-    "changes": "원본 이미지 내용 변경 없음. 제공처의 미리보기 또는 원본을 저장하고 화면 크기에 맞춰 표시.",
-    "sha256": "ec0d6dc9d629fcfe5cbc0860313f9c1baed2609728a9c45b2720a46cf1574c8e",
-    "bytes": 710106
-  },
   "lens-presbyopia": {
     "id": "lens-presbyopia",
     "src": "./images/lens-presbyopia.png",
@@ -692,6 +650,174 @@ export const assets = {
     "originalTitle": "Orbiculaire_de_l%27oeil.png",
     "sha256": "5471e3be7766ec3aae19366a0fa4df93b85e648ab94408a36ce5f01fbfa1327e",
     "bytes": 354373
+  },
+  "lens-grade-nc1": {
+    "id": "lens-grade-nc1",
+    "src": "./images/lens-grade-nc1.jpg",
+    "title": "낮은 핵 색조 — NC1",
+    "originalTitle": "Nuclear Cataract Database for Biomedical and Machine Learning Applications — 35/DER/IM000000.JPG",
+    "alt": "낮은 핵 색조 — NC1 — 상대적으로 핵 색조가 옅은 수정체의 세극등 사진입니다.",
+    "caption": "상대적으로 핵 색조가 옅은 수정체의 세극등 사진입니다. NC는 LOCS III의 핵 색조 항목으로, 숫자가 높을수록 색조 변화가 큽니다. 공개 임상 데이터셋의 예시이며 공식 표준사진은 아닙니다. 핵 혼탁도(NO)·피질·후낭하 혼탁은 별도로 평가하며 사진 등급만으로 수술 시기를 정하지 않습니다.",
+    "author": "Israel Cruz-Vega; Hans Israel Morales",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": "https://data.mendeley.com/datasets/6wv33nbcvv/2",
+    "originalUrl": "https://data.mendeley.com/public-files/datasets/6wv33nbcvv/files/9c25787f-dc0c-48c5-a23e-4a71848c6b5d/file_downloaded",
+    "downloadUrl": "https://data.mendeley.com/public-files/datasets/6wv33nbcvv/files/9c25787f-dc0c-48c5-a23e-4a71848c6b5d/file_downloaded",
+    "width": 3264,
+    "height": 2448,
+    "kind": "clinical",
+    "checked": "2026-10-29",
+    "changes": "원본 JPG 파일을 내용 변경 없이 저장. 화면 크기에 맞춰 표시. 한국어 설명과 NC 등급 표기는 별도 캡션에 추가.",
+    "sha256": "66abcc99a6172b3c2e73270678760a2837c68046dae35edaa99198d83f0ac75a",
+    "bytes": 286578
+  },
+  "lens-grade-nc3": {
+    "id": "lens-grade-nc3",
+    "src": "./images/lens-grade-nc3.jpg",
+    "title": "중간 핵 색조 — NC3",
+    "originalTitle": "Nuclear Cataract Database for Biomedical and Machine Learning Applications — 50/DER/IM000000.JPG",
+    "alt": "중간 핵 색조 — NC3 — 핵 색조가 중간 수준인 수정체의 세극등 사진입니다.",
+    "caption": "핵 색조가 중간 수준인 수정체의 세극등 사진입니다. NC는 LOCS III의 핵 색조 항목으로, 숫자가 높을수록 색조 변화가 큽니다. 공개 임상 데이터셋의 예시이며 공식 표준사진은 아닙니다. 핵 혼탁도(NO)·피질·후낭하 혼탁은 별도로 평가하며 사진 등급만으로 수술 시기를 정하지 않습니다.",
+    "author": "Israel Cruz-Vega; Hans Israel Morales",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": "https://data.mendeley.com/datasets/6wv33nbcvv/2",
+    "originalUrl": "https://data.mendeley.com/public-files/datasets/6wv33nbcvv/files/b764bd5e-6aec-4c9a-bc2a-848e4616aa01/file_downloaded",
+    "downloadUrl": "https://data.mendeley.com/public-files/datasets/6wv33nbcvv/files/b764bd5e-6aec-4c9a-bc2a-848e4616aa01/file_downloaded",
+    "width": 3264,
+    "height": 2448,
+    "kind": "clinical",
+    "checked": "2026-10-29",
+    "changes": "원본 JPG 파일을 내용 변경 없이 저장. 화면 크기에 맞춰 표시. 한국어 설명과 NC 등급 표기는 별도 캡션에 추가.",
+    "sha256": "b1edf529a83d18e4a872fd7f7ca5f8c4c2f9bfaa6b84ec65d4588acb0ccdcc33",
+    "bytes": 684451
+  },
+  "lens-grade-nc6": {
+    "id": "lens-grade-nc6",
+    "src": "./images/lens-grade-nc6.jpg",
+    "title": "높은 핵 색조 — NC6",
+    "originalTitle": "Nuclear Cataract Database for Biomedical and Machine Learning Applications — 58/DER/IM000000.JPG",
+    "alt": "높은 핵 색조 — NC6 — 핵 색조가 진해진 수정체의 세극등 사진입니다.",
+    "caption": "핵 색조가 진해진 수정체의 세극등 사진입니다. NC는 LOCS III의 핵 색조 항목으로, 숫자가 높을수록 색조 변화가 큽니다. 공개 임상 데이터셋의 예시이며 공식 표준사진은 아닙니다. 핵 혼탁도(NO)·피질·후낭하 혼탁은 별도로 평가하며 사진 등급만으로 수술 시기를 정하지 않습니다.",
+    "author": "Israel Cruz-Vega; Hans Israel Morales",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": "https://data.mendeley.com/datasets/6wv33nbcvv/2",
+    "originalUrl": "https://data.mendeley.com/public-files/datasets/6wv33nbcvv/files/7f12fa78-9ac3-42f8-81ac-6805c7338bfa/file_downloaded",
+    "downloadUrl": "https://data.mendeley.com/public-files/datasets/6wv33nbcvv/files/7f12fa78-9ac3-42f8-81ac-6805c7338bfa/file_downloaded",
+    "width": 3264,
+    "height": 2448,
+    "kind": "clinical",
+    "checked": "2026-10-29",
+    "changes": "원본 JPG 파일을 내용 변경 없이 저장. 화면 크기에 맞춰 표시. 한국어 설명과 NC 등급 표기는 별도 캡션에 추가.",
+    "sha256": "65563133df8d6accf4e0c39765921e35079d619941357dcc986abc563b3a2b86",
+    "bytes": 620670
+  },
+  "lens-delayed-intumescent": {
+    "id": "lens-delayed-intumescent",
+    "src": "./images/lens-delayed-intumescent.jpg",
+    "title": "팽대 백내장 — 부풀어 오른 수정체",
+    "originalTitle": "Intumescent cataract.jpg",
+    "alt": "팽대 백내장 — 부풀어 오른 수정체 — 동공 안쪽 수정체 전체가 희게 혼탁해진 실제 눈 사진.",
+    "caption": "백내장으로 수정체가 팽대된 임상 예입니다. 이런 팽대는 일부 환자에서 전방을 좁혀 급격한 안압 상승을 일으킬 수 있습니다. 사진만으로 녹내장이나 안압을 판단할 수는 없습니다.",
+    "author": "Imrankabirhossain",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Intumescent_cataract.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/24/Intumescent_cataract.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/2/24/Intumescent_cataract.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 4160,
+    "height": 3120,
+    "kind": "clinical",
+    "checked": "2026-10-29",
+    "changes": "원본 JPG 파일을 내용 변경 없이 저장. 화면 크기에 맞춰 표시. 한국어 설명은 별도 캡션에 추가.",
+    "sha256": "a5acf37a7c5548bf21fe5c5b92491b3bf376a804283af2e19b1010fe8eccb050",
+    "bytes": 2518601
+  },
+  "lens-delayed-nucleus": {
+    "id": "lens-delayed-nucleus",
+    "src": "./images/lens-delayed-nucleus.jpg",
+    "title": "수술로 제거한 진행된 수정체핵",
+    "originalTitle": "Nucleus of hypermature cataract.jpg",
+    "alt": "수술로 제거한 진행된 수정체핵 — 거즈 위에 놓인 황갈색 수정체핵의 실제 표본 사진.",
+    "caption": "진행된 백내장에서 수술로 꺼낸 수정체핵의 사진입니다. 백내장이 더 치밀해지면 수술 난도가 높아질 수 있습니다. 사진만으로 핵의 단단한 정도나 개인별 위험을 평가하지는 않습니다.",
+    "author": "Imrankabirhossain",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nucleus_of_hypermature_cataract.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/63/Nucleus_of_hypermature_cataract.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/6/63/Nucleus_of_hypermature_cataract.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1245,
+    "height": 1061,
+    "kind": "clinical",
+    "checked": "2026-10-29",
+    "changes": "원본 JPG 파일을 내용 변경 없이 저장. 화면 크기에 맞춰 표시. 한국어 설명은 별도 캡션에 추가.",
+    "sha256": "633cafd232f7764181f772d2a31602858d8b1f9cb582222ee5b70c421c3f63dd",
+    "bytes": 414533
+  },
+  "lens-aphakic-glasses": {
+    "id": "lens-aphakic-glasses",
+    "src": "./images/lens-aphakic-glasses.jpg",
+    "title": "수정체가 없을 때 쓰는 두꺼운 안경",
+    "originalTitle": "Starbrille 2018 PD 03.JPG",
+    "alt": "무수정체 안경을 비스듬히 위에서 찍은 실제 사진. 두 렌즈의 가운데가 두껍게 볼록한 모습을 볼 수 있습니다.",
+    "caption": "수정체가 없는 눈에서 초점을 보완하는 두꺼운 볼록렌즈 안경의 예입니다. 인공수정체가 널리 쓰이기 전의 교정 방식을 이해하기 위한 비교 사진입니다. 사진 속 안경은 2018년에 촬영한 실제 사용 예이며, 과거 유물의 사진은 아닙니다.",
+    "author": "Bin im Garten",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Starbrille_2018_PD_03.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/Starbrille_2018_PD_03.JPG",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Starbrille_2018_PD_03.JPG/1280px-Starbrille_2018_PD_03.JPG",
+    "width": 1280,
+    "height": 947,
+    "kind": "device",
+    "checked": "2026-10-29",
+    "changes": "원본 이미지 내용 변경 없음. Wikimedia Commons에서 제공하는 가로 1280픽셀 미리보기를 저장하고 화면 크기에 맞춰 표시.",
+    "sha256": "67039ea15f1eb2aea099c93716c74aaf9a033f6d0163f193f9aa896bfc9743a6",
+    "bytes": 165305
+  },
+  "lens-iol-photo": {
+    "id": "lens-iol-photo",
+    "src": "./images/lens-iol-photo.jpg",
+    "title": "손끝에 올린 실제 인공수정체",
+    "originalTitle": "Hinterkammerlinse 01 (fcm).jpg",
+    "alt": "손가락 끝에 놓인 투명한 인공수정체의 실제 사진. 가운데 둥근 광학부와 양쪽의 휘어진 지지부가 보입니다.",
+    "caption": "수술로 눈 안에 넣는 인공수정체의 실제 모습입니다. 가운데의 투명한 광학부가 빛을 모으고, 양쪽의 지지부가 렌즈의 위치를 유지하도록 돕습니다. 사진 속 제품은 광학부 지름 6mm, 전체 길이 13mm인 한 예입니다.",
+    "author": "Frank C. Müller",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hinterkammerlinse_01_(fcm).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/10/Hinterkammerlinse_01_%28fcm%29.jpg",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/1/10/Hinterkammerlinse_01_%28fcm%29.jpg",
+    "width": 2268,
+    "height": 1624,
+    "kind": "device",
+    "checked": "2026-10-29",
+    "changes": "원본 이미지 내용 변경 없음. 원본 사진을 저장하고 화면 크기에 맞춰 표시.",
+    "sha256": "26e34ae9be46ed22b2de18de044bf779749a696cfcb8ae825fd7e1d5da486021",
+    "bytes": 1780775
+  },
+  "lens-accommodation-far-near": {
+    "id": "lens-accommodation-far-near",
+    "src": "./images/lens-accommodation-far-near.png",
+    "title": "먼 곳과 가까운 곳을 볼 때 수정체의 변화",
+    "originalTitle": "Accommodation (PSF).svg",
+    "alt": "먼 곳과 가까운 곳을 볼 때 수정체의 변화 — 위(FAR POINT)는 먼 곳, 아래(NEAR POINT)는 가까운 곳에 초점을 맞추는 정상 조절의 비교입니다. 가까운 곳을 볼 때 수정체가 더 볼록해집니다. 노안에서는 수정체의 유연성이 줄어 이러한 모양 변화가 충분히 일어나기 어렵습니다.",
+    "caption": "위(FAR POINT)는 먼 곳, 아래(NEAR POINT)는 가까운 곳에 초점을 맞추는 정상 조절의 비교입니다. 가까운 곳을 볼 때 수정체가 더 볼록해집니다. 노안에서는 수정체의 유연성이 줄어 이러한 모양 변화가 충분히 일어나기 어렵습니다.",
+    "author": "원본: OldakQuill (Pearson Scott Foresman 자료); 벡터화: Zirguezi",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Accommodation_(PSF).svg#Licensing",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Accommodation_(PSF).svg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Accommodation_%28PSF%29.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Accommodation_%28PSF%29.svg/1280px-Accommodation_%28PSF%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 1280,
+    "height": 1222,
+    "kind": "diagram",
+    "checked": "2026-10-29",
+    "changes": "원본 이미지 내용 변경 없음. 제공처의 PNG 미리보기 또는 PNG 원본을 저장하고 화면 크기에 맞춰 표시.",
+    "sha256": "bda6120f49e26b9083a4a63a0b386e930e3acb4f92f894ef1d3b93b0c2c24ad4",
+    "bytes": 175917
   }
 };
 export const topicImages = {
@@ -866,29 +992,86 @@ export const topicImages = {
     ]
   },
   "cataract": {
-    "intro": "정상 수정체와 혼탁한 수정체, 수술 후 넣는 인공수정체의 위치를 비교합니다.",
+    "heading": "세극등 사진으로 보는 수정체의 변화",
+    "layout": "compare",
+    "intro": "실제 세극등 검사에서 보이는 수정체를 비교합니다. 서로 다른 눈에서 촬영한 핵 색조 NC1·NC6의 임상 예시입니다. NC는 수정체 핵의 색조 등급으로, 피질·후낭하 혼탁은 별도로 평가합니다. 수술 시기는 생활의 불편과 진찰 결과를 함께 보고 결정합니다.",
     "items": [
       {
-        "assetId": "lens-cataract"
+        "assetId": "lens-grade-nc1",
+        "label": "핵 색조 NC1 예시",
+        "caption": "NC1: 수정체 핵의 색조가 상대적으로 옅은 예입니다."
       },
       {
-        "assetId": "lens-iol"
+        "assetId": "lens-grade-nc6",
+        "label": "핵 색조 NC6 예시",
+        "caption": "NC6: 수정체 핵의 색조가 짙어진 예입니다."
+      }
+    ],
+    "sectionGroups": [
+      {
+        "sectionTitle": "인공수정체는 어떻게 고르나요?",
+        "heading": "두꺼운 무수정체 안경과 인공수정체",
+        "intro": "인공수정체가 널리 쓰이기 전에는 수정체를 제거한 눈의 도수를 두꺼운 볼록렌즈 안경으로 보완했습니다. 아래 안경은 이 교정 방식을 보여주는 최근 촬영 예시입니다. 인공수정체는 눈 안에 넣어 수정체의 도수를 대신합니다. 두 사진은 촬영 배율이 서로 다르며, 수술 뒤에도 필요에 따라 안경을 쓸 수 있습니다.",
+        "layout": "compare",
+        "items": [
+          {
+            "assetId": "lens-aphakic-glasses",
+            "label": "눈 밖에서 보완하는 무수정체 안경"
+          },
+          {
+            "assetId": "lens-iol-photo",
+            "label": "눈 안에 넣는 인공수정체 실물"
+          }
+        ]
       }
     ]
   },
   "cataract-timing": {
-    "intro": "수정체 혼탁이 빛에 어떤 영향을 주는지 보여주는 그림입니다. 수술 시기는 그림의 모양보다 본인의 생활 불편과 검사 결과를 함께 보고 정합니다.",
+    "heading": "핵 색조 등급별 세극등 비교 사진",
+    "layout": "grades",
+    "intro": "전문의가 NC1·NC3·NC6로 분류한 실제 사진을 밝은 핵 색조에서 짙은 색조 순서로 나란히 봅니다. NC는 수정체 핵의 색조 등급이며, 핵 혼탁도(NO)·피질·후낭하 혼탁 전체를 나타내는 점수는 아닙니다. 재사용 가능한 임상 예시로, 원본 LOCS III 공식 표준 사진판과는 구분됩니다. 사진의 색조나 등급 하나로 수술 시기를 정하지 않습니다.",
     "items": [
       {
-        "assetId": "lens-cataract"
+        "assetId": "lens-grade-nc1",
+        "label": "NC1 · 핵 색조 예시",
+        "caption": "NC1: 수정체 핵의 색조가 상대적으로 옅은 예입니다."
+      },
+      {
+        "assetId": "lens-grade-nc3",
+        "label": "NC3 · 핵 색조 예시",
+        "caption": "NC3: 수정체 핵의 색조가 중간 수준인 예입니다."
+      },
+      {
+        "assetId": "lens-grade-nc6",
+        "label": "NC6 · 핵 색조 예시",
+        "caption": "NC6: 수정체 핵의 색조가 짙어진 예입니다."
+      }
+    ],
+    "sectionGroups": [
+      {
+        "sectionTitle": "너무 오래 미루면 생길 수 있는 문제",
+        "heading": "많이 진행된 백내장에서는 어떤 변화가 생기나요?",
+        "intro": "아래 사진은 수정체가 부푼 백내장과 수술로 제거한 진행된 수정체 핵의 예시입니다. 수정체가 부풀면 일부에서 전방각이 좁아지고 안압이 오를 수 있고, 단단해진 핵은 수술을 더 어렵게 만들 수 있습니다. 모든 초기 백내장이 이렇게 되거나 곧바로 수술해야 한다는 뜻은 아닙니다.",
+        "layout": "compare",
+        "items": [
+          {
+            "assetId": "lens-delayed-intumescent",
+            "label": "부풀고 하얗게 된 수정체"
+          },
+          {
+            "assetId": "lens-delayed-nucleus",
+            "label": "수술로 제거한 진행된 수정체 핵"
+          }
+        ]
       }
     ]
   },
   "presbyopia": {
-    "intro": "수정체의 조절력이 줄면 가까운 물체에 초점을 맞추기 어려워지는 원리를 살펴봅니다.",
+    "heading": "먼 곳과 가까운 곳에 초점을 맞추는 원리",
+    "intro": "위쪽은 먼 곳, 아래쪽은 가까운 곳을 볼 때입니다. 가까이 볼 때 수정체가 더 볼록해져 초점을 맞추는 정상 조절을 비교합니다. 노안은 나이가 들며 수정체가 단단해져 이러한 모양 변화가 충분히 일어나기 어려워진 상태입니다.",
     "items": [
       {
-        "assetId": "lens-presbyopia"
+        "assetId": "lens-accommodation-far-near"
       }
     ]
   },

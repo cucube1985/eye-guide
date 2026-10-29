@@ -1,0 +1,62 @@
+[
+  {
+    "id": "lens-aphakic-glasses",
+    "src": "./images/lens-aphakic-glasses.jpg",
+    "title": "수정체가 없을 때 쓰는 두꺼운 안경",
+    "originalTitle": "Starbrille 2018 PD 03.JPG",
+    "alt": "무수정체 안경을 비스듬히 위에서 찍은 실제 사진. 두 렌즈의 가운데가 두껍게 볼록한 모습을 볼 수 있습니다.",
+    "caption": "수정체가 없는 눈에서 초점을 보완하는 두꺼운 볼록렌즈 안경의 예입니다. 인공수정체가 널리 쓰이기 전의 교정 방식을 이해하기 위한 비교 사진입니다. 사진 속 안경은 2018년에 촬영한 실제 사용 예이며, 과거 유물의 사진은 아닙니다.",
+    "author": "Bin im Garten",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Starbrille_2018_PD_03.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/Starbrille_2018_PD_03.JPG",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Starbrille_2018_PD_03.JPG/1280px-Starbrille_2018_PD_03.JPG",
+    "width": 1280,
+    "height": 947,
+    "kind": "device",
+    "checked": "2026-10-29",
+    "changes": "원본 이미지 내용 변경 없음. Wikimedia Commons에서 제공하는 가로 1280픽셀 미리보기를 저장하고 화면 크기에 맞춰 표시.",
+    "metadataEvidence": {
+      "Artist": "Bin im Garten",
+      "LicenseShortName": "CC BY-SA 4.0",
+      "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "Credit": "Own work",
+      "ImageDescription": "Deutsch: Starbrille (heutzutage nur noch selten); wegen einer Augenerkrankung (mehrfache AugenOP's seit frühester Kindheit und Vernarbung) können keine Linsen implantiert werden",
+      "Date": "25 January 2018, 16:28:22",
+      "Category": "Cataract glasses",
+      "Copyrighted": "True",
+      "VisualReview": "Downloaded image visually inspected on 2026-10-29: clear photograph of thick centrally convex spectacle lenses. Photographer explicitly identifies this as Starbrille, worn when intraocular lens implantation is not possible. Not a photograph of high-minus myopia glasses.",
+      "HistoricalContextLimit": "The photograph was taken in 2018; it illustrates the aphakic spectacle correction method and is not represented as a pre-IOL-era museum artifact. Lens dioptric power and manufacture date are not supplied by the photographer."
+    }
+  },
+  {
+    "id": "lens-iol-photo",
+    "src": "./images/lens-iol-photo.jpg",
+    "title": "손끝에 올린 실제 인공수정체",
+    "originalTitle": "Hinterkammerlinse 01 (fcm).jpg",
+    "alt": "손가락 끝에 놓인 투명한 인공수정체의 실제 사진. 가운데 둥근 광학부와 양쪽의 휘어진 지지부가 보입니다.",
+    "caption": "수술로 눈 안에 넣는 인공수정체의 실제 모습입니다. 가운데의 투명한 광학부가 빛을 모으고, 양쪽의 지지부가 렌즈의 위치를 유지하도록 돕습니다. 사진 속 제품은 광학부 지름 6mm, 전체 길이 13mm인 한 예입니다.",
+    "author": "Frank C. Müller",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hinterkammerlinse_01_(fcm).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/10/Hinterkammerlinse_01_%28fcm%29.jpg",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/1/10/Hinterkammerlinse_01_%28fcm%29.jpg",
+    "width": 2268,
+    "height": 1624,
+    "kind": "device",
+    "checked": "2026-10-29",
+    "changes": "원본 이미지 내용 변경 없음. 원본 사진을 저장하고 화면 크기에 맞춰 표시.",
+    "metadataEvidence": {
+      "Artist": "Photograph: Frank C. Müller, Baden-Baden",
+      "LicenseShortName": "CC BY-SA 3.0",
+      "LicenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "Credit": "Self-photographed",
+      "ImageDescription": "Deutsch: Bildinhalt: Hinterkammerlinse (18,5 Dioptrien, Gesamtlänge 13 mm, Durchmesser 6,0 mm) auf Zeigefinderkuppe vor grauem Hintergrund; Aufnahmeort: Baden-Baden, Deutschland",
+      "Date": "7 December 2012",
+      "Copyrighted": "True",
+      "VisualReview": "Downloaded image visually inspected on 2026-10-29: a real transparent posterior-chamber IOL with central optic and two curved haptics, photographed on a fingertip; not an illustration or a phakic contact lens."
+    }
+  }
+]

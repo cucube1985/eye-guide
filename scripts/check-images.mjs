@@ -39,6 +39,14 @@ for(const t of topics){
   assert.match(html,/class="image-credit"/);
   assert.match(html,/data-image-id=/);
   placements+=topicImages[t.id].items.length;
+  for(const group of topicImages[t.id].sectionGroups || []){
+    assert.ok(t.sections.some(s=>s.title===group.sectionTitle),`${t.id}: figure section missing`);
+    const sectionHTML=imageGalleryHTML(t.id,group.sectionTitle);
+    const expected=topicImages[t.id].sectionGroups.filter(g=>g.sectionTitle===group.sectionTitle).reduce((n,g)=>n+g.items.length,0);
+    assert.equal((sectionHTML.match(/<figure\b/g)||[]).length,expected,`${t.id}: section figures not rendered`);
+    assert.match(sectionHTML,/class="image-credit"/);
+    placements+=group.items.length;
+  }
 }
 const credits=await readFile('IMAGE_CREDITS.md','utf8');
 for(const a of Object.values(assets)){assert.ok(credits.includes(a.sourceUrl));assert.ok(credits.includes(a.license));}

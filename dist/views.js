@@ -6,7 +6,7 @@ const escape=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&
 const sectionHTML=(s,t,i)=>{
   const cls=({content:'article-section',symptoms:'symptom-section',urgent:'article-urgent',care:'care-box',faq:'faq',sources:'sources'})[s.role]||'article-section';
   const body=s.role==='faq'&&t.faq.length?t.faq.map(f=>`<details><summary>${renderInline(f.q)}</summary><div class="faq-answer">${renderMarkdown(f.answerMarkdown,f.q)}</div></details>`).join(''):renderMarkdown(s.markdown,s.title);
-  return `<section class="guide-section ${cls}" id="section-${i}"><h2>${s.role==='content'?`<span class="section-no">${String(i+1).padStart(2,'0')}</span>`:''}${escape(s.title)}</h2><div class="markdown-body ${s.role==='symptoms'?'symptoms-content':''}">${body}</div>${s.role==='sources'?`<p class="source-date">제공된 원고 반영 · 문구 갱신 ${metadata.updated}<br>개인별 진료 결과와 국내 허가·사용 가능 여부에 따라 치료 계획은 달라질 수 있습니다.</p>`:''}</section>`;
+  return `<section class="guide-section ${cls}" id="section-${i}"><h2>${s.role==='content'?`<span class="section-no">${String(i+1).padStart(2,'0')}</span>`:''}${escape(s.title)}</h2><div class="markdown-body ${s.role==='symptoms'?'symptoms-content':''}">${body}</div>${imageGalleryHTML(t.id,s.title)}${s.role==='sources'?`<p class="source-date">제공된 원고 반영 · 문구 갱신 ${metadata.updated}<br>개인별 진료 결과와 국내 허가·사용 가능 여부에 따라 치료 계획은 달라질 수 있습니다.</p>`:''}</section>`;
 };
 
 export function navigationHTML(currentId,groupIcon) {

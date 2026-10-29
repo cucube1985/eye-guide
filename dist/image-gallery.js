@@ -4,13 +4,19 @@ const escape=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&
 const external=(url,label)=>`<a href="${escape(url)}" target="_blank" rel="noopener noreferrer">${escape(label)}</a>`;
 const credit=asset=>`<div class="image-credit"><span class="image-original-title">원작: ${escape(asset.originalTitle)}</span><span>${escape(asset.author)}</span><span aria-hidden="true"> · </span>${external(asset.licenseUrl,asset.license)}<span aria-hidden="true"> · </span>${external(asset.sourceUrl,'원본·출처')}<span class="image-change-note">${escape(asset.changes)}</span></div>`;
 
-export function imageGalleryHTML(topicId){
-  const group=topicImages[topicId];
-  if(!group?.items.length)return '';
-  return `<section id="illustrations" class="illustration-section" aria-labelledby="illustrations-heading"><div class="illustration-section-heading"><span class="illustration-label">VISUAL GUIDE</span><h2 id="illustrations-heading">그림으로 함께 이해하기</h2></div><p class="illustration-intro">${escape(group.intro)}</p><div class="illustration-list">${group.items.map(item=>{
+function renderGroup(group,id,inline=false){
+  const level=inline?'h3':'h2';
+  return `<section id="${escape(id)}" class="illustration-section ${inline?'inline-illustrations':''}" aria-labelledby="${escape(id)}-heading"><div class="illustration-section-heading"><span class="illustration-label">VISUAL GUIDE</span><${level} id="${escape(id)}-heading">${escape(group.heading || '그림으로 함께 이해하기')}</${level}></div><p class="illustration-intro">${escape(group.intro)}</p><div class="illustration-list ${group.layout==='grades'?'comparison-grid grade-series':group.layout==='compare'?'comparison-grid':''}">${group.items.map(item=>{
     const asset=assets[item.assetId];
-    return `<figure class="medical-figure"><div class="figure-topline"><span class="figure-kind">${asset.kind==='diagram'?'설명 그림':asset.kind==='simulation'?'증상 재현':'실제 검사·진료 사진'}</span><span class="figure-title">${escape(asset.title)}</span></div><button type="button" class="illustration-zoom" data-image-id="${escape(asset.id)}" aria-label="${escape(asset.title)} 크게 보기"><img src="${escape(asset.src)}" alt="${escape(asset.alt)}" width="${asset.width}" height="${asset.height}" loading="lazy" decoding="async"><span class="zoom-hint" aria-hidden="true">⤢ 크게 보기</span></button><figcaption><p class="figure-explanation">${escape(item.caption || asset.caption)}</p>${credit(asset)}</figcaption></figure>`;
+    return `<figure class="medical-figure">${item.label?`<div class="comparison-label">${escape(item.label)}</div>`:''}<div class="figure-topline"><span class="figure-kind">${asset.kind==='diagram'?'설명 그림':asset.kind==='simulation'?'증상 재현':asset.kind==='device'?'실물 사진':'실제 검사·진료 사진'}</span><span class="figure-title">${escape(asset.title)}</span></div><button type="button" class="illustration-zoom" data-image-id="${escape(asset.id)}" aria-label="${escape(asset.title)} 크게 보기"><img src="${escape(asset.src)}" alt="${escape(asset.alt)}" width="${asset.width}" height="${asset.height}" loading="lazy" decoding="async"><span class="zoom-hint" aria-hidden="true">⤢ 크게 보기</span></button><figcaption><p class="figure-explanation">${escape(item.caption || asset.caption)}</p>${credit(asset)}</figcaption></figure>`;
   }).join('')}</div><p class="illustration-footnote">실제 사진과 검사 영상은 한 가지 예시이며 사람마다 모습이 다릅니다. 영어 표기가 있는 그림은 아래의 한국어 설명과 함께 보세요.</p></section>`;
+}
+
+export function imageGalleryHTML(topicId,sectionTitle=null){
+  const group=topicImages[topicId];
+  if(!group)return '';
+  if(sectionTitle!==null)return (group.sectionGroups || []).filter(g=>g.sectionTitle===sectionTitle).map((g,i)=>renderGroup(g,`illustrations-${topicId}-${(group.sectionGroups || []).indexOf(g)}`,true)).join('');
+  return group.items?.length?renderGroup(group,'illustrations'):'';
 }
 
 export function setupIllustrationViewer(){

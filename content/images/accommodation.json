@@ -1,0 +1,61 @@
+[
+  {
+    "id": "lens-accommodation-far-near",
+    "src": "./images/lens-accommodation-far-near.png",
+    "title": "먼 곳과 가까운 곳을 볼 때 수정체의 변화",
+    "originalTitle": "Accommodation (PSF).svg",
+    "alt": "먼 곳과 가까운 곳을 볼 때 수정체의 변화 — 위(FAR POINT)는 먼 곳, 아래(NEAR POINT)는 가까운 곳에 초점을 맞추는 정상 조절의 비교입니다. 가까운 곳을 볼 때 수정체가 더 볼록해집니다. 노안에서는 수정체의 유연성이 줄어 이러한 모양 변화가 충분히 일어나기 어렵습니다.",
+    "caption": "위(FAR POINT)는 먼 곳, 아래(NEAR POINT)는 가까운 곳에 초점을 맞추는 정상 조절의 비교입니다. 가까운 곳을 볼 때 수정체가 더 볼록해집니다. 노안에서는 수정체의 유연성이 줄어 이러한 모양 변화가 충분히 일어나기 어렵습니다.",
+    "author": "원본: OldakQuill (Pearson Scott Foresman 자료); 벡터화: Zirguezi",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Accommodation_(PSF).svg#Licensing",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Accommodation_(PSF).svg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Accommodation_%28PSF%29.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Accommodation_%28PSF%29.svg/1280px-Accommodation_%28PSF%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 1280,
+    "height": 1222,
+    "kind": "diagram",
+    "checked": "2026-10-29",
+    "changes": "원본 이미지 내용 변경 없음. 제공처의 PNG 미리보기 또는 PNG 원본을 저장하고 화면 크기에 맞춰 표시.",
+    "metadataEvidence": {
+      "Artist": "<div style=\"display:inline-block;padding:0 3px;background-color:#BDC\"><a href=\"//commons.wikimedia.org/wiki/File:Accommodation_(PSF).png\" title=\"File:Accommodation (PSF).png\"><b>Original: </b></a></div> <div style=\"display:inline-block;padding:3px 0;\"><a href=\"//commons.wikimedia.org/wiki/User:OldakQuill\" title=\"User:OldakQuill\">OldakQuill</a></div> <div style=\"display:inline-block;padding:0 3px;background-color:#CCF\">Vector: </div> <div style=\"display:inline-block;\"><a href=\"//commons.wikimedia.org/wiki/User:Zirguezi\" title=\"User:Zirguezi\">Zirguezi</a></div>",
+      "LicenseShortName": "Public domain",
+      "Credit": "Own work based on: <a href=\"//commons.wikimedia.org/wiki/File:Accommodation_(PSF).png\" title=\"File:Accommodation (PSF).png\">Accommodation (PSF).png</a>",
+      "ImageDescription": "The way a lens works.",
+      "Copyrighted": "False",
+      "Categories": "PD-author|PD-ScottForesman|Self-published work|PD-self|Valid SVG created with Inkscape:Diagrams|Uploaded with derivativeFX|SVG retouched pictures from raster|Vectorizations|SVG accommodation (eye)|SVG optics diagrams of the human eye|Pearson Scott Foresman SVGs",
+      "UsageTerms": "Public domain",
+      "AttributionRequired": "false"
+    }
+  },
+  {
+    "id": "lens-accommodation-structures",
+    "src": "./images/lens-accommodation-structures.png",
+    "title": "조절에 관여하는 수정체·소대·모양체근",
+    "originalTitle": "Eye lens, suspensory ligaments, ciliary muscles.png",
+    "alt": "조절에 관여하는 수정체·소대·모양체근 — Lens는 수정체, Suspensory ligaments는 수정체를 잡아 주는 소대, Ciliary muscle은 모양체근입니다. 가까운 곳을 볼 때 모양체근이 수축하면 소대의 장력이 줄고 수정체가 더 볼록해집니다. 이 그림은 각 구조의 위치를 보여줍니다.",
+    "caption": "Lens는 수정체, Suspensory ligaments는 수정체를 잡아 주는 소대, Ciliary muscle은 모양체근입니다. 가까운 곳을 볼 때 모양체근이 수축하면 소대의 장력이 줄고 수정체가 더 볼록해집니다. 이 그림은 각 구조의 위치를 보여줍니다.",
+    "author": "School Science Shed",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eye_lens,_suspensory_ligaments,_ciliary_muscles.png",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Eye_lens%2C_suspensory_ligaments%2C_ciliary_muscles.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Eye_lens%2C_suspensory_ligaments%2C_ciliary_muscles.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "width": 756,
+    "height": 680,
+    "kind": "diagram",
+    "checked": "2026-10-29",
+    "changes": "원본 이미지 내용 변경 없음. 제공처의 PNG 미리보기 또는 PNG 원본을 저장하고 화면 크기에 맞춰 표시.",
+    "metadataEvidence": {
+      "Artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:School_Science_Shed&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:School Science Shed (page does not exist)\">School Science Shed</a>",
+      "LicenseShortName": "CC BY-SA 4.0",
+      "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "Credit": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+      "ImageDescription": "Eye with suspensory ligaments, lens and ciliary muscles labelled",
+      "Copyrighted": "True",
+      "Categories": "Eyes|Self-published work",
+      "UsageTerms": "Creative Commons Attribution-Share Alike 4.0",
+      "AttributionRequired": "true"
+    }
+  }
+]

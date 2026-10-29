@@ -1,6 +1,6 @@
 # 환자교육 이미지 출처와 이용허락
 
-이미지별 이용 조건 확인일: 2026-10-29 · 33개 이미지, 51개 설명에 연결
+이미지별 이용 조건 확인일: 2026-10-29 · 39개 이미지, 51개 설명에 연결
 
 이미지마다 표시된 저작자·원본 링크·라이선스를 유지합니다. CC BY-SA 이미지의 이용 조건은 해당 이미지에 적용됩니다. 이미지를 수정·재배포할 때는 원본 페이지와 해당 라이선스의 조건을 확인하세요. 기관·저작자가 이 사이트나 진료를 추천·보증한다는 뜻은 아닙니다.
 
@@ -298,7 +298,7 @@ NIH/NEI 사이트의 모든 그림이 자유 이용 가능한 것은 아닙니�
 - 변경 여부: 원본 이미지 내용 변경 없음. 제공처의 미리보기 또는 원본을 저장하고 화면 크기에 맞춰 표시.
 - 확인일: 2026-10-29
 - SHA-256: `ebbd50c75c953fa67492e39f9cf8033aba07213f370949dd2b77d48218bb3bbe`
-- 연결 설명: 2.1 백내장, 2.1.1 백내장 — 지금 수술해야 하나요?
+- 연결 설명: 현재 화면 미사용 · 원본 자료 기록
 
 ## 눈 안에 놓인 인공수정체
 
@@ -312,7 +312,7 @@ NIH/NEI 사이트의 모든 그림이 자유 이용 가능한 것은 아닙니�
 - 변경 여부: 원본 이미지 내용 변경 없음. 제공처의 미리보기 또는 원본을 저장하고 화면 크기에 맞춰 표시.
 - 확인일: 2026-10-29
 - SHA-256: `ec0d6dc9d629fcfe5cbc0860313f9c1baed2609728a9c45b2720a46cf1574c8e`
-- 연결 설명: 2.1 백내장
+- 연결 설명: 현재 화면 미사용 · 원본 자료 기록
 
 ## 노안과 수정체의 조절력
 
@@ -326,7 +326,7 @@ NIH/NEI 사이트의 모든 그림이 자유 이용 가능한 것은 아닙니�
 - 변경 여부: 원본 이미지 내용 변경 없음. 제공처의 미리보기 또는 원본을 저장하고 화면 크기에 맞춰 표시.
 - 확인일: 2026-10-29
 - SHA-256: `7a555085513c2d8a544b075dedb227ecd3eaf4e9bb0806366f67229911c44e8f`
-- 연결 설명: 2.2 노안, 2.2.1 노안 안약 (1% 필로카르핀)
+- 연결 설명: 2.2.1 노안 안약 (1% 필로카르핀)
 
 ## 방수 배출·시신경과 녹내장 시야의 예시
 
@@ -467,3 +467,129 @@ NIH/NEI 사이트의 모든 그림이 자유 이용 가능한 것은 아닙니�
 - 확인일: 2026-10-29
 - SHA-256: `5471e3be7766ec3aae19366a0fa4df93b85e648ab94408a36ce5f01fbfa1327e`
 - 연결 설명: 6.1 눈꺼풀 떨림
+
+## 낮은 핵 색조 — NC1
+
+- 파일: `./images/lens-grade-nc1.jpg`
+- 원작 제목: Nuclear Cataract Database for Biomedical and Machine Learning Applications — 35/DER/IM000000.JPG
+- 저작자·표시: Israel Cruz-Vega; Hans Israel Morales
+- 이용허락: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+- 원본·이용 조건: [원본 설명 페이지](https://data.mendeley.com/datasets/6wv33nbcvv/2)
+- 원본 파일: https://data.mendeley.com/public-files/datasets/6wv33nbcvv/files/9c25787f-dc0c-48c5-a23e-4a71848c6b5d/file_downloaded
+- 저장에 사용한 주소: https://data.mendeley.com/public-files/datasets/6wv33nbcvv/files/9c25787f-dc0c-48c5-a23e-4a71848c6b5d/file_downloaded
+- 변경 여부: 원본 JPG 파일을 내용 변경 없이 저장. 화면 크기에 맞춰 표시. 한국어 설명과 NC 등급 표기는 별도 캡션에 추가.
+- 확인일: 2026-10-29
+- SHA-256: `66abcc99a6172b3c2e73270678760a2837c68046dae35edaa99198d83f0ac75a`
+- 연결 설명: 2.1 백내장, 2.1.1 백내장 — 지금 수술해야 하나요?
+
+## 중간 핵 색조 — NC3
+
+- 파일: `./images/lens-grade-nc3.jpg`
+- 원작 제목: Nuclear Cataract Database for Biomedical and Machine Learning Applications — 50/DER/IM000000.JPG
+- 저작자·표시: Israel Cruz-Vega; Hans Israel Morales
+- 이용허락: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+- 원본·이용 조건: [원본 설명 페이지](https://data.mendeley.com/datasets/6wv33nbcvv/2)
+- 원본 파일: https://data.mendeley.com/public-files/datasets/6wv33nbcvv/files/b764bd5e-6aec-4c9a-bc2a-848e4616aa01/file_downloaded
+- 저장에 사용한 주소: https://data.mendeley.com/public-files/datasets/6wv33nbcvv/files/b764bd5e-6aec-4c9a-bc2a-848e4616aa01/file_downloaded
+- 변경 여부: 원본 JPG 파일을 내용 변경 없이 저장. 화면 크기에 맞춰 표시. 한국어 설명과 NC 등급 표기는 별도 캡션에 추가.
+- 확인일: 2026-10-29
+- SHA-256: `b1edf529a83d18e4a872fd7f7ca5f8c4c2f9bfaa6b84ec65d4588acb0ccdcc33`
+- 연결 설명: 2.1.1 백내장 — 지금 수술해야 하나요?
+
+## 높은 핵 색조 — NC6
+
+- 파일: `./images/lens-grade-nc6.jpg`
+- 원작 제목: Nuclear Cataract Database for Biomedical and Machine Learning Applications — 58/DER/IM000000.JPG
+- 저작자·표시: Israel Cruz-Vega; Hans Israel Morales
+- 이용허락: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+- 원본·이용 조건: [원본 설명 페이지](https://data.mendeley.com/datasets/6wv33nbcvv/2)
+- 원본 파일: https://data.mendeley.com/public-files/datasets/6wv33nbcvv/files/7f12fa78-9ac3-42f8-81ac-6805c7338bfa/file_downloaded
+- 저장에 사용한 주소: https://data.mendeley.com/public-files/datasets/6wv33nbcvv/files/7f12fa78-9ac3-42f8-81ac-6805c7338bfa/file_downloaded
+- 변경 여부: 원본 JPG 파일을 내용 변경 없이 저장. 화면 크기에 맞춰 표시. 한국어 설명과 NC 등급 표기는 별도 캡션에 추가.
+- 확인일: 2026-10-29
+- SHA-256: `65563133df8d6accf4e0c39765921e35079d619941357dcc986abc563b3a2b86`
+- 연결 설명: 2.1 백내장, 2.1.1 백내장 — 지금 수술해야 하나요?
+
+## 팽대 백내장 — 부풀어 오른 수정체
+
+- 파일: `./images/lens-delayed-intumescent.jpg`
+- 원작 제목: Intumescent cataract.jpg
+- 저작자·표시: Imrankabirhossain
+- 이용허락: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+- 원본·이용 조건: [원본 설명 페이지](https://commons.wikimedia.org/wiki/File:Intumescent_cataract.jpg)
+- 원본 파일: https://upload.wikimedia.org/wikipedia/commons/2/24/Intumescent_cataract.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+- 저장에 사용한 주소: https://upload.wikimedia.org/wikipedia/commons/2/24/Intumescent_cataract.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+- 변경 여부: 원본 JPG 파일을 내용 변경 없이 저장. 화면 크기에 맞춰 표시. 한국어 설명은 별도 캡션에 추가.
+- 확인일: 2026-10-29
+- SHA-256: `a5acf37a7c5548bf21fe5c5b92491b3bf376a804283af2e19b1010fe8eccb050`
+- 연결 설명: 2.1.1 백내장 — 지금 수술해야 하나요?
+
+## 수술로 제거한 진행된 수정체핵
+
+- 파일: `./images/lens-delayed-nucleus.jpg`
+- 원작 제목: Nucleus of hypermature cataract.jpg
+- 저작자·표시: Imrankabirhossain
+- 이용허락: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+- 원본·이용 조건: [원본 설명 페이지](https://commons.wikimedia.org/wiki/File:Nucleus_of_hypermature_cataract.jpg)
+- 원본 파일: https://upload.wikimedia.org/wikipedia/commons/6/63/Nucleus_of_hypermature_cataract.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+- 저장에 사용한 주소: https://upload.wikimedia.org/wikipedia/commons/6/63/Nucleus_of_hypermature_cataract.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+- 변경 여부: 원본 JPG 파일을 내용 변경 없이 저장. 화면 크기에 맞춰 표시. 한국어 설명은 별도 캡션에 추가.
+- 확인일: 2026-10-29
+- SHA-256: `633cafd232f7764181f772d2a31602858d8b1f9cb582222ee5b70c421c3f63dd`
+- 연결 설명: 2.1.1 백내장 — 지금 수술해야 하나요?
+
+## 수정체가 없을 때 쓰는 두꺼운 안경
+
+- 파일: `./images/lens-aphakic-glasses.jpg`
+- 원작 제목: Starbrille 2018 PD 03.JPG
+- 저작자·표시: Bin im Garten
+- 이용허락: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+- 원본·이용 조건: [원본 설명 페이지](https://commons.wikimedia.org/wiki/File:Starbrille_2018_PD_03.JPG)
+- 원본 파일: https://upload.wikimedia.org/wikipedia/commons/7/70/Starbrille_2018_PD_03.JPG
+- 저장에 사용한 주소: https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Starbrille_2018_PD_03.JPG/1280px-Starbrille_2018_PD_03.JPG
+- 변경 여부: 원본 이미지 내용 변경 없음. Wikimedia Commons에서 제공하는 가로 1280픽셀 미리보기를 저장하고 화면 크기에 맞춰 표시.
+- 확인일: 2026-10-29
+- SHA-256: `67039ea15f1eb2aea099c93716c74aaf9a033f6d0163f193f9aa896bfc9743a6`
+- 연결 설명: 2.1 백내장
+
+## 손끝에 올린 실제 인공수정체
+
+- 파일: `./images/lens-iol-photo.jpg`
+- 원작 제목: Hinterkammerlinse 01 (fcm).jpg
+- 저작자·표시: Frank C. Müller
+- 이용허락: [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)
+- 원본·이용 조건: [원본 설명 페이지](https://commons.wikimedia.org/wiki/File:Hinterkammerlinse_01_(fcm).jpg)
+- 원본 파일: https://upload.wikimedia.org/wikipedia/commons/1/10/Hinterkammerlinse_01_%28fcm%29.jpg
+- 저장에 사용한 주소: https://upload.wikimedia.org/wikipedia/commons/1/10/Hinterkammerlinse_01_%28fcm%29.jpg
+- 변경 여부: 원본 이미지 내용 변경 없음. 원본 사진을 저장하고 화면 크기에 맞춰 표시.
+- 확인일: 2026-10-29
+- SHA-256: `26e34ae9be46ed22b2de18de044bf779749a696cfcb8ae825fd7e1d5da486021`
+- 연결 설명: 2.1 백내장
+
+## 먼 곳과 가까운 곳을 볼 때 수정체의 변화
+
+- 파일: `./images/lens-accommodation-far-near.png`
+- 원작 제목: Accommodation (PSF).svg
+- 저작자·표시: 원본: OldakQuill (Pearson Scott Foresman 자료); 벡터화: Zirguezi
+- 이용허락: [Public domain](https://commons.wikimedia.org/wiki/File:Accommodation_(PSF).svg#Licensing)
+- 원본·이용 조건: [원본 설명 페이지](https://commons.wikimedia.org/wiki/File:Accommodation_(PSF).svg)
+- 원본 파일: https://upload.wikimedia.org/wikipedia/commons/e/ea/Accommodation_%28PSF%29.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+- 저장에 사용한 주소: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Accommodation_%28PSF%29.svg/1280px-Accommodation_%28PSF%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+- 변경 여부: 원본 이미지 내용 변경 없음. 제공처의 PNG 미리보기 또는 PNG 원본을 저장하고 화면 크기에 맞춰 표시.
+- 확인일: 2026-10-29
+- SHA-256: `bda6120f49e26b9083a4a63a0b386e930e3acb4f92f894ef1d3b93b0c2c24ad4`
+- 연결 설명: 2.2 노안
+
+## 조절에 관여하는 수정체·소대·모양체근
+
+- 파일: `./images/lens-accommodation-structures.png`
+- 원작 제목: Eye lens, suspensory ligaments, ciliary muscles.png
+- 저작자·표시: School Science Shed
+- 이용허락: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0)
+- 원본·이용 조건: [원본 설명 페이지](https://commons.wikimedia.org/wiki/File:Eye_lens,_suspensory_ligaments,_ciliary_muscles.png)
+- 원본 파일: https://upload.wikimedia.org/wikipedia/commons/f/f9/Eye_lens%2C_suspensory_ligaments%2C_ciliary_muscles.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+- 저장에 사용한 주소: https://upload.wikimedia.org/wikipedia/commons/f/f9/Eye_lens%2C_suspensory_ligaments%2C_ciliary_muscles.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+- 변경 여부: 원본 이미지 내용 변경 없음. 제공처의 PNG 미리보기 또는 PNG 원본을 저장하고 화면 크기에 맞춰 표시.
+- 확인일: 2026-10-29
+- SHA-256: `9adb65af659128cb4cb0c9b2ce3fc96b9a870aea557bbbee75f0b3ab5fccb6ab`
+- 연결 설명: 현재 화면 미사용 · 원본 자료 기록
