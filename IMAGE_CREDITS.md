@@ -1,6 +1,6 @@
 # 환자교육 이미지 출처와 이용허락
 
-이미지별 이용 조건 확인일: 2026-10-29 · 45개 이미지, 51개 설명에 연결
+이미지별 이용 조건 확인일: 2026-10-29 · 52개 이미지, 51개 설명에 연결
 
 이미지마다 표시된 저작자·원본 링크·라이선스를 유지합니다. CC BY-SA 이미지의 이용 조건은 해당 이미지에 적용됩니다. 이미지를 수정·재배포할 때는 원본 페이지와 해당 라이선스의 조건을 확인하세요. 기관·저작자가 이 사이트나 진료를 추천·보증한다는 뜻은 아닙니다.
 
@@ -34,7 +34,7 @@ NIH/NEI 사이트의 모든 그림이 자유 이용 가능한 것은 아닙니�
 - SHA-256: `e2ab1801c4ae42be482e1b75e1747fd30382a8cc01f0e8c13c2a6cb67e06baf3`
 - 연결 설명: 1.1.1 알레르기 결막염
 
-## 아래 눈꺼풀 안쪽의 콩다래끼
+## 아래 눈꺼풀 안쪽의 속다래끼(내맥립종)
 
 - 파일: `./images/anterior-chalazion.jpg`
 - 원작 제목: Hordeolum.JPG
@@ -88,7 +88,7 @@ NIH/NEI 사이트의 모든 그림이 자유 이용 가능한 것은 아닙니�
 - 변경 여부: 원본 SVG의 Wikimedia 제공 PNG 렌더링 사용; 그림 내용 변경 없음.
 - 확인일: 2026-10-29
 - SHA-256: `858475a47c0c3937d149e533e0b13b39818e0c3f7f34c253552661276f66e77d`
-- 연결 설명: 1.5 안구건조증, 1.5.1 안구건조증 치료 — 인공누액(인공눈물), 1.5.2 안구건조증 치료 — 뮤신 분비 촉진제, 1.5.3 안구건조증 치료 — 스테로이드·사이클로스포린, 1.5.4 안구건조증 치료 — 자가혈청 및 기타 점안제
+- 연결 설명: 현재 화면 미사용 · 원본 자료 기록
 
 ## 눈꺼풀 속 기름샘과 배출구
 
@@ -102,7 +102,7 @@ NIH/NEI 사이트의 모든 그림이 자유 이용 가능한 것은 아닙니�
 - 변경 여부: 원본 페이지의 현행 파일을 그대로 사용; 추가 내용 변경 없음.
 - 확인일: 2026-10-29
 - SHA-256: `74f7e1a1222618eaa1ebcfd20a16e42287730b28187c1cffb13404444c7928af`
-- 연결 설명: 1.2.1 절개가 필요한 다래끼, 1.5 안구건조증, 1.5.5 안구건조증 치료 — IPL(광선치료), 1.6 눈꺼풀염·마이봄샘 기능장애
+- 연결 설명: 1.5 안구건조증, 1.5.5 안구건조증 치료 — IPL(광선치료), 1.6 눈꺼풀염·마이봄샘 기능장애
 
 ## 속눈썹 뿌리의 눈꺼풀염
 
@@ -326,7 +326,7 @@ NIH/NEI 사이트의 모든 그림이 자유 이용 가능한 것은 아닙니�
 - 변경 여부: 원본 이미지 내용 변경 없음. 제공처의 미리보기 또는 원본을 저장하고 화면 크기에 맞춰 표시.
 - 확인일: 2026-10-29
 - SHA-256: `7a555085513c2d8a544b075dedb227ecd3eaf4e9bb0806366f67229911c44e8f`
-- 연결 설명: 2.2.1 노안 안약 (1% 필로카르핀)
+- 연결 설명: 현재 화면 미사용 · 원본 자료 기록
 
 ## 방수 배출·시신경과 녹내장 시야의 예시
 
@@ -340,7 +340,7 @@ NIH/NEI 사이트의 모든 그림이 자유 이용 가능한 것은 아닙니�
 - 변경 여부: 원본 이미지 내용 변경 없음. 제공처의 미리보기 또는 원본을 저장하고 화면 크기에 맞춰 표시.
 - 확인일: 2026-10-29
 - SHA-256: `570c1cd189541804acfe6634dc2e130f942d02c57e998d5ee4a64306754ddd4a`
-- 연결 설명: 3.1 녹내장의 기본, 3.1.1 녹내장 유병률과 진행 요인, 3.1.2 녹내장 예방과 생활 습관, 3.2 녹내장 악화 판단, 3.3 녹내장 치료, 3.4 녹내장 예후
+- 연결 설명: 3.4 녹내장 예후
 
 ## 급성 폐쇄각 발작의 눈 사진 예시
 
@@ -410,7 +410,7 @@ NIH/NEI 사이트의 모든 그림이 자유 이용 가능한 것은 아닙니�
 - 변경 여부: 원본 이미지 내용 변경 없음. 제공처의 미리보기 또는 원본을 저장하고 화면 크기에 맞춰 표시.
 - 확인일: 2026-10-29
 - SHA-256: `2915c411650c9ce5852564441bbd2d0b2e8de1bc06247fa2b01820176324418a`
-- 연결 설명: 1.5.1 안구건조증 치료 — 인공누액(인공눈물), 1.5.3 안구건조증 치료 — 스테로이드·사이클로스포린, 1.5.4 안구건조증 치료 — 자가혈청 및 기타 점안제, 3.3 녹내장 치료
+- 연결 설명: 1.5.1 안구건조증 치료 — 인공누액(인공눈물), 1.5.3 안구건조증 치료 — 스테로이드·사이클로스포린, 3.3 녹내장 치료
 
 ## 현미경으로 본 모낭충
 
@@ -424,7 +424,7 @@ NIH/NEI 사이트의 모든 그림이 자유 이용 가능한 것은 아닙니�
 - 변경 여부: 원본 페이지의 현행 파일을 그대로 사용; 추가 내용 변경 없음.
 - 확인일: 2026-10-29
 - SHA-256: `f8049984265cd163643f15aaecb0905a7a1257323e13ff636ab5fb8a6c189fc7`
-- 연결 설명: 1.6.1 모낭충(Demodex) 눈꺼풀염
+- 연결 설명: 현재 화면 미사용 · 원본 자료 기록
 
 ## 한쪽 윗눈꺼풀이 내려온 모습
 
@@ -733,3 +733,143 @@ NIH/NEI 사이트의 모든 그림이 자유 이용 가능한 것은 아닙니�
 - 확인일: 2026-10-29
 - SHA-256: `248ff7f3d025a62d9ae8062cbfd6c7c955376fe2e8f74d298b7677fa1103751c`
 - 연결 설명: 5.2 약시
+
+## 속눈썹 뿌리에 생긴 겉다래끼(맥립종)
+
+- 파일: `./images/anterior-stye-external.jpg`
+- 원작 제목: Stye02.jpg
+- 저작자·표시: Andre Riemann
+- 이용허락: [Public domain](https://creativecommons.org/publicdomain/mark/1.0/)
+- 원본·이용 조건: [원본 설명 페이지](https://commons.wikimedia.org/wiki/File:Stye02.jpg)
+- 원본 파일: https://upload.wikimedia.org/wikipedia/commons/4/4a/Stye02.jpg
+- 저장에 사용한 주소: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Stye02.jpg/960px-Stye02.jpg
+- 변경 여부: Wikimedia Commons 제공 가로 960픽셀 축소본 사용; 그림 내용 변경 없음. 한국어 설명은 별도 캡션으로 추가.
+- 확인일: 2026-10-29
+- SHA-256: `46cf878927f70851a5c40b187464cf3287b4dd19c5c079d074120693ca5e28fd`
+- 연결 설명: 1.2 다래끼
+
+## 윗눈꺼풀에 생긴 콩다래끼(산립종)
+
+- 파일: `./images/anterior-chalazion-upper.jpg`
+- 원작 제목: Chalazion1.jpg
+- 저작자·표시: Cham
+- 이용허락: [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)
+- 원본·이용 조건: [원본 설명 페이지](https://commons.wikimedia.org/wiki/File:Chalazion1.jpg)
+- 원본 파일: https://upload.wikimedia.org/wikipedia/commons/4/48/Chalazion1.jpg
+- 저장에 사용한 주소: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Chalazion1.jpg/960px-Chalazion1.jpg
+- 변경 여부: Wikimedia Commons 제공 가로 960픽셀 축소본 사용; 그림 내용 변경 없음. 한국어 설명은 별도 캡션으로 추가.
+- 확인일: 2026-10-29
+- SHA-256: `d901efbca1256945bf8368ef445576c3aab701a3f6194970bf0becd85e0a7f09`
+- 연결 설명: 1.2 다래끼
+
+## 속눈썹에 붙어 있는 모낭충(현미경 100배)
+
+- 파일: `./images/eyelid-demodex-lash.jpg`
+- 원작 제목: Угревая железница на реснице человека. х100.jpg
+- 저작자·표시: Vladimir064
+- 이용허락: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+- 원본·이용 조건: [원본 설명 페이지](https://commons.wikimedia.org/wiki/File:%D0%A3%D0%B3%D1%80%D0%B5%D0%B2%D0%B0%D1%8F_%D0%B6%D0%B5%D0%BB%D0%B5%D0%B7%D0%BD%D0%B8%D1%86%D0%B0_%D0%BD%D0%B0_%D1%80%D0%B5%D1%81%D0%BD%D0%B8%D1%86%D0%B5_%D1%87%D0%B5%D0%BB%D0%BE%D0%B2%D0%B5%D0%BA%D0%B0._%D1%85100.jpg)
+- 원본 파일: https://upload.wikimedia.org/wikipedia/commons/1/15/%D0%A3%D0%B3%D1%80%D0%B5%D0%B2%D0%B0%D1%8F_%D0%B6%D0%B5%D0%BB%D0%B5%D0%B7%D0%BD%D0%B8%D1%86%D0%B0_%D0%BD%D0%B0_%D1%80%D0%B5%D1%81%D0%BD%D0%B8%D1%86%D0%B5_%D1%87%D0%B5%D0%BB%D0%BE%D0%B2%D0%B5%D0%BA%D0%B0._%D1%85100.jpg
+- 저장에 사용한 주소: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/%D0%A3%D0%B3%D1%80%D0%B5%D0%B2%D0%B0%D1%8F_%D0%B6%D0%B5%D0%BB%D0%B5%D0%B7%D0%BD%D0%B8%D1%86%D0%B0_%D0%BD%D0%B0_%D1%80%D0%B5%D1%81%D0%BD%D0%B8%D1%86%D0%B5_%D1%87%D0%B5%D0%BB%D0%BE%D0%B2%D0%B5%D0%BA%D0%B0._%D1%85100.jpg/960px-%D0%A3%D0%B3%D1%80%D0%B5%D0%B2%D0%B0%D1%8F_%D0%B6%D0%B5%D0%BB%D0%B5%D0%B7%D0%BD%D0%B8%D1%86%D0%B0_%D0%BD%D0%B0_%D1%80%D0%B5%D1%81%D0%BD%D0%B8%D1%86%D0%B5_%D1%87%D0%B5%D0%BB%D0%BE%D0%B2%D0%B5%D0%BA%D0%B0._%D1%85100.jpg
+- 변경 여부: Wikimedia Commons 제공 가로 960픽셀 축소본 사용; 그림 내용 변경 없음. 한국어 설명은 별도 캡션으로 추가.
+- 확인일: 2026-10-29
+- SHA-256: `aef3effc286f3db1876d7db6a69b5c638cf3c5c8b72a1702344462549376eba4`
+- 연결 설명: 1.6.1 모낭충(Demodex) 눈꺼풀염
+
+## 세균 각막염으로 생긴 각막 궤양(형광 염색)
+
+- 파일: `./images/keratitis-bacterial-ulcer.png`
+- 원작 제목: Corneal Ulcer.png
+- 저작자·표시: Yoanmb (Dr Mboussou Yoan)
+- 이용허락: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+- 원본·이용 조건: [원본 설명 페이지](https://commons.wikimedia.org/wiki/File:Corneal_Ulcer.png)
+- 원본 파일: https://upload.wikimedia.org/wikipedia/commons/6/6e/Corneal_Ulcer.png
+- 저장에 사용한 주소: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Corneal_Ulcer.png/960px-Corneal_Ulcer.png
+- 변경 여부: Wikimedia Commons 제공 가로 960픽셀 축소본 사용; 그림 내용 변경 없음(원본의 저작자 표기 유지). 한국어 설명은 별도 캡션으로 추가.
+- 확인일: 2026-10-29
+- SHA-256: `6520e6f2d0f392c7462c713909ce989b34ed70b6fc143a40b2888566ac586cbd`
+- 연결 설명: 1.8 각막염·콘택트렌즈 관련 감염, 1.8.1 콘택트렌즈 관련 각막염 — 원인균에 따른 경과
+
+## 가시아메바 각막염의 진행된 모습
+
+- 파일: `./images/keratitis-acanthamoeba.png`
+- 원작 제목: Parasite140120-fig1 Acanthamoeba keratitis Figure 1A.png
+- 저작자·표시: Jacob Lorenzo-Morales, Naveed A. Khan, Julia Walochnik (Parasite 2015, Figure 1A)
+- 이용허락: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+- 원본·이용 조건: [원본 설명 페이지](https://commons.wikimedia.org/wiki/File:Parasite140120-fig1_Acanthamoeba_keratitis_Figure_1A.png)
+- 원본 파일: https://upload.wikimedia.org/wikipedia/commons/7/78/Parasite140120-fig1_Acanthamoeba_keratitis_Figure_1A.png
+- 저장에 사용한 주소: https://upload.wikimedia.org/wikipedia/commons/7/78/Parasite140120-fig1_Acanthamoeba_keratitis_Figure_1A.png
+- 변경 여부: 원본 PNG 파일을 내용 변경 없이 저장. 한국어 설명은 별도 캡션으로 추가.
+- 확인일: 2026-10-29
+- SHA-256: `9732577d96c971e60a01c447d06e004c55d527e6c44bcb5e75e64da7fb4c4730`
+- 연결 설명: 1.8.1 콘택트렌즈 관련 각막염 — 원인균에 따른 경과
+
+## 진행된 녹내장의 시신경유두
+
+- 파일: `./images/glaucoma-disc-advanced.jpg`
+- 원작 제목: Glaukompapille2.jpg
+- 저작자·표시: Snoop (German Wikipedia)
+- 이용허락: [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)
+- 원본·이용 조건: [원본 설명 페이지](https://commons.wikimedia.org/wiki/File:Glaukompapille2.jpg)
+- 원본 파일: https://upload.wikimedia.org/wikipedia/commons/4/4f/Glaukompapille2.jpg
+- 저장에 사용한 주소: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Glaukompapille2.jpg/960px-Glaukompapille2.jpg
+- 변경 여부: Wikimedia Commons 제공 가로 960픽셀 축소본 사용; 그림 내용 변경 없음. 한국어 설명은 별도 캡션으로 추가.
+- 확인일: 2026-10-29
+- SHA-256: `8261184e385061b784d64e095f27de20272d96fc59d4fbcf48f07407a720dad6`
+- 연결 설명: 3.1 녹내장의 기본
+
+## 녹내장에서 나타나는 시야 결손의 단계
+
+- 파일: `./images/glaucoma-field-defects.png`
+- 원작 제목: Glaucomatous field defects.png
+- 저작자·표시: Broadway DC
+- 이용허락: [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/)
+- 원본·이용 조건: [원본 설명 페이지](https://commons.wikimedia.org/wiki/File:Glaucomatous_field_defects.png)
+- 원본 파일: https://upload.wikimedia.org/wikipedia/commons/f/f3/Glaucomatous_field_defects.png
+- 저장에 사용한 주소: https://upload.wikimedia.org/wikipedia/commons/f/f3/Glaucomatous_field_defects.png
+- 변경 여부: 원본 PNG 파일을 내용 변경 없이 저장. 영어 표기는 그대로 두고 한국어 설명을 별도 캡션으로 추가.
+- 확인일: 2026-10-29
+- SHA-256: `6c23ba1ba3add6590e57e8085a99644331ca16bb81188362e3af7e3d67b49315`
+- 연결 설명: 3.2 녹내장 악화 판단, 3.4 녹내장 예후
+
+## 녹내장 수술: 새 배출 통로를 만드는 원리
+
+- 파일: `./images/glaucoma-trabeculectomy-nei.jpg`
+- 원작 제목: Conventional surgery to treat glaucoma EDA11.JPG
+- 저작자·표시: National Eye Institute, National Institutes of Health (자료 번호 EDA11)
+- 이용허락: [Public domain](https://creativecommons.org/publicdomain/mark/1.0/)
+- 원본·이용 조건: [원본 설명 페이지](https://commons.wikimedia.org/wiki/File:Conventional_surgery_to_treat_glaucoma_EDA11.JPG)
+- 원본 파일: https://upload.wikimedia.org/wikipedia/commons/6/67/Conventional_surgery_to_treat_glaucoma_EDA11.JPG
+- 저장에 사용한 주소: https://upload.wikimedia.org/wikipedia/commons/6/67/Conventional_surgery_to_treat_glaucoma_EDA11.JPG
+- 변경 여부: 원본 JPG 파일을 내용 변경 없이 저장. 영어 표기는 그대로 두고 한국어 설명을 별도 캡션으로 추가.
+- 확인일: 2026-10-29
+- SHA-256: `c7d046d11be21433b0bd2011ff1b96e6a7af38bbf404ff6ac50e65603c62dc43`
+- 연결 설명: 3.3 녹내장 치료
+
+## 앞방에 고인 염증 세포(전방축농)
+
+- 파일: `./images/uveitis-hypopyon.jpg`
+- 원작 제목: Hypopyon 1.jpg
+- 저작자·표시: Imrankabirhossain
+- 이용허락: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+- 원본·이용 조건: [원본 설명 페이지](https://commons.wikimedia.org/wiki/File:Hypopyon_1.jpg)
+- 원본 파일: https://upload.wikimedia.org/wikipedia/commons/6/65/Hypopyon_1.jpg
+- 저장에 사용한 주소: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Hypopyon_1.jpg/960px-Hypopyon_1.jpg
+- 변경 여부: Wikimedia Commons 제공 가로 960픽셀 축소본 사용; 그림 내용 변경 없음. 한국어 설명은 별도 캡션으로 추가.
+- 확인일: 2026-10-29
+- SHA-256: `bd64f8c20dc5af081ba294f1d7b92427437cca6caccb6bed6acaa0002ab2515f`
+- 연결 설명: 6.2 포도막염
+
+## 각막 뒷면에 붙은 염증 세포(각막후면침착물)
+
+- 파일: `./images/uveitis-keratic-precipitates.jpg`
+- 원작 제목: Keratic-precipitates.jpg
+- 저작자·표시: Jonathan Trobe, M.D. (University of Michigan Kellogg Eye Center)
+- 이용허락: [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)
+- 원본·이용 조건: [원본 설명 페이지](https://commons.wikimedia.org/wiki/File:Keratic-precipitates.jpg)
+- 원본 파일: https://upload.wikimedia.org/wikipedia/commons/1/10/Keratic-precipitates.jpg
+- 저장에 사용한 주소: https://upload.wikimedia.org/wikipedia/commons/1/10/Keratic-precipitates.jpg
+- 변경 여부: 원본 JPG 파일을 내용 변경 없이 저장. 한국어 설명은 별도 캡션으로 추가.
+- 확인일: 2026-10-29
+- SHA-256: `3b65901a462dd71cc755f40b713487d94a19ff12e3a9bf91fba27aafbcb2eecf`
+- 연결 설명: 6.2 포도막염

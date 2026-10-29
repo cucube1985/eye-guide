@@ -24,21 +24,31 @@
     ]
   },
   "stye": {
-    "intro": "아래 사진은 콩다래끼 사례입니다. 통증이 있는 급성 다래끼와 구별하는 데에는 진찰이 필요합니다.",
+    "heading": "겉다래끼·속다래끼와 콩다래끼",
+    "layout": "compare",
+    "intro": "다래끼(맥립종)는 급성 염증으로 붉고 아프며, 속눈썹 뿌리에 생기면 겉다래끼, 눈꺼풀 안쪽 기름샘에 생기면 속다래끼입니다. 콩다래끼(산립종)는 기름샘이 막혀 생긴 멍울로 통증이 적은 편입니다. 겉모습이 비슷할 수 있어 진찰로 구분합니다.",
     "items": [
       {
-        "assetId": "anterior-chalazion"
+        "assetId": "anterior-stye-external",
+        "label": "① 겉다래끼"
+      },
+      {
+        "assetId": "anterior-chalazion",
+        "label": "② 속다래끼"
+      },
+      {
+        "assetId": "anterior-chalazion-upper",
+        "label": "③ 콩다래끼"
       }
     ]
   },
   "stye-incision": {
-    "intro": "절개 대상이 될 수 있는 콩다래끼의 위치를 이해하는 참고 사진입니다. 절개 과정이나 절개 방법을 보여주는 사진은 아닙니다.",
+    "heading": "어느 쪽으로 절개하나요?",
+    "intro": "멍울이 눈꺼풀 안쪽(결막)에 가까운지, 피부 쪽에 가까운지에 따라 절개 방향이 달라집니다. 아래 사진은 안쪽 절개 대상이 될 수 있는 속다래끼의 예입니다.",
+    "visualId": "incision-approaches",
     "items": [
       {
         "assetId": "anterior-chalazion"
-      },
-      {
-        "assetId": "anterior-meibomian-glands"
       }
     ]
   },
@@ -59,59 +69,60 @@
     ]
   },
   "dry-eye": {
-    "intro": "눈 표면을 덮는 눈물막과 기름층을 만드는 눈꺼풀 분비샘을 함께 봅니다.",
+    "heading": "눈물막의 세 층과 치료",
+    "intro": "눈물막은 기름층·물층·점액층으로 이루어집니다. 어느 층이 부족한지에 따라 치료가 달라지며, 기름층을 만드는 눈꺼풀 기름샘의 상태도 함께 봅니다.",
+    "visualId": "tear-film",
     "items": [
-      {
-        "assetId": "anterior-tear-film"
-      },
       {
         "assetId": "anterior-meibomian-glands"
       }
     ]
   },
   "artificial-tears": {
-    "intro": "인공눈물이 보충하는 눈물막과 안약을 넣는 방법을 살펴보세요.",
+    "heading": "인공눈물이 돕는 곳",
+    "intro": "인공눈물은 주로 부족한 물층을 보충합니다. 아래 사진처럼 아래 눈꺼풀을 살짝 당겨 한 방울 넣으세요.",
+    "visualId": "tear-film-artificial",
     "items": [
-      {
-        "assetId": "anterior-tear-film"
-      },
       {
         "assetId": "care-eye-drops"
       }
     ]
   },
   "mucin-secretagogues": {
-    "intro": "분비 촉진제를 설명할 때 참고하는 눈물막 구조입니다. 그림의 층은 이해를 돕기 위해 단순화되어 있습니다.",
-    "items": [
-      {
-        "assetId": "anterior-tear-film"
-      }
-    ]
+    "heading": "뮤신 분비 촉진제가 돕는 곳",
+    "intro": "디쿠아포솔과 레바미피드는 눈 스스로 점액층과 수분을 더 만들도록 도와, 눈물이 표면에 오래 붙어 있게 합니다.",
+    "visualId": "tear-film-mucin",
+    "items": []
   },
   "dry-eye-anti-inflammatory": {
-    "intro": "안약이 작용하는 눈 표면과 점안 방법을 이해하는 참고 자료입니다. 약의 종류별 효과나 사용 횟수를 비교한 그림은 아닙니다.",
+    "heading": "항염증 안약이 돕는 곳",
+    "intro": "건조증이 오래가면 눈 표면에 염증이 생기고, 염증이 다시 눈물막을 불안정하게 만듭니다. 스테로이드·사이클로스포린은 이 염증을 줄입니다.",
+    "visualId": "tear-film-inflammation",
     "items": [
-      {
-        "assetId": "anterior-tear-film"
-      },
       {
         "assetId": "care-eye-drops"
       }
     ]
   },
   "serum-eye-drops": {
-    "intro": "자가혈청 안약이 보호하려는 눈 표면과 점안 방법을 봅니다. 채혈·제조·보관 과정의 사진은 아닙니다.",
-    "items": [
+    "heading": "자가혈청이 돕는 곳",
+    "intro": "자가혈청에는 실제 눈물에 가까운 성장인자가 들어 있어, 잘 낫지 않는 눈 표면 세포의 회복을 돕습니다.",
+    "visualId": "tear-film-serum",
+    "items": [],
+    "sectionGroups": [
       {
-        "assetId": "anterior-tear-film"
-      },
-      {
-        "assetId": "care-eye-drops"
+        "sectionTitle": "만들고 사용하는 과정",
+        "heading": "자가혈청 안약을 만드는 과정",
+        "intro": "채혈부터 보관까지의 4단계입니다. 실제 제조 방법과 농도는 병원마다 다를 수 있습니다.",
+        "visualId": "serum-steps",
+        "items": []
       }
     ]
   },
   "ipl": {
-    "intro": "IPL 치료와 관련된 마이봄샘의 위치를 살펴보세요. 이 자료는 시술 장면이 아닌 기름샘의 구조를 보여줍니다.",
+    "heading": "IPL은 어디에, 어떻게 하나요?",
+    "intro": "눈을 보호 안대로 가린 뒤 눈 아래 뺨과 코 부위에 빛을 쏩니다. 빛의 열이 눈꺼풀 주변 염증을 줄이고 기름샘의 굳은 기름을 녹이도록 돕습니다. 아래 사진은 치료 대상인 눈꺼풀 기름샘의 위치입니다.",
+    "visualId": "ipl-treatment",
     "items": [
       {
         "assetId": "anterior-meibomian-glands"
@@ -119,7 +130,9 @@
     ]
   },
   "punctal-plugs": {
-    "intro": "눈물이 빠지는 입구와 눈물길을 살펴보세요. 마개로 배출을 줄이는 원리를 설명하는 구조 그림이며 마개 제품 사진은 아닙니다.",
+    "heading": "눈물점 마개는 어디에 넣나요?",
+    "intro": "눈물이 코 쪽으로 빠져나가는 입구(눈물점)에 작은 마개를 넣어, 눈물이 눈 표면에 오래 머물게 합니다. 아래 그림은 눈물이 만들어지고 빠지는 전체 경로입니다.",
+    "visualId": "punctal-plug",
     "items": [
       {
         "assetId": "anterior-lacrimal-system"
@@ -138,10 +151,11 @@
     ]
   },
   "demodex": {
-    "intro": "현미경으로 관찰한 모낭충의 모습입니다. 눈꺼풀에 모낭충이 있는지는 진찰로 확인합니다.",
+    "heading": "속눈썹에 사는 모낭충",
+    "intro": "뽑은 속눈썹을 현미경으로 보면 속눈썹 줄기에 붙은 모낭충을 확인할 수 있습니다. 진료실에서는 속눈썹 뿌리를 둘러싼 원통 모양 각질을 보고 먼저 의심합니다.",
     "items": [
       {
-        "assetId": "eyelid-demodex"
+        "assetId": "eyelid-demodex-lash"
       }
     ]
   },
@@ -154,18 +168,48 @@
     ]
   },
   "keratitis": {
-    "intro": "각막 표면 손상이 염색검사에서 어떻게 보이는지 살펴보세요. 감염의 원인균을 보여주는 사진은 아닙니다.",
+    "heading": "각막 표면 상처와 각막 궤양",
+    "layout": "compare",
+    "intro": "형광 염색약을 넣으면 각막의 상처가 초록빛으로 보입니다. 감염이 깊어지면 각막이 넓게 헐고(궤양) 충혈과 통증이 심해집니다. 원인균은 사진이 아니라 검사와 경과로 판단합니다.",
     "items": [
       {
-        "assetId": "anterior-keratitis"
+        "assetId": "anterior-keratitis",
+        "label": "① 각막 표면 상처"
+      },
+      {
+        "assetId": "keratitis-bacterial-ulcer",
+        "label": "② 세균 각막 궤양"
       }
     ]
   },
   "contact-lens-keratitis": {
-    "intro": "각막 손상의 검사 예시입니다. 세균·곰팡이·가시아메바는 이 사진으로 구분할 수 없어 검사와 경과를 함께 봅니다.",
+    "heading": "염색검사로 보는 각막 상처",
+    "intro": "콘택트렌즈 관련 각막염은 세균·곰팡이·가시아메바에 따라 경과가 다릅니다. 사진만으로 원인을 구분할 수 없어, 각막을 긁어 하는 균 검사와 치료 반응을 함께 봅니다. 곰팡이 각막염은 이용 조건이 확인된 사진이 없어 싣지 않았습니다.",
     "items": [
       {
         "assetId": "anterior-keratitis"
+      }
+    ],
+    "sectionGroups": [
+      {
+        "sectionTitle": "세균 각막염",
+        "heading": "세균 각막염의 각막 궤양",
+        "intro": "빠르게 진행해 하루 이틀 사이 궤양이 커질 수 있습니다.",
+        "items": [
+          {
+            "assetId": "keratitis-bacterial-ulcer"
+          }
+        ]
+      },
+      {
+        "sectionTitle": "가시아메바 각막염",
+        "heading": "진행된 가시아메바 각막염",
+        "intro": "치료가 늦거나 길어지면 각막이 하얗게 혼탁해지고 혈관이 자라 들어와 시력이 크게 떨어질 수 있습니다.",
+        "items": [
+          {
+            "assetId": "keratitis-acanthamoeba"
+          }
+        ]
       }
     ]
   },
@@ -254,66 +298,90 @@
     ]
   },
   "presbyopia-eye-drops": {
-    "intro": "노안의 배경인 수정체 조절력 감소를 설명하는 그림입니다. 필로카르핀의 효과나 점안 전후를 비교한 그림은 아닙니다.",
-    "items": [
-      {
-        "assetId": "lens-presbyopia"
-      }
-    ]
+    "heading": "동공을 작게 만들어 가까이 보는 원리",
+    "intro": "필로카르핀은 동공을 작게 만들어 초점이 맞는 범위를 넓힙니다(핀홀 효과). 노안의 원인인 수정체 조절력 자체를 회복시키지는 않습니다.",
+    "visualId": "pilocarpine-pupil",
+    "items": []
   },
   "glaucoma-basics": {
-    "intro": "방수의 배출 경로와 시신경, 진행된 경우의 시야 변화를 단순화해 살펴봅니다.",
-    "items": [
+    "heading": "눈 속 물(방수)이 빠지는 길과 안압",
+    "intro": "눈 속에서는 맑은 물(방수)이 계속 만들어지고 빠져나갑니다. 이 균형이 깨지거나 시신경이 약하면 녹내장이 생길 수 있습니다.",
+    "visualId": "aqueous-flow",
+    "items": [],
+    "sectionGroups": [
       {
-        "assetId": "glaucoma-process"
+        "sectionTitle": "시신경은 눈과 뇌를 잇는 통로입니다",
+        "heading": "정상 시신경과 녹내장 시신경",
+        "intro": "녹내장에서는 시신경 섬유가 줄어 시신경유두 가운데의 패임(함몰)이 커집니다. 모식도와 실제 사진을 비교해 보세요.",
+        "visualId": "cup-disc",
+        "items": [
+          {
+            "assetId": "glaucoma-disc-advanced"
+          }
+        ]
       }
     ]
   },
   "glaucoma-risk-factors": {
-    "intro": "안압과 시신경의 관계를 이해하는 참고 그림입니다. 정상안압 녹내장도 있어 수치 하나만으로 위험을 판단하지 않습니다.",
-    "items": [
-      {
-        "assetId": "glaucoma-process"
-      }
-    ]
+    "heading": "진행에 영향을 주는 요인 한눈에 보기",
+    "intro": "안압처럼 치료로 조절할 수 있는 요인과, 나이·가족력처럼 바꾸기 어려운 요인을 나누어 봅니다.",
+    "visualId": "glaucoma-risk",
+    "items": []
   },
   "glaucoma-lifestyle": {
-    "intro": "생활 관리가 지키려는 시신경과 눈 속 액체의 배출 경로를 살펴봅니다. 그림은 특정 생활 습관의 효과를 증명하는 자료가 아닙니다.",
-    "items": [
-      {
-        "assetId": "glaucoma-process"
-      }
-    ]
+    "heading": "도움이 되는 습관과 주의할 습관",
+    "intro": "생활 습관만으로 녹내장을 막을 수는 없지만, 안압과 시신경에 부담을 줄이는 데 도움이 될 수 있습니다.",
+    "visualId": "glaucoma-lifestyle",
+    "items": []
   },
   "glaucoma-progression": {
-    "intro": "시야와 시신경이 왜 중요한지 설명하는 개념도입니다. 실제 시야검사·OCT 결과나 한 환자의 전후 비교 영상은 아닙니다.",
+    "heading": "한 번이 아니라 추세로 판단합니다",
+    "intro": "시야검사 결과는 매번 조금씩 달라집니다. 여러 번의 결과를 이어 추세를 보고, 시야 결손이 실제로 넓어지는지 확인합니다.",
+    "visualId": "glaucoma-monitoring",
     "items": [
       {
-        "assetId": "glaucoma-process"
+        "assetId": "glaucoma-field-defects"
       }
     ]
   },
   "glaucoma-treatment": {
-    "intro": "안압을 낮추는 치료를 설명할 때 참고할 배출 경로와 점안 방법입니다.",
+    "heading": "치료가 작용하는 곳",
+    "intro": "안약·레이저·수술은 모두 안압을 낮추지만 작용하는 위치가 다릅니다. 안약은 아래 사진처럼 넣고, 넣은 뒤 눈 안쪽 코 옆을 1~2분 눌러주세요.",
+    "visualId": "glaucoma-treatment-routes",
     "items": [
       {
-        "assetId": "glaucoma-process"
-      },
-      {
         "assetId": "care-eye-drops"
+      }
+    ],
+    "sectionGroups": [
+      {
+        "sectionTitle": "수술: 필요한 만큼 안압을 낮추기 위한 선택",
+        "heading": "새 배출 통로를 만드는 수술",
+        "intro": "대표적인 녹내장 수술의 원리입니다. 수술 방법은 여러 가지가 있으며 눈 상태에 맞춰 선택합니다.",
+        "items": [
+          {
+            "assetId": "glaucoma-trabeculectomy-nei"
+          }
+        ]
       }
     ]
   },
   "glaucoma-prognosis": {
-    "intro": "그림의 좁아진 시야는 진행된 경우를 단순화한 예시입니다. 모든 환자가 같은 과정을 겪거나 같은 예후를 보이는 것은 아닙니다.",
+    "heading": "시야 결손이 넓어지는 과정",
+    "intro": "치료하지 않으면 시야 결손이 가장자리에서 시작해 넓어질 수 있습니다. 일찍 발견해 치료를 이어가면 초기 단계에서 오래 머무는 경우가 많습니다.",
     "items": [
+      {
+        "assetId": "glaucoma-field-defects"
+      },
       {
         "assetId": "glaucoma-process"
       }
     ]
   },
   "angle-closure": {
-    "intro": "폐쇄각 발작의 실제 눈 사진 예시입니다. 전방각의 구조와 치료 필요성은 별도의 검사로 확인합니다.",
+    "heading": "전방각이 좁아지면 생기는 일과 레이저 치료",
+    "intro": "홍채가 앞으로 밀려 배출구(전방각)를 막으면 안압이 급격히 오를 수 있습니다. 레이저 홍채절개술은 홍채에 작은 우회로를 내 이를 예방합니다. 아래 사진은 급성 발작이 온 눈의 예입니다.",
+    "visualId": "angle-panels",
     "items": [
       {
         "assetId": "glaucoma-angle-closure"
@@ -547,10 +615,17 @@
     "items": []
   },
   "uveitis": {
-    "intro": "홍채·섬모체·맥락막이 눈의 어디에 위치하는지 확인합니다.",
+    "heading": "포도막의 위치와 염증의 모습",
+    "intro": "포도막은 홍채·섬모체·맥락막을 합친 이름입니다. 앞포도막염에서는 세극등 검사로 각막 뒷면에 붙은 염증 세포를 확인하며, 심하면 앞방 아래에 염증 세포가 고이기도 합니다.",
     "items": [
       {
         "assetId": "anatomy-uveitis"
+      },
+      {
+        "assetId": "uveitis-keratic-precipitates"
+      },
+      {
+        "assetId": "uveitis-hypopyon"
       }
     ]
   },

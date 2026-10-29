@@ -4,7 +4,7 @@ import {resolve,sep} from 'node:path';
 import topics from '../dist/data/topics.js';
 import {hasEducationalVisual} from '../dist/educational-visuals.js';
 
-const manifestFiles=['anterior.json','retina.json','lens-glaucoma.json','supplemental.json','eyelids.json','cataract-revision.json','iol-history.json','accommodation.json','retina-revision.json','clinical-revision.json','pediatric-revision.json','educational-charts.json'];
+const manifestFiles=['anterior.json','retina.json','lens-glaucoma.json','supplemental.json','eyelids.json','cataract-revision.json','iol-history.json','accommodation.json','retina-revision.json','clinical-revision.json','pediatric-revision.json','educational-charts.json','review-1029.json'];
 const collected=[];
 for(const file of manifestFiles){
   try{const items=JSON.parse(await readFile(`content/images/${file}`,'utf8'));if(!Array.isArray(items))throw new Error('Expected an array');collected.push(...items);}

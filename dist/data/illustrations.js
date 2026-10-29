@@ -45,9 +45,9 @@ export const assets = {
   "anterior-chalazion": {
     "id": "anterior-chalazion",
     "src": "./images/anterior-chalazion.jpg",
-    "title": "아래 눈꺼풀 안쪽의 콩다래끼",
-    "alt": "아래 눈꺼풀을 뒤집어 안쪽의 붉은 콩다래끼 멍울을 보여주는 사진",
-    "caption": "아래 눈꺼풀 안쪽에 생긴 콩다래끼의 한 사례입니다. 급성 다래끼와 콩다래끼는 경과와 치료가 다르므로 진찰로 구분합니다.",
+    "title": "아래 눈꺼풀 안쪽의 속다래끼(내맥립종)",
+    "alt": "아래 눈꺼풀을 뒤집어 안쪽 결막에 붉게 부어오른 속다래끼를 보여주는 사진",
+    "caption": "아래 눈꺼풀 안쪽 기름샘에 급성 염증이 생긴 속다래끼(내맥립종)입니다. 붉게 붓고 아프며, 고름이 차고 오래가면 안쪽(결막)에서 절개해 배출하기도 합니다. 원본 파일명도 Hordeolum(다래끼)입니다.",
     "author": "Michal Klajban",
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
@@ -104,27 +104,6 @@ export const assets = {
     "originalTitle": "Tear system.svg",
     "sha256": "37a244933c5bb81bc859751a981ff212f3ffa9cf6461bec717d7ce08af818b67",
     "bytes": 227372
-  },
-  "anterior-tear-film": {
-    "id": "anterior-tear-film",
-    "src": "./images/anterior-tear-film.png",
-    "title": "눈 표면을 덮는 눈물막",
-    "alt": "눈물막의 기름 성분, 수성 성분, 점액 성분과 각막 상피를 1부터 4로 나타낸 단순화된 그림",
-    "caption": "1은 기름 성분, 2는 수성 성분, 3은 점액(뮤신) 성분, 4는 각막 상피를 나타냅니다. 눈물막의 구성 요소를 단순화한 모식도이며 실제 두께와 층의 경계는 그림과 다릅니다.",
-    "author": "Vinne2",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tear_film.svg",
-    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Tear_film.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
-    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Tear_film.svg/960px-Tear_film.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
-    "width": 960,
-    "height": 960,
-    "kind": "diagram",
-    "checked": "2026-10-29",
-    "changes": "원본 SVG의 Wikimedia 제공 PNG 렌더링 사용; 그림 내용 변경 없음.",
-    "originalTitle": "Tear film.svg",
-    "sha256": "858475a47c0c3937d149e533e0b13b39818e0c3f7f34c253552661276f66e77d",
-    "bytes": 29708
   },
   "anterior-meibomian-glands": {
     "id": "anterior-meibomian-glands",
@@ -378,27 +357,6 @@ export const assets = {
     "bytes": 60609,
     "originalTitle": "Simulated floaters.jpg"
   },
-  "lens-presbyopia": {
-    "id": "lens-presbyopia",
-    "src": "./images/lens-presbyopia.png",
-    "title": "노안과 수정체의 조절력",
-    "originalTitle": "Presbyopia.png",
-    "alt": "노안과 수정체의 조절력 — 위쪽과 아래쪽을 비교하면, 탄력이 줄어든 수정체가 가까운 물체의 초점을 망막에 맞추기 어려운 원리를 볼 수 있습니다.",
-    "caption": "위쪽과 아래쪽을 비교하면, 탄력이 줄어든 수정체가 가까운 물체의 초점을 망막에 맞추기 어려운 원리를 볼 수 있습니다.",
-    "author": "BruceBlaus",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Presbyopia.png",
-    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Presbyopia.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Presbyopia.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "width": 800,
-    "height": 1200,
-    "kind": "diagram",
-    "checked": "2026-10-29",
-    "changes": "원본 이미지 내용 변경 없음. 제공처의 미리보기 또는 원본을 저장하고 화면 크기에 맞춰 표시.",
-    "sha256": "7a555085513c2d8a544b075dedb227ecd3eaf4e9bb0806366f67229911c44e8f",
-    "bytes": 506883
-  },
   "glaucoma-process": {
     "id": "glaucoma-process",
     "src": "./images/glaucoma-process.png",
@@ -524,27 +482,6 @@ export const assets = {
     "changes": "원본 이미지 내용 변경 없음. 제공처의 미리보기 또는 원본을 저장하고 화면 크기에 맞춰 표시.",
     "sha256": "2915c411650c9ce5852564441bbd2d0b2e8de1bc06247fa2b01820176324418a",
     "bytes": 87057
-  },
-  "eyelid-demodex": {
-    "id": "eyelid-demodex",
-    "src": "./images/eyelid-demodex.jpg",
-    "title": "현미경으로 본 모낭충",
-    "alt": "모낭충 Demodex folliculorum 한 마리를 현미경으로 확대한 사진",
-    "caption": "사람의 모낭에서 발견될 수 있는 모낭충(Demodex folliculorum)의 현미경 사진입니다. 맨눈으로 볼 수 있는 크기가 아니며, 모낭충이 있다는 사실만으로 눈꺼풀염을 진단하지는 않습니다.",
-    "author": "Maria Debabova",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Demodex_folliculorum.jpg",
-    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Demodex_folliculorum.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
-    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Demodex_folliculorum.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
-    "width": 1242,
-    "height": 910,
-    "kind": "clinical",
-    "checked": "2026-10-29",
-    "changes": "원본 페이지의 현행 파일을 그대로 사용; 추가 내용 변경 없음.",
-    "originalTitle": "Demodex_folliculorum.jpg",
-    "sha256": "f8049984265cd163643f15aaecb0905a7a1257323e13ff636ab5fb8a6c189fc7",
-    "bytes": 161229
   },
   "eyelid-ptosis": {
     "id": "eyelid-ptosis",
@@ -944,6 +881,216 @@ export const assets = {
     "downloadUrl": "https://raw.githubusercontent.com/cucube1985/eye-guide/main/dist/images/education-amblyopia-younger.png",
     "sha256": "248ff7f3d025a62d9ae8062cbfd6c7c955376fe2e8f74d298b7677fa1103751c",
     "bytes": 102150
+  },
+  "anterior-stye-external": {
+    "id": "anterior-stye-external",
+    "src": "./images/anterior-stye-external.jpg",
+    "title": "속눈썹 뿌리에 생긴 겉다래끼(맥립종)",
+    "originalTitle": "Stye02.jpg",
+    "alt": "윗눈꺼풀 가장자리 속눈썹 뿌리 부근이 붉게 붓고 누런 고름점이 보이는 다래끼 사진",
+    "caption": "속눈썹 뿌리의 분비샘에 급성 염증이 생긴 겉다래끼(맥립종)입니다. 붉고 누르면 아프며 고름점이 보일 수 있습니다. 짜지 말고 온찜질과 청결 관리를 하세요.",
+    "author": "Andre Riemann",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stye02.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Stye02.jpg",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Stye02.jpg/960px-Stye02.jpg",
+    "width": 960,
+    "height": 705,
+    "kind": "clinical",
+    "checked": "2026-10-29",
+    "changes": "Wikimedia Commons 제공 가로 960픽셀 축소본 사용; 그림 내용 변경 없음. 한국어 설명은 별도 캡션으로 추가.",
+    "sha256": "46cf878927f70851a5c40b187464cf3287b4dd19c5c079d074120693ca5e28fd",
+    "bytes": 147785
+  },
+  "anterior-chalazion-upper": {
+    "id": "anterior-chalazion-upper",
+    "src": "./images/anterior-chalazion-upper.jpg",
+    "title": "윗눈꺼풀에 생긴 콩다래끼(산립종)",
+    "originalTitle": "Chalazion1.jpg",
+    "alt": "윗눈꺼풀 가장자리 가까이에 둥글게 솟은 멍울이 보이는 콩다래끼 사진",
+    "caption": "기름샘(마이봄샘) 입구가 막혀 눈꺼풀 속에 둥근 멍울이 생긴 콩다래끼(산립종)의 예입니다. 염증이 함께 있으면 붉을 수 있어 겉모습만으로 겉다래끼와 완전히 구분하기 어렵습니다.",
+    "author": "Cham",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chalazion1.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/48/Chalazion1.jpg",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Chalazion1.jpg/960px-Chalazion1.jpg",
+    "width": 960,
+    "height": 720,
+    "kind": "clinical",
+    "checked": "2026-10-29",
+    "changes": "Wikimedia Commons 제공 가로 960픽셀 축소본 사용; 그림 내용 변경 없음. 한국어 설명은 별도 캡션으로 추가.",
+    "sha256": "d901efbca1256945bf8368ef445576c3aab701a3f6194970bf0becd85e0a7f09",
+    "bytes": 56844
+  },
+  "eyelid-demodex-lash": {
+    "id": "eyelid-demodex-lash",
+    "src": "./images/eyelid-demodex-lash.jpg",
+    "title": "속눈썹에 붙어 있는 모낭충(현미경 100배)",
+    "originalTitle": "Угревая железница на реснице человека. х100.jpg",
+    "alt": "뽑은 속눈썹 줄기 위에 길쭉한 모낭충이 붙어 있는 현미경 사진",
+    "caption": "뽑은 속눈썹을 현미경으로 본 모습입니다. 속눈썹 줄기에 길쭉한 모낭충이 붙어 있습니다. 진료실에서는 속눈썹 뿌리의 원통 모양 각질을 보고 의심하고, 필요하면 이렇게 직접 확인합니다.",
+    "author": "Vladimir064",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%D0%A3%D0%B3%D1%80%D0%B5%D0%B2%D0%B0%D1%8F_%D0%B6%D0%B5%D0%BB%D0%B5%D0%B7%D0%BD%D0%B8%D1%86%D0%B0_%D0%BD%D0%B0_%D1%80%D0%B5%D1%81%D0%BD%D0%B8%D1%86%D0%B5_%D1%87%D0%B5%D0%BB%D0%BE%D0%B2%D0%B5%D0%BA%D0%B0._%D1%85100.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/15/%D0%A3%D0%B3%D1%80%D0%B5%D0%B2%D0%B0%D1%8F_%D0%B6%D0%B5%D0%BB%D0%B5%D0%B7%D0%BD%D0%B8%D1%86%D0%B0_%D0%BD%D0%B0_%D1%80%D0%B5%D1%81%D0%BD%D0%B8%D1%86%D0%B5_%D1%87%D0%B5%D0%BB%D0%BE%D0%B2%D0%B5%D0%BA%D0%B0._%D1%85100.jpg",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/%D0%A3%D0%B3%D1%80%D0%B5%D0%B2%D0%B0%D1%8F_%D0%B6%D0%B5%D0%BB%D0%B5%D0%B7%D0%BD%D0%B8%D1%86%D0%B0_%D0%BD%D0%B0_%D1%80%D0%B5%D1%81%D0%BD%D0%B8%D1%86%D0%B5_%D1%87%D0%B5%D0%BB%D0%BE%D0%B2%D0%B5%D0%BA%D0%B0._%D1%85100.jpg/960px-%D0%A3%D0%B3%D1%80%D0%B5%D0%B2%D0%B0%D1%8F_%D0%B6%D0%B5%D0%BB%D0%B5%D0%B7%D0%BD%D0%B8%D1%86%D0%B0_%D0%BD%D0%B0_%D1%80%D0%B5%D1%81%D0%BD%D0%B8%D1%86%D0%B5_%D1%87%D0%B5%D0%BB%D0%BE%D0%B2%D0%B5%D0%BA%D0%B0._%D1%85100.jpg",
+    "width": 960,
+    "height": 698,
+    "kind": "clinical",
+    "checked": "2026-10-29",
+    "changes": "Wikimedia Commons 제공 가로 960픽셀 축소본 사용; 그림 내용 변경 없음. 한국어 설명은 별도 캡션으로 추가.",
+    "sha256": "aef3effc286f3db1876d7db6a69b5c638cf3c5c8b72a1702344462549376eba4",
+    "bytes": 239849
+  },
+  "keratitis-bacterial-ulcer": {
+    "id": "keratitis-bacterial-ulcer",
+    "src": "./images/keratitis-bacterial-ulcer.png",
+    "title": "세균 각막염으로 생긴 각막 궤양(형광 염색)",
+    "originalTitle": "Corneal Ulcer.png",
+    "alt": "형광 염색약을 넣고 푸른빛으로 비춘 각막에 넓게 초록색으로 물든 궤양 부위와 충혈이 보이는 사진",
+    "caption": "세균 각막염으로 각막 표면이 넓게 헐어 형광 염색약에 물든 모습입니다. 충혈이 심하고 통증·눈부심이 동반됩니다. 콘택트렌즈를 낀 채 자거나 관리가 소홀하면 생길 수 있으며 당일 진료가 필요합니다.",
+    "author": "Yoanmb (Dr Mboussou Yoan)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Corneal_Ulcer.png",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Corneal_Ulcer.png",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Corneal_Ulcer.png/960px-Corneal_Ulcer.png",
+    "width": 960,
+    "height": 721,
+    "kind": "clinical",
+    "checked": "2026-10-29",
+    "changes": "Wikimedia Commons 제공 가로 960픽셀 축소본 사용; 그림 내용 변경 없음(원본의 저작자 표기 유지). 한국어 설명은 별도 캡션으로 추가.",
+    "sha256": "6520e6f2d0f392c7462c713909ce989b34ed70b6fc143a40b2888566ac586cbd",
+    "bytes": 1095831
+  },
+  "keratitis-acanthamoeba": {
+    "id": "keratitis-acanthamoeba",
+    "src": "./images/keratitis-acanthamoeba.png",
+    "title": "가시아메바 각막염의 진행된 모습",
+    "originalTitle": "Parasite140120-fig1 Acanthamoeba keratitis Figure 1A.png",
+    "alt": "각막 중심이 넓고 하얗게 혼탁해지고 주변에 충혈과 혈관이 자라 들어온 가시아메바 각막염 사진",
+    "caption": "가시아메바 각막염이 진행해 각막이 하얗게 혼탁해지고 얇아지며 혈관이 자라 들어온 예입니다. 치료가 수개월 이상 걸리고 흉터가 남기 쉬워, 수돗물·물놀이와 렌즈를 함께 피하는 예방이 가장 중요합니다.",
+    "author": "Jacob Lorenzo-Morales, Naveed A. Khan, Julia Walochnik (Parasite 2015, Figure 1A)",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parasite140120-fig1_Acanthamoeba_keratitis_Figure_1A.png",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/78/Parasite140120-fig1_Acanthamoeba_keratitis_Figure_1A.png",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/7/78/Parasite140120-fig1_Acanthamoeba_keratitis_Figure_1A.png",
+    "width": 766,
+    "height": 570,
+    "kind": "clinical",
+    "checked": "2026-10-29",
+    "changes": "원본 PNG 파일을 내용 변경 없이 저장. 한국어 설명은 별도 캡션으로 추가.",
+    "sha256": "9732577d96c971e60a01c447d06e004c55d527e6c44bcb5e75e64da7fb4c4730",
+    "bytes": 360550
+  },
+  "glaucoma-disc-advanced": {
+    "id": "glaucoma-disc-advanced",
+    "src": "./images/glaucoma-disc-advanced.jpg",
+    "title": "진행된 녹내장의 시신경유두",
+    "originalTitle": "Glaukompapille2.jpg",
+    "alt": "시신경유두 가운데의 하얀 패임이 유두 대부분을 차지하고 가장자리의 붉은 신경 테두리가 얇아진 안저 사진",
+    "caption": "진행된 녹내장에서 시신경유두를 확대한 사진입니다. 가운데의 하얀 패임(함몰)이 유두 대부분을 차지하고, 신경섬유가 지나가는 붉은 테두리가 얇아졌습니다. 정상 시신경은 패임이 작고 테두리가 두껍습니다.",
+    "author": "Snoop (German Wikipedia)",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Glaukompapille2.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Glaukompapille2.jpg",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Glaukompapille2.jpg/960px-Glaukompapille2.jpg",
+    "width": 960,
+    "height": 965,
+    "kind": "clinical",
+    "checked": "2026-10-29",
+    "changes": "Wikimedia Commons 제공 가로 960픽셀 축소본 사용; 그림 내용 변경 없음. 한국어 설명은 별도 캡션으로 추가.",
+    "sha256": "8261184e385061b784d64e095f27de20272d96fc59d4fbcf48f07407a720dad6",
+    "bytes": 166791
+  },
+  "glaucoma-field-defects": {
+    "id": "glaucoma-field-defects",
+    "src": "./images/glaucoma-field-defects.png",
+    "title": "녹내장에서 나타나는 시야 결손의 단계",
+    "originalTitle": "Glaucomatous field defects.png",
+    "alt": "원형 시야도 8개에서 검은 결손 부위가 코쪽 계단, 활 모양 결손을 거쳐 중심만 남거나 전체로 커지는 과정을 보여주는 그림",
+    "caption": "시야검사 결과를 단순화한 그림입니다. (a)~(d) 초기에는 코쪽이나 중심 위쪽 일부가 작게 빠지고, (e)~(f) 활 모양으로 넓어지며, (g)~(h) 말기에는 중심만 남거나 전체가 빠집니다. 초기 단계는 본인이 거의 느끼지 못합니다.",
+    "author": "Broadway DC",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Glaucomatous_field_defects.png",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Glaucomatous_field_defects.png",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Glaucomatous_field_defects.png",
+    "width": 512,
+    "height": 294,
+    "kind": "diagram",
+    "checked": "2026-10-29",
+    "changes": "원본 PNG 파일을 내용 변경 없이 저장. 영어 표기는 그대로 두고 한국어 설명을 별도 캡션으로 추가.",
+    "sha256": "6c23ba1ba3add6590e57e8085a99644331ca16bb81188362e3af7e3d67b49315",
+    "bytes": 161292
+  },
+  "glaucoma-trabeculectomy-nei": {
+    "id": "glaucoma-trabeculectomy-nei",
+    "src": "./images/glaucoma-trabeculectomy-nei.jpg",
+    "title": "녹내장 수술: 새 배출 통로를 만드는 원리",
+    "originalTitle": "Conventional surgery to treat glaucoma EDA11.JPG",
+    "alt": "각막·홍채·수정체 옆의 섬유주에 새 구멍을 내어 눈 속 액체가 결막 아래로 빠져나가는 경로를 화살표로 보여주는 그림",
+    "caption": "섬유주절제술 같은 녹내장 수술은 막힌 배출로 옆에 새 통로를 만들어 눈 속 액체(방수)가 결막 아래로 빠져나가게 합니다. 수술 방법은 녹내장 종류와 눈 상태에 따라 다릅니다.",
+    "author": "National Eye Institute, National Institutes of Health (자료 번호 EDA11)",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Conventional_surgery_to_treat_glaucoma_EDA11.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/67/Conventional_surgery_to_treat_glaucoma_EDA11.JPG",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/6/67/Conventional_surgery_to_treat_glaucoma_EDA11.JPG",
+    "width": 900,
+    "height": 839,
+    "kind": "diagram",
+    "checked": "2026-10-29",
+    "changes": "원본 JPG 파일을 내용 변경 없이 저장. 영어 표기는 그대로 두고 한국어 설명을 별도 캡션으로 추가.",
+    "sha256": "c7d046d11be21433b0bd2011ff1b96e6a7af38bbf404ff6ac50e65603c62dc43",
+    "bytes": 64349
+  },
+  "uveitis-hypopyon": {
+    "id": "uveitis-hypopyon",
+    "src": "./images/uveitis-hypopyon.jpg",
+    "title": "앞방에 고인 염증 세포(전방축농)",
+    "originalTitle": "Hypopyon 1.jpg",
+    "alt": "세극등 검사에서 각막 뒤 앞방 아래쪽에 하얀 염증 물질이 수평선을 이루며 고여 있는 사진",
+    "caption": "심한 눈 속 염증에서 염증 세포가 앞방 아래에 하얗게 가라앉아 수평선을 이룬 모습(전방축농)입니다. 포도막염이나 감염에서 나타날 수 있으며 즉시 치료가 필요합니다. 가벼운 포도막염에서는 이렇게 보이지 않습니다.",
+    "author": "Imrankabirhossain",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hypopyon_1.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/65/Hypopyon_1.jpg",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Hypopyon_1.jpg/960px-Hypopyon_1.jpg",
+    "width": 960,
+    "height": 875,
+    "kind": "clinical",
+    "checked": "2026-10-29",
+    "changes": "Wikimedia Commons 제공 가로 960픽셀 축소본 사용; 그림 내용 변경 없음. 한국어 설명은 별도 캡션으로 추가.",
+    "sha256": "bd64f8c20dc5af081ba294f1d7b92427437cca6caccb6bed6acaa0002ab2515f",
+    "bytes": 69061
+  },
+  "uveitis-keratic-precipitates": {
+    "id": "uveitis-keratic-precipitates",
+    "src": "./images/uveitis-keratic-precipitates.jpg",
+    "title": "각막 뒷면에 붙은 염증 세포(각막후면침착물)",
+    "originalTitle": "Keratic-precipitates.jpg",
+    "alt": "세극등 빛줄기 안에서 각막 뒷면에 하얀 점들이 붙어 있고 화살표로 표시된 사진",
+    "caption": "앞포도막염에서 염증 세포가 각막 뒷면에 하얀 점처럼 붙은 모습(화살표)입니다. 세극등 현미경으로 확인하며, 맨눈으로는 보이지 않습니다. 치료하면서 줄어드는지 확인합니다.",
+    "author": "Jonathan Trobe, M.D. (University of Michigan Kellogg Eye Center)",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Keratic-precipitates.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/10/Keratic-precipitates.jpg",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/1/10/Keratic-precipitates.jpg",
+    "width": 358,
+    "height": 283,
+    "kind": "clinical",
+    "checked": "2026-10-29",
+    "changes": "원본 JPG 파일을 내용 변경 없이 저장. 한국어 설명은 별도 캡션으로 추가.",
+    "sha256": "3b65901a462dd71cc755f40b713487d94a19ff12e3a9bf91fba27aafbcb2eecf",
+    "bytes": 52389
   }
 };
 export const topicImages = {
@@ -972,21 +1119,31 @@ export const topicImages = {
     ]
   },
   "stye": {
-    "intro": "아래 사진은 콩다래끼 사례입니다. 통증이 있는 급성 다래끼와 구별하는 데에는 진찰이 필요합니다.",
+    "heading": "겉다래끼·속다래끼와 콩다래끼",
+    "layout": "compare",
+    "intro": "다래끼(맥립종)는 급성 염증으로 붉고 아프며, 속눈썹 뿌리에 생기면 겉다래끼, 눈꺼풀 안쪽 기름샘에 생기면 속다래끼입니다. 콩다래끼(산립종)는 기름샘이 막혀 생긴 멍울로 통증이 적은 편입니다. 겉모습이 비슷할 수 있어 진찰로 구분합니다.",
     "items": [
       {
-        "assetId": "anterior-chalazion"
+        "assetId": "anterior-stye-external",
+        "label": "① 겉다래끼"
+      },
+      {
+        "assetId": "anterior-chalazion",
+        "label": "② 속다래끼"
+      },
+      {
+        "assetId": "anterior-chalazion-upper",
+        "label": "③ 콩다래끼"
       }
     ]
   },
   "stye-incision": {
-    "intro": "절개 대상이 될 수 있는 콩다래끼의 위치를 이해하는 참고 사진입니다. 절개 과정이나 절개 방법을 보여주는 사진은 아닙니다.",
+    "heading": "어느 쪽으로 절개하나요?",
+    "intro": "멍울이 눈꺼풀 안쪽(결막)에 가까운지, 피부 쪽에 가까운지에 따라 절개 방향이 달라집니다. 아래 사진은 안쪽 절개 대상이 될 수 있는 속다래끼의 예입니다.",
+    "visualId": "incision-approaches",
     "items": [
       {
         "assetId": "anterior-chalazion"
-      },
-      {
-        "assetId": "anterior-meibomian-glands"
       }
     ]
   },
@@ -1007,59 +1164,60 @@ export const topicImages = {
     ]
   },
   "dry-eye": {
-    "intro": "눈 표면을 덮는 눈물막과 기름층을 만드는 눈꺼풀 분비샘을 함께 봅니다.",
+    "heading": "눈물막의 세 층과 치료",
+    "intro": "눈물막은 기름층·물층·점액층으로 이루어집니다. 어느 층이 부족한지에 따라 치료가 달라지며, 기름층을 만드는 눈꺼풀 기름샘의 상태도 함께 봅니다.",
+    "visualId": "tear-film",
     "items": [
-      {
-        "assetId": "anterior-tear-film"
-      },
       {
         "assetId": "anterior-meibomian-glands"
       }
     ]
   },
   "artificial-tears": {
-    "intro": "인공눈물이 보충하는 눈물막과 안약을 넣는 방법을 살펴보세요.",
+    "heading": "인공눈물이 돕는 곳",
+    "intro": "인공눈물은 주로 부족한 물층을 보충합니다. 아래 사진처럼 아래 눈꺼풀을 살짝 당겨 한 방울 넣으세요.",
+    "visualId": "tear-film-artificial",
     "items": [
-      {
-        "assetId": "anterior-tear-film"
-      },
       {
         "assetId": "care-eye-drops"
       }
     ]
   },
   "mucin-secretagogues": {
-    "intro": "분비 촉진제를 설명할 때 참고하는 눈물막 구조입니다. 그림의 층은 이해를 돕기 위해 단순화되어 있습니다.",
-    "items": [
-      {
-        "assetId": "anterior-tear-film"
-      }
-    ]
+    "heading": "뮤신 분비 촉진제가 돕는 곳",
+    "intro": "디쿠아포솔과 레바미피드는 눈 스스로 점액층과 수분을 더 만들도록 도와, 눈물이 표면에 오래 붙어 있게 합니다.",
+    "visualId": "tear-film-mucin",
+    "items": []
   },
   "dry-eye-anti-inflammatory": {
-    "intro": "안약이 작용하는 눈 표면과 점안 방법을 이해하는 참고 자료입니다. 약의 종류별 효과나 사용 횟수를 비교한 그림은 아닙니다.",
+    "heading": "항염증 안약이 돕는 곳",
+    "intro": "건조증이 오래가면 눈 표면에 염증이 생기고, 염증이 다시 눈물막을 불안정하게 만듭니다. 스테로이드·사이클로스포린은 이 염증을 줄입니다.",
+    "visualId": "tear-film-inflammation",
     "items": [
-      {
-        "assetId": "anterior-tear-film"
-      },
       {
         "assetId": "care-eye-drops"
       }
     ]
   },
   "serum-eye-drops": {
-    "intro": "자가혈청 안약이 보호하려는 눈 표면과 점안 방법을 봅니다. 채혈·제조·보관 과정의 사진은 아닙니다.",
-    "items": [
+    "heading": "자가혈청이 돕는 곳",
+    "intro": "자가혈청에는 실제 눈물에 가까운 성장인자가 들어 있어, 잘 낫지 않는 눈 표면 세포의 회복을 돕습니다.",
+    "visualId": "tear-film-serum",
+    "items": [],
+    "sectionGroups": [
       {
-        "assetId": "anterior-tear-film"
-      },
-      {
-        "assetId": "care-eye-drops"
+        "sectionTitle": "만들고 사용하는 과정",
+        "heading": "자가혈청 안약을 만드는 과정",
+        "intro": "채혈부터 보관까지의 4단계입니다. 실제 제조 방법과 농도는 병원마다 다를 수 있습니다.",
+        "visualId": "serum-steps",
+        "items": []
       }
     ]
   },
   "ipl": {
-    "intro": "IPL 치료와 관련된 마이봄샘의 위치를 살펴보세요. 이 자료는 시술 장면이 아닌 기름샘의 구조를 보여줍니다.",
+    "heading": "IPL은 어디에, 어떻게 하나요?",
+    "intro": "눈을 보호 안대로 가린 뒤 눈 아래 뺨과 코 부위에 빛을 쏩니다. 빛의 열이 눈꺼풀 주변 염증을 줄이고 기름샘의 굳은 기름을 녹이도록 돕습니다. 아래 사진은 치료 대상인 눈꺼풀 기름샘의 위치입니다.",
+    "visualId": "ipl-treatment",
     "items": [
       {
         "assetId": "anterior-meibomian-glands"
@@ -1067,7 +1225,9 @@ export const topicImages = {
     ]
   },
   "punctal-plugs": {
-    "intro": "눈물이 빠지는 입구와 눈물길을 살펴보세요. 마개로 배출을 줄이는 원리를 설명하는 구조 그림이며 마개 제품 사진은 아닙니다.",
+    "heading": "눈물점 마개는 어디에 넣나요?",
+    "intro": "눈물이 코 쪽으로 빠져나가는 입구(눈물점)에 작은 마개를 넣어, 눈물이 눈 표면에 오래 머물게 합니다. 아래 그림은 눈물이 만들어지고 빠지는 전체 경로입니다.",
+    "visualId": "punctal-plug",
     "items": [
       {
         "assetId": "anterior-lacrimal-system"
@@ -1086,10 +1246,11 @@ export const topicImages = {
     ]
   },
   "demodex": {
-    "intro": "현미경으로 관찰한 모낭충의 모습입니다. 눈꺼풀에 모낭충이 있는지는 진찰로 확인합니다.",
+    "heading": "속눈썹에 사는 모낭충",
+    "intro": "뽑은 속눈썹을 현미경으로 보면 속눈썹 줄기에 붙은 모낭충을 확인할 수 있습니다. 진료실에서는 속눈썹 뿌리를 둘러싼 원통 모양 각질을 보고 먼저 의심합니다.",
     "items": [
       {
-        "assetId": "eyelid-demodex"
+        "assetId": "eyelid-demodex-lash"
       }
     ]
   },
@@ -1102,18 +1263,48 @@ export const topicImages = {
     ]
   },
   "keratitis": {
-    "intro": "각막 표면 손상이 염색검사에서 어떻게 보이는지 살펴보세요. 감염의 원인균을 보여주는 사진은 아닙니다.",
+    "heading": "각막 표면 상처와 각막 궤양",
+    "layout": "compare",
+    "intro": "형광 염색약을 넣으면 각막의 상처가 초록빛으로 보입니다. 감염이 깊어지면 각막이 넓게 헐고(궤양) 충혈과 통증이 심해집니다. 원인균은 사진이 아니라 검사와 경과로 판단합니다.",
     "items": [
       {
-        "assetId": "anterior-keratitis"
+        "assetId": "anterior-keratitis",
+        "label": "① 각막 표면 상처"
+      },
+      {
+        "assetId": "keratitis-bacterial-ulcer",
+        "label": "② 세균 각막 궤양"
       }
     ]
   },
   "contact-lens-keratitis": {
-    "intro": "각막 손상의 검사 예시입니다. 세균·곰팡이·가시아메바는 이 사진으로 구분할 수 없어 검사와 경과를 함께 봅니다.",
+    "heading": "염색검사로 보는 각막 상처",
+    "intro": "콘택트렌즈 관련 각막염은 세균·곰팡이·가시아메바에 따라 경과가 다릅니다. 사진만으로 원인을 구분할 수 없어, 각막을 긁어 하는 균 검사와 치료 반응을 함께 봅니다. 곰팡이 각막염은 이용 조건이 확인된 사진이 없어 싣지 않았습니다.",
     "items": [
       {
         "assetId": "anterior-keratitis"
+      }
+    ],
+    "sectionGroups": [
+      {
+        "sectionTitle": "세균 각막염",
+        "heading": "세균 각막염의 각막 궤양",
+        "intro": "빠르게 진행해 하루 이틀 사이 궤양이 커질 수 있습니다.",
+        "items": [
+          {
+            "assetId": "keratitis-bacterial-ulcer"
+          }
+        ]
+      },
+      {
+        "sectionTitle": "가시아메바 각막염",
+        "heading": "진행된 가시아메바 각막염",
+        "intro": "치료가 늦거나 길어지면 각막이 하얗게 혼탁해지고 혈관이 자라 들어와 시력이 크게 떨어질 수 있습니다.",
+        "items": [
+          {
+            "assetId": "keratitis-acanthamoeba"
+          }
+        ]
       }
     ]
   },
@@ -1202,66 +1393,90 @@ export const topicImages = {
     ]
   },
   "presbyopia-eye-drops": {
-    "intro": "노안의 배경인 수정체 조절력 감소를 설명하는 그림입니다. 필로카르핀의 효과나 점안 전후를 비교한 그림은 아닙니다.",
-    "items": [
-      {
-        "assetId": "lens-presbyopia"
-      }
-    ]
+    "heading": "동공을 작게 만들어 가까이 보는 원리",
+    "intro": "필로카르핀은 동공을 작게 만들어 초점이 맞는 범위를 넓힙니다(핀홀 효과). 노안의 원인인 수정체 조절력 자체를 회복시키지는 않습니다.",
+    "visualId": "pilocarpine-pupil",
+    "items": []
   },
   "glaucoma-basics": {
-    "intro": "방수의 배출 경로와 시신경, 진행된 경우의 시야 변화를 단순화해 살펴봅니다.",
-    "items": [
+    "heading": "눈 속 물(방수)이 빠지는 길과 안압",
+    "intro": "눈 속에서는 맑은 물(방수)이 계속 만들어지고 빠져나갑니다. 이 균형이 깨지거나 시신경이 약하면 녹내장이 생길 수 있습니다.",
+    "visualId": "aqueous-flow",
+    "items": [],
+    "sectionGroups": [
       {
-        "assetId": "glaucoma-process"
+        "sectionTitle": "시신경은 눈과 뇌를 잇는 통로입니다",
+        "heading": "정상 시신경과 녹내장 시신경",
+        "intro": "녹내장에서는 시신경 섬유가 줄어 시신경유두 가운데의 패임(함몰)이 커집니다. 모식도와 실제 사진을 비교해 보세요.",
+        "visualId": "cup-disc",
+        "items": [
+          {
+            "assetId": "glaucoma-disc-advanced"
+          }
+        ]
       }
     ]
   },
   "glaucoma-risk-factors": {
-    "intro": "안압과 시신경의 관계를 이해하는 참고 그림입니다. 정상안압 녹내장도 있어 수치 하나만으로 위험을 판단하지 않습니다.",
-    "items": [
-      {
-        "assetId": "glaucoma-process"
-      }
-    ]
+    "heading": "진행에 영향을 주는 요인 한눈에 보기",
+    "intro": "안압처럼 치료로 조절할 수 있는 요인과, 나이·가족력처럼 바꾸기 어려운 요인을 나누어 봅니다.",
+    "visualId": "glaucoma-risk",
+    "items": []
   },
   "glaucoma-lifestyle": {
-    "intro": "생활 관리가 지키려는 시신경과 눈 속 액체의 배출 경로를 살펴봅니다. 그림은 특정 생활 습관의 효과를 증명하는 자료가 아닙니다.",
-    "items": [
-      {
-        "assetId": "glaucoma-process"
-      }
-    ]
+    "heading": "도움이 되는 습관과 주의할 습관",
+    "intro": "생활 습관만으로 녹내장을 막을 수는 없지만, 안압과 시신경에 부담을 줄이는 데 도움이 될 수 있습니다.",
+    "visualId": "glaucoma-lifestyle",
+    "items": []
   },
   "glaucoma-progression": {
-    "intro": "시야와 시신경이 왜 중요한지 설명하는 개념도입니다. 실제 시야검사·OCT 결과나 한 환자의 전후 비교 영상은 아닙니다.",
+    "heading": "한 번이 아니라 추세로 판단합니다",
+    "intro": "시야검사 결과는 매번 조금씩 달라집니다. 여러 번의 결과를 이어 추세를 보고, 시야 결손이 실제로 넓어지는지 확인합니다.",
+    "visualId": "glaucoma-monitoring",
     "items": [
       {
-        "assetId": "glaucoma-process"
+        "assetId": "glaucoma-field-defects"
       }
     ]
   },
   "glaucoma-treatment": {
-    "intro": "안압을 낮추는 치료를 설명할 때 참고할 배출 경로와 점안 방법입니다.",
+    "heading": "치료가 작용하는 곳",
+    "intro": "안약·레이저·수술은 모두 안압을 낮추지만 작용하는 위치가 다릅니다. 안약은 아래 사진처럼 넣고, 넣은 뒤 눈 안쪽 코 옆을 1~2분 눌러주세요.",
+    "visualId": "glaucoma-treatment-routes",
     "items": [
       {
-        "assetId": "glaucoma-process"
-      },
-      {
         "assetId": "care-eye-drops"
+      }
+    ],
+    "sectionGroups": [
+      {
+        "sectionTitle": "수술: 필요한 만큼 안압을 낮추기 위한 선택",
+        "heading": "새 배출 통로를 만드는 수술",
+        "intro": "대표적인 녹내장 수술의 원리입니다. 수술 방법은 여러 가지가 있으며 눈 상태에 맞춰 선택합니다.",
+        "items": [
+          {
+            "assetId": "glaucoma-trabeculectomy-nei"
+          }
+        ]
       }
     ]
   },
   "glaucoma-prognosis": {
-    "intro": "그림의 좁아진 시야는 진행된 경우를 단순화한 예시입니다. 모든 환자가 같은 과정을 겪거나 같은 예후를 보이는 것은 아닙니다.",
+    "heading": "시야 결손이 넓어지는 과정",
+    "intro": "치료하지 않으면 시야 결손이 가장자리에서 시작해 넓어질 수 있습니다. 일찍 발견해 치료를 이어가면 초기 단계에서 오래 머무는 경우가 많습니다.",
     "items": [
+      {
+        "assetId": "glaucoma-field-defects"
+      },
       {
         "assetId": "glaucoma-process"
       }
     ]
   },
   "angle-closure": {
-    "intro": "폐쇄각 발작의 실제 눈 사진 예시입니다. 전방각의 구조와 치료 필요성은 별도의 검사로 확인합니다.",
+    "heading": "전방각이 좁아지면 생기는 일과 레이저 치료",
+    "intro": "홍채가 앞으로 밀려 배출구(전방각)를 막으면 안압이 급격히 오를 수 있습니다. 레이저 홍채절개술은 홍채에 작은 우회로를 내 이를 예방합니다. 아래 사진은 급성 발작이 온 눈의 예입니다.",
+    "visualId": "angle-panels",
     "items": [
       {
         "assetId": "glaucoma-angle-closure"
@@ -1495,10 +1710,17 @@ export const topicImages = {
     "items": []
   },
   "uveitis": {
-    "intro": "홍채·섬모체·맥락막이 눈의 어디에 위치하는지 확인합니다.",
+    "heading": "포도막의 위치와 염증의 모습",
+    "intro": "포도막은 홍채·섬모체·맥락막을 합친 이름입니다. 앞포도막염에서는 세극등 검사로 각막 뒷면에 붙은 염증 세포를 확인하며, 심하면 앞방 아래에 염증 세포가 고이기도 합니다.",
     "items": [
       {
         "assetId": "anatomy-uveitis"
+      },
+      {
+        "assetId": "uveitis-keratic-precipitates"
+      },
+      {
+        "assetId": "uveitis-hypopyon"
       }
     ]
   },

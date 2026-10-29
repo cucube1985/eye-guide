@@ -1,3 +1,4 @@
+import {extraVisuals} from './education-visuals-extra.js';
 // Original vector illustrations and explanatory interfaces. Artwork: CC BY 4.0.
 // Clinical sources and graph definitions are also recorded in content/research/.
 const source=(url,label)=>`<a href="${url}" target="_blank" rel="noopener noreferrer">${label}</a>`;
@@ -35,6 +36,7 @@ const visuals={
   'eyelid-triggers':()=>eyelidTriggers()+credit(source('https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/blepharospasm','NEI · 눈꺼풀 떨림')),
   'vitreous-model':()=>vitreous()+credit(source('https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/floaters','NEI · 비문증'))
   ,'intravitreal-route':()=>injectionDiagram()+credit(source('https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/diabetic-retinopathy/injections-treat-eye-conditions','NEI · 안구내 주사'))
+  ,...extraVisuals
 };
 export const hasEducationalVisual=id=>Object.hasOwn(visuals,id);
 export const educationalVisualHTML=id=>id&&hasEducationalVisual(id)?`<div class="education-figure" data-education-visual="${id}">${visuals[id]()}</div>`:'';
