@@ -1,5 +1,6 @@
 import topics,{categories,metadata} from './data/topics.js';
 import {navigationHTML,articleHTML} from './views.js';
+import {setupIllustrationViewer} from './image-gallery.js';
 
 const $ = selector => document.querySelector(selector);
 const escape = value => String(value ?? '').replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
@@ -132,4 +133,5 @@ let printClosed=[];
 window.addEventListener('beforeprint',()=>{printClosed=[...document.querySelectorAll('.faq details:not([open])')];printClosed.forEach(d=>d.open=true);});
 window.addEventListener('afterprint',()=>{printClosed.forEach(d=>d.open=false);printClosed=[];});
 window.addEventListener('hashchange',route);
+setupIllustrationViewer();
 route();

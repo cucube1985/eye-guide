@@ -1,0 +1,144 @@
+[
+  {
+    "id": "eyelid-demodex",
+    "src": "./images/eyelid-demodex.jpg",
+    "title": "현미경으로 본 모낭충",
+    "alt": "모낭충 Demodex folliculorum 한 마리를 현미경으로 확대한 사진",
+    "caption": "사람의 모낭에서 발견될 수 있는 모낭충(Demodex folliculorum)의 현미경 사진입니다. 맨눈으로 볼 수 있는 크기가 아니며, 모낭충이 있다는 사실만으로 눈꺼풀염을 진단하지는 않습니다.",
+    "author": "Maria Debabova",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Demodex_folliculorum.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Demodex_folliculorum.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Demodex_folliculorum.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "width": 1242,
+    "height": 910,
+    "kind": "clinical",
+    "checked": "2026-10-29",
+    "changes": "원본 페이지의 현행 파일을 그대로 사용; 추가 내용 변경 없음.",
+    "metadataEvidence": {
+      "fileTitle": "Demodex_folliculorum.jpg",
+      "artist": "Maria Debabova",
+      "credit": "Own work",
+      "description": "English: Demodex folliculorum is a microscopic mite that can only survive on the skin of people. Most people have D. folliculorum on their skin. Usually, the mites do not cause any harm, and are therefore considered an example of commensalism rather than parasitism. If D. folliculorum does cause disease, this is known as demodicosis. Русский: Угревая железница (под микроскопом). Мелкий клещ, встречающийся практически у всех людей. Обычно безвреден, но при сильном поражении вызывает демодекоз. English: Demodex folliculorum is a microscopic mite that can only survive on the skin of people. Most people have D. folliculorum on their skin. Usually, the mites do not cause any harm, and are therefore considered an example of commensalism rather than parasitism. If D. folliculorum does cause disease, this is known as demodicosis.",
+      "licenseText": [
+        "I, the copyright holder of this work, hereby publish it under the following license: This file is licensed under the Creative Commons Attribution-Share Alike 4.0 International license. You are free: to share – to copy, distribute and transmit the work to remix – to adapt the work Under the following conditions: attribution – You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. share alike – If you remix, transform, or build upon the material, you must distribute your contributions under the same or compatible license as the original. https://creativecommons.org/licenses/by-sa/4.0 CC BY-SA 4.0 Creative Commons Attribution-Share Alike 4.0 true true",
+        "This file is licensed under the Creative Commons Attribution-Share Alike 4.0 International license. You are free: to share – to copy, distribute and transmit the work to remix – to adapt the work Under the following conditions: attribution – You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. share alike – If you remix, transform, or build upon the material, you must distribute your contributions under the same or compatible license as the original. https://creativecommons.org/licenses/by-sa/4.0 CC BY-SA 4.0 Creative Commons Attribution-Share Alike 4.0 true true"
+      ],
+      "licenseLinks": [
+        "//creativecommons.org/licenses/by-sa/4.0/deed.en",
+        "//creativecommons.org/licenses/by-sa/4.0/deed.en"
+      ],
+      "sha256": "f8049984265cd163643f15aaecb0905a7a1257323e13ff636ab5fb8a6c189fc7",
+      "bytes": 161229,
+      "visuallyInspected": true
+    }
+  },
+  {
+    "id": "eyelid-ptosis",
+    "src": "./images/eyelid-ptosis.jpg",
+    "title": "한쪽 윗눈꺼풀이 내려온 모습",
+    "alt": "사진 왼쪽의 윗눈꺼풀이 반대쪽보다 내려와 동공 일부를 덮은 안검하수 사례",
+    "caption": "사진 왼쪽의 윗눈꺼풀이 반대쪽보다 내려와 있습니다. 눈꺼풀 높이를 비교하는 데 도움이 되는 한 사례이며, 안검하수의 원인은 진찰로 확인합니다.",
+    "author": "Andrewya; 원본 페이지 밝기·대비 편집: Jmarchn",
+    "license": "Public domain (PD-self)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Congenitalptosis.JPG",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Congenitalptosis.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Congenitalptosis.JPG?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Congenitalptosis.JPG?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "width": 1500,
+    "height": 1039,
+    "kind": "clinical",
+    "checked": "2026-10-29",
+    "changes": "원본 페이지의 현행 파일을 그대로 사용; 추가 내용 변경 없음.",
+    "metadataEvidence": {
+      "fileTitle": "Congenitalptosis.JPG",
+      "artist": "Andrewya",
+      "credit": "Own work",
+      "description": "Čeština: ptóza pravého víčka English: Congenital Ptosis",
+      "licenseText": [
+        "Public domain Public domain false false",
+        "I, the copyright holder of this work, release this work into the public domain. This applies worldwide."
+      ],
+      "licenseLinks": [],
+      "sha256": "14bf444ee4e4f0b5b9823fcf746e45f08170d81c8083306d7c1bf4d1b8a95248",
+      "bytes": 306084,
+      "visuallyInspected": true
+    }
+  },
+  {
+    "id": "eyelid-trichiasis",
+    "src": "./images/eyelid-trichiasis.jpg",
+    "title": "눈 쪽으로 향하는 속눈썹",
+    "alt": "눈 쪽으로 향한 속눈썹의 도식과 이를 교정한 수술 사진이 나란히 있는 그림",
+    "caption": "왼쪽(a)은 속눈썹이 눈 표면 쪽으로 향하는 모습을, 오른쪽(b)은 교정 수술의 한 예를 보여줍니다. 원 자료는 트라코마 후유증 사례로, 국내에서 흔한 덧눈꺼풀·안검내반과 원인이 같다는 뜻은 아닙니다.",
+    "author": "CNX OpenStax",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:OSC_Microbio_21_02_trichiasis.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6c/OSC_Microbio_21_02_trichiasis.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6c/OSC_Microbio_21_02_trichiasis.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "width": 1100,
+    "height": 581,
+    "kind": "clinical",
+    "checked": "2026-10-29",
+    "changes": "원본 페이지의 현행 파일을 그대로 사용; 추가 내용 변경 없음.",
+    "metadataEvidence": {
+      "fileTitle": "OSC_Microbio_21_02_trichiasis.jpg",
+      "artist": "CNX OpenStax",
+      "credit": "https://cnx.org/contents/5CvTdmJL@4.4",
+      "description": "Name:\nMicrobiology\nID:\ne42bd376-624b-4c0f-972f-e0c57998e765@4.4\nLanguage:\nEnglish\nSummary:\nSubjects:\nScience and Technology\nKeywords:\nPrint Style:\nLicense:\nCreative Commons Attribution License (by 4.0)\nAuthors:\nOpenStax Microbiology\nCopyright Holders:\nOpenStax Microbiology\nPublishers:\nOpenStax Microbiology\nLatest Version:\n4.4\nFirst Publication Date:\nOct 17, 2016\nLatest Revision:\nNov 11, 2016\nLast Edited By: OpenStax Microbiology",
+      "licenseText": [
+        "This file is licensed under the Creative Commons Attribution 4.0 International license. You are free: to share – to copy, distribute and transmit the work to remix – to adapt the work Under the following conditions: attribution – You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. https://creativecommons.org/licenses/by/4.0 CC BY 4.0 Creative Commons Attribution 4.0 true true"
+      ],
+      "licenseLinks": [
+        "//creativecommons.org/licenses/by/4.0/deed.en"
+      ],
+      "sha256": "a661a521814974cc4bf9112ea75e7c845eeb7a28783cfb241ead0675b11038cf",
+      "bytes": 264323,
+      "visuallyInspected": true
+    }
+  },
+  {
+    "id": "eyelid-orbicularis",
+    "src": "./images/eyelid-orbicularis.png",
+    "title": "눈꺼풀을 닫는 눈둘레근",
+    "alt": "머리 옆면의 근육 가운데 눈 주위를 고리 모양으로 감싼 눈둘레근을 붉게 강조한 해부 그림",
+    "caption": "눈 주위를 고리처럼 둘러싼 진한 붉은 근육이 눈둘레근입니다. 눈꺼풀을 닫고 깜박일 때 쓰이며, 눈꺼풀 떨림의 위치를 이해하기 위한 해부 그림입니다. 떨림의 원인을 보여주는 그림은 아닙니다.",
+    "author": "Berichard",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Orbiculaire_de_l%27oeil.png",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/29/Orbiculaire_de_l%27oeil.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/2/29/Orbiculaire_de_l%27oeil.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "width": 762,
+    "height": 842,
+    "kind": "diagram",
+    "checked": "2026-10-29",
+    "changes": "원본 페이지의 현행 파일을 그대로 사용; 추가 내용 변경 없음.",
+    "metadataEvidence": {
+      "fileTitle": "Orbiculaire_de_l%27oeil.png",
+      "artist": "Berichard",
+      "credit": "travail personnel d'après Gray's Anatomy public",
+      "description": "Muscle orbiculaire de l'oeil. Anatomie humaine",
+      "licenseText": [
+        "I, the copyright holder of this work, hereby publish it under the following licenses: Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License , Version 1.2 or any later version published by the Free Software Foundation ; with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts. A copy of the license is included in the section entitled GNU Free Documentation License . http://www.gnu.org/copyleft/fdl.html GFDL GNU Free Documentation License true true This file is licensed under the Creative Commons Attribution-Share Alike 3.0 Unported , 2.5 Generic , 2.0 Generic and 1.0 Generic license. You are free: to share – to copy, distribute and transmit the work to remix – to adapt the work Under the following conditions: attribution – You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. share alike – If you remix, transform, or build upon the material, you must distribute your contributions under the same or compatible license as the original. https://creativecommons.org/licenses/by-sa/3.0 CC BY-SA 3.0 Creative Commons Attribution-Share Alike 3.0 true true You may select the license of your choice.",
+        "Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License , Version 1.2 or any later version published by the Free Software Foundation ; with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts. A copy of the license is included in the section entitled GNU Free Documentation License . http://www.gnu.org/copyleft/fdl.html GFDL GNU Free Documentation License true true",
+        "This file is licensed under the Creative Commons Attribution-Share Alike 3.0 Unported , 2.5 Generic , 2.0 Generic and 1.0 Generic license. You are free: to share – to copy, distribute and transmit the work to remix – to adapt the work Under the following conditions: attribution – You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. share alike – If you remix, transform, or build upon the material, you must distribute your contributions under the same or compatible license as the original. https://creativecommons.org/licenses/by-sa/3.0 CC BY-SA 3.0 Creative Commons Attribution-Share Alike 3.0 true true"
+      ],
+      "licenseLinks": [
+        "//creativecommons.org/licenses/by-sa/3.0/deed.en",
+        "//creativecommons.org/licenses/by-sa/2.5/deed.en",
+        "//creativecommons.org/licenses/by-sa/2.0/deed.en",
+        "//creativecommons.org/licenses/by-sa/1.0/deed.en",
+        "//creativecommons.org/licenses/by-sa/3.0/deed.en",
+        "//creativecommons.org/licenses/by-sa/2.5/deed.en",
+        "//creativecommons.org/licenses/by-sa/2.0/deed.en",
+        "//creativecommons.org/licenses/by-sa/1.0/deed.en"
+      ],
+      "sha256": "5471e3be7766ec3aae19366a0fa4df93b85e648ab94408a36ce5f01fbfa1327e",
+      "bytes": 354373,
+      "visuallyInspected": true
+    }
+  }
+]

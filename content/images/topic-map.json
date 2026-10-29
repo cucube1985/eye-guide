@@ -1,0 +1,446 @@
+{
+  "conjunctivitis": {
+    "intro": "결막에 염증이 생겼을 때 흰자가 어떻게 달라질 수 있는지 살펴보세요.",
+    "items": [
+      {
+        "assetId": "anterior-conjunctivitis"
+      }
+    ]
+  },
+  "allergic-conjunctivitis": {
+    "intro": "알레르기 결막염에서 나타날 수 있는 결막의 부기를 사진으로 확인합니다.",
+    "items": [
+      {
+        "assetId": "anterior-allergic-conjunctivitis"
+      }
+    ]
+  },
+  "infectious-keratoconjunctivitis": {
+    "intro": "감염성 결막염의 충혈 예시입니다. 사진만으로 바이러스·세균이나 각막 침범 여부를 구분하지는 않습니다.",
+    "items": [
+      {
+        "assetId": "anterior-conjunctivitis"
+      }
+    ]
+  },
+  "stye": {
+    "intro": "아래 사진은 콩다래끼 사례입니다. 통증이 있는 급성 다래끼와 구별하는 데에는 진찰이 필요합니다.",
+    "items": [
+      {
+        "assetId": "anterior-chalazion"
+      }
+    ]
+  },
+  "stye-incision": {
+    "intro": "절개 대상이 될 수 있는 콩다래끼의 위치를 이해하는 참고 사진입니다. 절개 과정이나 절개 방법을 보여주는 사진은 아닙니다.",
+    "items": [
+      {
+        "assetId": "anterior-chalazion"
+      },
+      {
+        "assetId": "anterior-meibomian-glands"
+      }
+    ]
+  },
+  "subconjunctival-hemorrhage": {
+    "intro": "피가 눈 표면의 결막 아래에 고이면 나타날 수 있는 모습을 살펴보세요.",
+    "items": [
+      {
+        "assetId": "anterior-subconjunctival-hemorrhage"
+      }
+    ]
+  },
+  "tearing": {
+    "intro": "눈물이 만들어지는 곳과 코 쪽으로 빠지는 길을 따라가 보세요.",
+    "items": [
+      {
+        "assetId": "anterior-lacrimal-system"
+      }
+    ]
+  },
+  "dry-eye": {
+    "intro": "눈 표면을 덮는 눈물막과 기름층을 만드는 눈꺼풀 분비샘을 함께 봅니다.",
+    "items": [
+      {
+        "assetId": "anterior-tear-film"
+      },
+      {
+        "assetId": "anterior-meibomian-glands"
+      }
+    ]
+  },
+  "artificial-tears": {
+    "intro": "인공눈물이 보충하는 눈물막과 안약을 넣는 방법을 살펴보세요.",
+    "items": [
+      {
+        "assetId": "anterior-tear-film"
+      },
+      {
+        "assetId": "care-eye-drops"
+      }
+    ]
+  },
+  "mucin-secretagogues": {
+    "intro": "분비 촉진제를 설명할 때 참고하는 눈물막 구조입니다. 그림의 층은 이해를 돕기 위해 단순화되어 있습니다.",
+    "items": [
+      {
+        "assetId": "anterior-tear-film"
+      }
+    ]
+  },
+  "dry-eye-anti-inflammatory": {
+    "intro": "안약이 작용하는 눈 표면과 점안 방법을 이해하는 참고 자료입니다. 약의 종류별 효과나 사용 횟수를 비교한 그림은 아닙니다.",
+    "items": [
+      {
+        "assetId": "anterior-tear-film"
+      },
+      {
+        "assetId": "care-eye-drops"
+      }
+    ]
+  },
+  "serum-eye-drops": {
+    "intro": "자가혈청 안약이 보호하려는 눈 표면과 점안 방법을 봅니다. 채혈·제조·보관 과정의 사진은 아닙니다.",
+    "items": [
+      {
+        "assetId": "anterior-tear-film"
+      },
+      {
+        "assetId": "care-eye-drops"
+      }
+    ]
+  },
+  "ipl": {
+    "intro": "IPL 치료와 관련된 마이봄샘의 위치를 살펴보세요. 이 자료는 시술 장면이 아닌 기름샘의 구조를 보여줍니다.",
+    "items": [
+      {
+        "assetId": "anterior-meibomian-glands"
+      }
+    ]
+  },
+  "punctal-plugs": {
+    "intro": "눈물이 빠지는 입구와 눈물길을 살펴보세요. 마개로 배출을 줄이는 원리를 설명하는 구조 그림이며 마개 제품 사진은 아닙니다.",
+    "items": [
+      {
+        "assetId": "anterior-lacrimal-system"
+      }
+    ]
+  },
+  "blepharitis": {
+    "intro": "속눈썹 뿌리의 변화와 눈꺼풀 기름샘의 위치를 구분해 봅니다.",
+    "items": [
+      {
+        "assetId": "anterior-blepharitis"
+      },
+      {
+        "assetId": "anterior-meibomian-glands"
+      }
+    ]
+  },
+  "demodex": {
+    "intro": "현미경으로 관찰한 모낭충의 모습입니다. 눈꺼풀에 모낭충이 있는지는 진찰로 확인합니다.",
+    "items": [
+      {
+        "assetId": "eyelid-demodex"
+      }
+    ]
+  },
+  "pterygium": {
+    "intro": "흰자에서 검은자 쪽으로 자란 조직이 어떤 모양인지 확인합니다.",
+    "items": [
+      {
+        "assetId": "anterior-pterygium"
+      }
+    ]
+  },
+  "keratitis": {
+    "intro": "각막 표면 손상이 염색검사에서 어떻게 보이는지 살펴보세요. 감염의 원인균을 보여주는 사진은 아닙니다.",
+    "items": [
+      {
+        "assetId": "anterior-keratitis"
+      }
+    ]
+  },
+  "contact-lens-keratitis": {
+    "intro": "각막 손상의 검사 예시입니다. 세균·곰팡이·가시아메바는 이 사진으로 구분할 수 없어 검사와 경과를 함께 봅니다.",
+    "items": [
+      {
+        "assetId": "anterior-keratitis"
+      }
+    ]
+  },
+  "cataract": {
+    "intro": "정상 수정체와 혼탁한 수정체, 수술 후 넣는 인공수정체의 위치를 비교합니다.",
+    "items": [
+      {
+        "assetId": "lens-cataract"
+      },
+      {
+        "assetId": "lens-iol"
+      }
+    ]
+  },
+  "cataract-timing": {
+    "intro": "수정체 혼탁이 빛에 어떤 영향을 주는지 보여주는 그림입니다. 수술 시기는 그림의 모양보다 본인의 생활 불편과 검사 결과를 함께 보고 정합니다.",
+    "items": [
+      {
+        "assetId": "lens-cataract"
+      }
+    ]
+  },
+  "presbyopia": {
+    "intro": "수정체의 조절력이 줄면 가까운 물체에 초점을 맞추기 어려워지는 원리를 살펴봅니다.",
+    "items": [
+      {
+        "assetId": "lens-presbyopia"
+      }
+    ]
+  },
+  "presbyopia-eye-drops": {
+    "intro": "노안의 배경인 수정체 조절력 감소를 설명하는 그림입니다. 필로카르핀의 효과나 점안 전후를 비교한 그림은 아닙니다.",
+    "items": [
+      {
+        "assetId": "lens-presbyopia"
+      }
+    ]
+  },
+  "glaucoma-basics": {
+    "intro": "방수의 배출 경로와 시신경, 진행된 경우의 시야 변화를 단순화해 살펴봅니다.",
+    "items": [
+      {
+        "assetId": "glaucoma-process"
+      }
+    ]
+  },
+  "glaucoma-risk-factors": {
+    "intro": "안압과 시신경의 관계를 이해하는 참고 그림입니다. 정상안압 녹내장도 있어 수치 하나만으로 위험을 판단하지 않습니다.",
+    "items": [
+      {
+        "assetId": "glaucoma-process"
+      }
+    ]
+  },
+  "glaucoma-lifestyle": {
+    "intro": "생활 관리가 지키려는 시신경과 눈 속 액체의 배출 경로를 살펴봅니다. 그림은 특정 생활 습관의 효과를 증명하는 자료가 아닙니다.",
+    "items": [
+      {
+        "assetId": "glaucoma-process"
+      }
+    ]
+  },
+  "glaucoma-progression": {
+    "intro": "시야와 시신경이 왜 중요한지 설명하는 개념도입니다. 실제 시야검사·OCT 결과나 한 환자의 전후 비교 영상은 아닙니다.",
+    "items": [
+      {
+        "assetId": "glaucoma-process"
+      }
+    ]
+  },
+  "glaucoma-treatment": {
+    "intro": "안압을 낮추는 치료를 설명할 때 참고할 배출 경로와 점안 방법입니다.",
+    "items": [
+      {
+        "assetId": "glaucoma-process"
+      },
+      {
+        "assetId": "care-eye-drops"
+      }
+    ]
+  },
+  "glaucoma-prognosis": {
+    "intro": "그림의 좁아진 시야는 진행된 경우를 단순화한 예시입니다. 모든 환자가 같은 과정을 겪거나 같은 예후를 보이는 것은 아닙니다.",
+    "items": [
+      {
+        "assetId": "glaucoma-process"
+      }
+    ]
+  },
+  "angle-closure": {
+    "intro": "폐쇄각 발작의 실제 눈 사진 예시입니다. 전방각의 구조와 치료 필요성은 별도의 검사로 확인합니다.",
+    "items": [
+      {
+        "assetId": "glaucoma-angle-closure"
+      }
+    ]
+  },
+  "retinal-detachment": {
+    "intro": "눈 안쪽의 망막이 벽에서 들떠 떨어지는 모습을 단면도로 봅니다.",
+    "items": [
+      {
+        "assetId": "retina-detachment"
+      }
+    ]
+  },
+  "epiretinal-membrane": {
+    "intro": "OCT에서 망막의 표면과 황반 모양이 어떻게 보일 수 있는지 확인합니다.",
+    "items": [
+      {
+        "assetId": "retina-erm"
+      }
+    ]
+  },
+  "macular-degeneration": {
+    "intro": "망막 중심의 시세포와 그 아래 층의 관계, 건성 변화의 원리를 살펴봅니다.",
+    "items": [
+      {
+        "assetId": "retina-dry-amd"
+      }
+    ]
+  },
+  "drusen-dry-amd": {
+    "intro": "드루젠이 쌓이는 위치와 시세포·망막색소상피의 관계를 그림으로 봅니다.",
+    "items": [
+      {
+        "assetId": "retina-dry-amd"
+      }
+    ]
+  },
+  "central-serous": {
+    "intro": "OCT 단면에서 망막이 들뜨고 그 아래 액체가 고이는 모습을 확인합니다.",
+    "items": [
+      {
+        "assetId": "retina-csc"
+      }
+    ]
+  },
+  "floaters-pvd": {
+    "intro": "밝은 배경에 보이는 점·실 모양의 비문증을 재현한 그림입니다. 눈 안의 실제 사진이나 망막 상태를 보여주는 자료는 아닙니다.",
+    "items": [
+      {
+        "assetId": "retina-floaters"
+      }
+    ]
+  },
+  "diabetic-retinopathy": {
+    "intro": "혈관의 변화가 생기는 위치와 황반부종의 검사 예시를 함께 봅니다.",
+    "items": [
+      {
+        "assetId": "retina-diabetic"
+      },
+      {
+        "assetId": "retina-dme"
+      }
+    ]
+  },
+  "diabetic-treatment-timing": {
+    "intro": "치료 필요성을 판단할 때 보는 망막 혈관 변화와 황반부종의 예시입니다. 이 그림만으로 단계나 치료 시작을 결정하지는 않습니다.",
+    "items": [
+      {
+        "assetId": "retina-diabetic"
+      },
+      {
+        "assetId": "retina-dme"
+      }
+    ]
+  },
+  "intravitreal-injection": {
+    "intro": "주사 치료의 대상이 될 수 있는 당뇨황반부종의 OCT 예시입니다. 주사 시술 과정이나 주사 전후 비교 영상은 아닙니다.",
+    "items": [
+      {
+        "assetId": "retina-dme"
+      }
+    ]
+  },
+  "prp-laser": {
+    "intro": "레이저 치료의 광선 경로를 설명하는 단순화된 그림과 치료 대상이 되는 망막 혈관 변화를 봅니다.",
+    "items": [
+      {
+        "assetId": "retina-photocoagulation"
+      },
+      {
+        "assetId": "retina-diabetic"
+      }
+    ]
+  },
+  "diabetic-macular-edema": {
+    "intro": "망막 안쪽에 액체가 고이는 부종을 OCT에서 어떻게 보는지 살펴보세요.",
+    "items": [
+      {
+        "assetId": "retina-dme"
+      }
+    ]
+  },
+  "retinal-vein-occlusion": {
+    "intro": "분지망막정맥폐쇄에서 보이는 안저 변화의 한 예입니다. 중심정맥폐쇄와는 침범 범위가 다를 수 있습니다.",
+    "items": [
+      {
+        "assetId": "retina-vein-occlusion"
+      }
+    ]
+  },
+  "macular-hole": {
+    "intro": "황반 중심부의 구멍이 단면 영상에서 어떻게 보이는지 확인합니다.",
+    "items": [
+      {
+        "assetId": "retina-macular-hole"
+      }
+    ]
+  },
+  "child-myopia": {
+    "intro": "빛의 초점이 망막보다 앞에 맺히는 근시의 원리를 살펴보세요.",
+    "items": [
+      {
+        "assetId": "pediatric-myopia"
+      }
+    ]
+  },
+  "myopia-prevalence": {
+    "intro": "근시가 무엇인지 이해하는 구조 그림입니다. 나이별 도수 분포나 개인의 백분위를 나타낸 그래프는 아닙니다.",
+    "items": [
+      {
+        "assetId": "pediatric-myopia"
+      }
+    ]
+  },
+  "amblyopia": {
+    "intro": "약시와 관련될 수 있는 굴절이상과 사시를 이해하는 참고 그림입니다. 약시는 원인이 다양하고, 사시가 없어도 생길 수 있습니다.",
+    "items": [
+      {
+        "assetId": "pediatric-myopia"
+      },
+      {
+        "assetId": "pediatric-strabismus"
+      }
+    ]
+  },
+  "strabismus": {
+    "intro": "두 눈이 향하는 방향이 달라지는 사시의 여러 형태를 비교해 보세요.",
+    "items": [
+      {
+        "assetId": "pediatric-strabismus"
+      }
+    ]
+  },
+  "eyelid-twitch": {
+    "intro": "눈꺼풀을 닫는 눈둘레근의 위치를 살펴봅니다. 이 해부도만으로 눈꺼풀 떨림의 원인을 구분하지는 않습니다.",
+    "items": [
+      {
+        "assetId": "eyelid-orbicularis"
+      }
+    ]
+  },
+  "uveitis": {
+    "intro": "홍채·섬모체·맥락막이 눈의 어디에 위치하는지 확인합니다.",
+    "items": [
+      {
+        "assetId": "anatomy-uveitis"
+      }
+    ]
+  },
+  "ptosis": {
+    "intro": "한쪽 위눈꺼풀이 내려와 보이는 사례입니다. 원인이나 수술 방법은 사진만으로 정하지 않습니다.",
+    "items": [
+      {
+        "assetId": "eyelid-ptosis"
+      }
+    ]
+  },
+  "trichiasis": {
+    "intro": "속눈썹이 눈 표면을 향하는 구조를 살펴보세요. 함께 실린 수술 사진은 트라코마 후유증 사례로, 국내 소아 덧눈꺼풀과 원인이 같다는 뜻은 아닙니다.",
+    "items": [
+      {
+        "assetId": "eyelid-trichiasis"
+      }
+    ]
+  }
+}

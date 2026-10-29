@@ -4,7 +4,9 @@
 
 공개 사이트: https://eye-guide-clinic.cucube.chatgpt.site
 
-GitHub 게시 대상: `cucube1985/eye-guide` (별도의 GitHub 쓰기 권한과 저장소 생성 필요)
+GitHub 저장소: https://github.com/cucube1985/eye-guide
+
+GitHub Pages: https://cucube1985.github.io/eye-guide/
 
 ## 포함된 설명
 
@@ -75,3 +77,15 @@ GitHub Pages 게시 주소는 설정 완료 후 보통 `https://cucube1985.githu
 - `dist/vendor/`: 사이트에 포함한 markdown-it 15.0.3 및 MIT 라이선스
 
 Markdown의 원시 HTML은 실행하지 않습니다. 외부 링크는 별도 창으로 열고 `noopener noreferrer`를 적용합니다. 라이브러리는 외부 CDN 대신 사이트 안에서 제공합니다. Google Fonts를 불러오지 못하면 시스템 글꼴을 사용합니다. [외부 라이브러리 고지](THIRD_PARTY_NOTICES.md)를 포함합니다.
+
+## 환자교육 그림 (2026-10-29 추가)
+
+개별 이용허락을 확인한 이미지 33개를 51개 설명에 연결했습니다. 같은 질환군의 구조 그림을 세부 치료 설명에도 활용하며, 실제 시술·치료 전후 사진과는 구분해 설명합니다. 한국어 설명, 실제 사진/도식/증상 재현 구분, 확대·원본 크기 보기, 저작자·라이선스·원본 링크와 인쇄 시 출처 표시를 지원합니다.
+
+- [이미지 전체 출처와 이용 조건](IMAGE_CREDITS.md)
+- [그림 관리 및 검토 기록](content/images/README.md)
+- `content/images/topic-map.json`: 설명별 그림 연결
+- `content/images/*.json`: 이미지와 이용허락 확인 근거
+- `dist/images/`: 외부 요청 없이 표시하는 이미지 사본
+
+본문 의학 원고는 이번 그림 추가 작업에서 변경하지 않았습니다. 특정 기관·저작자의 사이트 추천·보증을 의미하지 않습니다.

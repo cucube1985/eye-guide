@@ -42,3 +42,4 @@ const html=await readFile('dist/index.html','utf8');
 assert.match(html,/<html lang="ko">/);
 for(const file of ['dist/styles.css','dist/favicon.svg','dist/.nojekyll','dist/vendor/markdown-it.mjs','dist/vendor/markdown-it.LICENSE.txt'])await access(file);
 console.log(`PASS: 51개 설명, 6개 분류, 기존 13개 주소, 원고 일치, 표 ${tables}개, 내부 링크 ${internalLinks}개, 안전한 Markdown 렌더링, JS 문법`);
+await import('./check-images.mjs');
