@@ -2251,7 +2251,14 @@ Central serous chorioretinopathy · CSC
 
 #### 언제 치료가 필요한가요?
 
-물이 오래 남거나 자주 재발하거나, 시기능에 미치는 영향이 크면 치료를 고려합니다. 레이저나 광역학치료(PDT) 등은 누출을 줄이는 방법으로, 위치와 경과에 따라 선택합니다. PDT는 국내에서 시행하는 병원이 한정되어 있어, 필요하면 시행 가능한 병원(서울아산병원, 삼성서울병원, 서울대학교병원, 김안과병원, 누네안과병원 등)에 문의하도록 안내합니다.
+물이 오래 남거나 자주 재발하거나, 시기능에 미치는 영향이 크면 치료를 고려합니다.
+
+- **안구내 주사(Anti-VEGF)**: 비정상적인 황반신생혈관이 동반된 경우에 고려합니다. 신생혈관이 없는 일반 CSC에서 일률적으로 사용하는 치료는 아닙니다.
+- **[광역학치료(PDT)](#csc-pdt-info)**: 맥락막의 과투과성을 줄이는 치료로, 지속·재발하는 만성 CSC에서 우선 고려합니다. **PDT를 누르면 국내 시행 문의 안내가 열립니다.**
+- **미네랄코르티코이드 수용체 길항제(Mineralocorticoid Receptor Antagonists)**: 에플레레논 등 경구약이 연구되었으나 효과가 확립되지 않아 일상적인 우선 치료로 권하지 않습니다. 사용 여부는 신장 기능·혈중 칼륨 등을 함께 보고 판단합니다.
+- **역치하 미세펄스 레이저(Subthreshold micropulse laser)**: 짧은 펄스의 레이저를 반복 조사하는 방법으로, 병변 위치·경과와 PDT 시행 가능 여부 등을 고려해 선택합니다. 만성 CSC의 비교시험에서는 PDT보다 망막하액 소실 효과가 낮았습니다.
+
+각 치료는 적용 대상과 근거 수준이 다르므로, 현재 눈 상태에 맞춰 선택합니다.
 
 재발과 만성 경과가 가능하고, 물이 없어져도 일부 시각 변화가 남을 수 있습니다. 관찰 기간과 치료 필요성은 눈 상태에 맞춰 정합니다.
 
@@ -2287,6 +2294,9 @@ Central serous chorioretinopathy · CSC
 #### 더 읽어보기 · 참고 자료
 
 - [ASRS · Central Serous Chorioretinopathy](https://www.asrs.org/patients/retinal-diseases/21/central-serous-chorioretinopathy)
+- [CSC 국제 치료 합의문 (2025)](https://pubmed.ncbi.nlm.nih.gov/41106484/)
+- [PLACE · PDT와 미세펄스 레이저 비교시험](https://pubmed.ncbi.nlm.nih.gov/29776672/)
+- [VICI · 에플레레논 무작위시험](https://pubmed.ncbi.nlm.nih.gov/31982075/)
 - [Moorfields · Central serous retinopathy](https://www.moorfields.nhs.uk/eye-conditions/central-serous-retinopathy)
 - [Moorfields · CSCR patient leaflet](https://www.moorfields.nhs.uk/mediaLocal/zksjs1ie/central-serous-chorio-retinopathy-cscr.pdf)
 
@@ -2939,6 +2949,10 @@ Prevalence of Myopia in Korean Children
 
 ---
 
+#### 우리 아이 근시 · 테스트
+
+[우리 아이 근시 · 테스트](https://cucube1985.github.io/myopia-check/)에서 근시 정도를 참고해 보세요. 결과는 진단이나 정확한 개인별 백분위를 대신하지 않으며, 안과에서 진행 속도와 안축장 등을 함께 확인하세요.
+
 ### 5.2 약시
 
 Amblyopia (Lazy eye)
@@ -2997,6 +3011,7 @@ Amblyopia (Lazy eye)
 #### 더 읽어보기 · 참고 자료
 
 - [NEI · Amblyopia (Lazy Eye)](https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/amblyopia-lazy-eye)
+- [PEDIG · 7–17세 약시 치료 연구 결과](https://public.jaeb.org/pedig/stdy/1)
 - [NHS · Lazy eye](https://www.nhs.uk/conditions/lazy-eye/)
 
 ---

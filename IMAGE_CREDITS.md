@@ -1,6 +1,6 @@
 # 환자교육 이미지 출처와 이용허락
 
-이미지별 이용 조건 확인일: 2026-10-29 · 39개 이미지, 51개 설명에 연결
+이미지별 이용 조건 확인일: 2026-10-29 · 45개 이미지, 51개 설명에 연결
 
 이미지마다 표시된 저작자·원본 링크·라이선스를 유지합니다. CC BY-SA 이미지의 이용 조건은 해당 이미지에 적용됩니다. 이미지를 수정·재배포할 때는 원본 페이지와 해당 라이선스의 조건을 확인하세요. 기관·저작자가 이 사이트나 진료를 추천·보증한다는 뜻은 아닙니다.
 
@@ -158,7 +158,7 @@ NIH/NEI 사이트의 모든 그림이 자유 이용 가능한 것은 아닙니�
 - 변경 여부: 원본 이미지 내용 변경 없음; Wikimedia Commons 제공 축소판 사용.
 - 확인일: 2026-10-29
 - SHA-256: `7b19821c7b2575122aec1e778975c8070a87750b342b8006da5ca8f5b9602d43`
-- 연결 설명: 4.1 망막박리
+- 연결 설명: 현재 화면 미사용 · 원본 자료 기록
 
 ## 망막전막의 OCT 단면
 
@@ -172,7 +172,7 @@ NIH/NEI 사이트의 모든 그림이 자유 이용 가능한 것은 아닙니�
 - 변경 여부: 원본 이미지 내용 변경 없음; 원본 파일 사용.
 - 확인일: 2026-10-29
 - SHA-256: `bef7ef5d726a82f22fd52d44dfc1b6c2f357201df909c092314bbd5bd402e499`
-- 연결 설명: 4.2 망막전막
+- 연결 설명: 현재 화면 미사용 · 원본 자료 기록
 
 ## CSC에서 망막 아래 고인 액체
 
@@ -200,7 +200,7 @@ NIH/NEI 사이트의 모든 그림이 자유 이용 가능한 것은 아닙니�
 - 변경 여부: 원본 이미지 내용 변경 없음; Wikimedia Commons 제공 축소판 사용.
 - 확인일: 2026-10-29
 - SHA-256: `4aa09ac293f3cbc52669b14e9e5532ce60a85e55b29a1af6674dc9377181c854`
-- 연결 설명: 4.3 황반변성, 4.3.1 드루젠과 건성 황반변성 — 생기는 과정과 진행을 늦추는 방법
+- 연결 설명: 4.3.1 드루젠과 건성 황반변성 — 생기는 과정과 진행을 늦추는 방법
 
 ## 당뇨망막병증의 변화
 
@@ -214,7 +214,7 @@ NIH/NEI 사이트의 모든 그림이 자유 이용 가능한 것은 아닙니�
 - 변경 여부: 원본 이미지 내용 변경 없음; Wikimedia Commons 제공 축소판 사용.
 - 확인일: 2026-10-29
 - SHA-256: `586f0d09fc7c0214abc3cea69e4b8527b9927beae3db2d9e4c5e2bbe7f26b964`
-- 연결 설명: 4.6 당뇨망막병증, 4.6.1 당뇨망막병증 — 치료 시작 기준, 4.6.3 당뇨망막병증 치료 — 범망막광응고술(PRP 레이저)
+- 연결 설명: 4.6 당뇨망막병증, 4.6.3 당뇨망막병증 치료 — 범망막광응고술(PRP 레이저)
 
 ## 당뇨황반부종의 OCT
 
@@ -228,7 +228,7 @@ NIH/NEI 사이트의 모든 그림이 자유 이용 가능한 것은 아닙니�
 - 변경 여부: 원본 이미지 내용 변경 없음; 원본 파일 사용.
 - 확인일: 2026-10-29
 - SHA-256: `ab28cdf7556fc394feacacfebb84189882c273af043fc66ea53968a7b0b30048`
-- 연결 설명: 4.6 당뇨망막병증, 4.6.1 당뇨망막병증 — 치료 시작 기준, 4.6.2 당뇨망막병증 치료 — 안구내 주사, 4.6.4 당뇨황반부종
+- 연결 설명: 4.6.4 당뇨황반부종
 
 ## 황반 중심에 생긴 구멍
 
@@ -368,7 +368,7 @@ NIH/NEI 사이트의 모든 그림이 자유 이용 가능한 것은 아닙니�
 - 변경 여부: 원본 이미지 내용 변경 없음. 제공처의 미리보기 또는 원본을 저장하고 화면 크기에 맞춰 표시.
 - 확인일: 2026-10-29
 - SHA-256: `89fbd4fbc04ea94308e2f933667f1a8377fa023532f509937c250fdf36919b00`
-- 연결 설명: 5.1 소아 근시, 5.1.1 소아 근시 유병률 — 우리 아이는 어디쯤일까요?, 5.2 약시
+- 연결 설명: 5.1 소아 근시
 
 ## 사시의 여러 방향
 
@@ -382,7 +382,7 @@ NIH/NEI 사이트의 모든 그림이 자유 이용 가능한 것은 아닙니�
 - 변경 여부: 원본 이미지 내용 변경 없음. 제공처의 미리보기 또는 원본을 저장하고 화면 크기에 맞춰 표시.
 - 확인일: 2026-10-29
 - SHA-256: `adff18f97a1bfd86ff1a585463098cfae1592c12b1c53e117a0dd8e91f12a596`
-- 연결 설명: 5.2 약시, 5.3 사시
+- 연결 설명: 5.3 사시
 
 ## 포도막을 이루는 홍채·섬모체·맥락막
 
@@ -452,7 +452,7 @@ NIH/NEI 사이트의 모든 그림이 자유 이용 가능한 것은 아닙니�
 - 변경 여부: 원본 페이지의 현행 파일을 그대로 사용; 추가 내용 변경 없음.
 - 확인일: 2026-10-29
 - SHA-256: `a661a521814974cc4bf9112ea75e7c845eeb7a28783cfb241ead0675b11038cf`
-- 연결 설명: 6.4 속눈썹 찔림 (안검내반·첩모난생)
+- 연결 설명: 현재 화면 미사용 · 원본 자료 기록
 
 ## 눈꺼풀을 닫는 눈둘레근
 
@@ -466,7 +466,7 @@ NIH/NEI 사이트의 모든 그림이 자유 이용 가능한 것은 아닙니�
 - 변경 여부: 원본 페이지의 현행 파일을 그대로 사용; 추가 내용 변경 없음.
 - 확인일: 2026-10-29
 - SHA-256: `5471e3be7766ec3aae19366a0fa4df93b85e648ab94408a36ce5f01fbfa1327e`
-- 연결 설명: 6.1 눈꺼풀 떨림
+- 연결 설명: 현재 화면 미사용 · 원본 자료 기록
 
 ## 낮은 핵 색조 — NC1
 
@@ -593,3 +593,143 @@ NIH/NEI 사이트의 모든 그림이 자유 이용 가능한 것은 아닙니�
 - 확인일: 2026-10-29
 - SHA-256: `9adb65af659128cb4cb0c9b2ce3fc96b9a870aea557bbbee75f0b3ab5fccb6ab`
 - 연결 설명: 현재 화면 미사용 · 원본 자료 기록
+
+## 초광각 안저 사진으로 보는 망막박리
+
+- 파일: `./images/retina-revision-detachment-uwf.png`
+- 원작 제목: Non-Mydriatic Ultra-Wide Field Imaging Versus Dilated Fundus Exam and Intraoperative Findings for Assessment of Rhegmatogenous Retinal Detachment — Figure 1
+- 저작자·표시: Beatriz Abadia; Maria Carmen Desco; Jorge Mataix; Elena Palacios; Amparo Navea; Pilar Calvo; Antonio Ferreras
+- 이용허락: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+- 원본·이용 조건: [원본 설명 페이지](https://doi.org/10.3390/brainsci10080521)
+- 원본 파일: https://mdpi-res.com/brainsci/brainsci-10-00521/article_deploy/html/images/brainsci-10-00521-g001.png
+- 저장에 사용한 주소: https://mdpi-res.com/brainsci/brainsci-10-00521/article_deploy/html/images/brainsci-10-00521-g001.png
+- 변경 여부: 논문의 고해상도 PNG를 내용 변경·크롭 없이 저장. 한국어 설명은 이미지와 분리하여 표시.
+- 확인일: 2026-10-29
+- SHA-256: `07b293a11506b7840551a052d3ab9e13d26c2d88c6295dbf528e44564f9ca30d`
+- 연결 설명: 4.1 망막박리
+
+## 망막전막과 낭성 변화가 동반된 망막전막의 고해상도 OCT
+
+- 파일: `./images/retina-revision-erm-comparison.png`
+- 원작 제목: Anatomical and Functional Factors Influencing Recovery in Idiopathic Epiretinal Membrane After Surgery — Figure 1
+- 저작자·표시: En-Jie Shih; Kai-Ling Peng; Ya-Hsin Kung; Tsung-Tien Wu
+- 이용허락: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+- 원본·이용 조건: [원본 설명 페이지](https://doi.org/10.3390/diagnostics16081204)
+- 원본 파일: https://mdpi-res.com/diagnostics/diagnostics-16-01204/article_deploy/html/images/diagnostics-16-01204-g001.png
+- 저장에 사용한 주소: https://mdpi-res.com/diagnostics/diagnostics-16-01204/article_deploy/html/images/diagnostics-16-01204-g001.png
+- 변경 여부: 논문의 고해상도 PNG를 내용 변경·크롭 없이 저장. 한국어 설명은 이미지와 분리하여 표시.
+- 확인일: 2026-10-29
+- SHA-256: `2ac240cde1f58e2eb0dd75d7d91efb6ff1af3b04504800943fc55d4c6ffef68c`
+- 연결 설명: 4.2 망막전막
+
+## 드루젠의 범위와 진행 단계별 안저 사진
+
+- 파일: `./images/retina-revision-amd-fundus-stages.png`
+- 원작 제목: Role of Optical Coherence Tomography Imaging in Predicting Progression of Age-Related Macular Disease: A Survey — Figure 4
+- 저작자·표시: Mohamed Elsharkawy; Mostafa Elrazzaz; Mohammed Ghazal; Marah Alhalabi; Ahmed Soliman; Ali Mahmoud; Eman El-Daydamony; Ahmed Atwan; Aristomenis Thanos; Harpal Singh Sandhu; Guruprasad Giridharan; Ayman El-Baz
+- 이용허락: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+- 원본·이용 조건: [원본 설명 페이지](https://doi.org/10.3390/diagnostics11122313)
+- 원본 파일: https://mdpi-res.com/diagnostics/diagnostics-11-02313/article_deploy/html/images/diagnostics-11-02313-g004.png
+- 저장에 사용한 주소: https://mdpi-res.com/diagnostics/diagnostics-11-02313/article_deploy/html/images/diagnostics-11-02313-g004.png
+- 변경 여부: 논문의 고해상도 PNG를 내용 변경·크롭 없이 저장. 한국어 설명은 이미지와 분리하여 표시.
+- 확인일: 2026-10-29
+- SHA-256: `feab7d52c0ea3f0cc0e931f7d3c31e0453d02eca95771d3771f4918cb11b6667`
+- 연결 설명: 4.3 황반변성
+
+## 증식성 당뇨망막병증의 안저 사진
+
+- 파일: `./images/clinical-revision-pdr.jpg`
+- 원작 제목: Fundus Proliferative retinopathy EDA01.JPG
+- 저작자·표시: National Eye Institute, National Institutes of Health (자료 번호 EDA01)
+- 이용허락: [Public domain](https://creativecommons.org/publicdomain/mark/1.0/)
+- 원본·이용 조건: [원본 설명 페이지](https://commons.wikimedia.org/wiki/File:Fundus_Proliferative_retinopathy_EDA01.JPG)
+- 원본 파일: https://upload.wikimedia.org/wikipedia/commons/9/9f/Fundus_Proliferative_retinopathy_EDA01.JPG
+- 저장에 사용한 주소: https://upload.wikimedia.org/wikipedia/commons/9/9f/Fundus_Proliferative_retinopathy_EDA01.JPG
+- 변경 여부: 원본 JPG 파일 내용 변경 없이 저장. 화면 크기에 맞춰 표시. 한국어 설명은 별도 캡션으로 추가.
+- 확인일: 2026-10-29
+- SHA-256: `992cc2513810812621c0315cd71c37e788f6e9233b26d319306993b1c1041d03`
+- 연결 설명: 4.6.1 당뇨망막병증 — 치료 시작 기준
+
+## 노년층의 양안 안검하수 사례
+
+- 파일: `./images/clinical-revision-ptosis-bilateral.jpg`
+- 원작 제목: Evaluation and management of acquired ptosis — Figure 27
+- 저작자·표시: Stephanie E. Farber; Mark A. Codner
+- 이용허락: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+- 원본·이용 조건: [원본 설명 페이지](https://www.oaepress.com/articles/2347-9264.2020.05)
+- 원본 파일: https://f.oaes.cc/xmlpdf/91178549-a547-4c8d-ad7a-e9e75cada58f/3430_down.pdf?v=35
+- 저장에 사용한 주소: https://f.oaes.cc/xmlpdf/91178549-a547-4c8d-ad7a-e9e75cada58f/3430_down.pdf?v=35
+- 변경 여부: 원 논문 PDF 19쪽 Figure 27의 내장 JPEG를 원래 픽셀 그대로 추출. 자르기·색·밝기 변경 없음. 한국어 설명은 별도 캡션으로 추가.
+- 확인일: 2026-10-29
+- SHA-256: `14dc948777faffa453a644bf91a76e013710853c822cceb3942b3a2421571062`
+- 연결 설명: 6.3 안검하수
+
+## 각막에 닿는 속눈썹 — 덧눈꺼풀의 전안부 사진
+
+- 파일: `./images/clinical-revision-cilia-contact.png`
+- 원작 제목: Hsu et al. 2024 — Figure 2: External eye photography of a patient in group A
+- 저작자·표시: Chia-Chen Hsu; Lung-Chi Lee; Hsu-Chieh Chang; Yi-Hao Chen; Meng-Wei Hsieh; Ke-Hung Chien
+- 이용허락: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+- 원본·이용 조건: [원본 설명 페이지](https://pmc.ncbi.nlm.nih.gov/articles/PMC11204930/)
+- 원본 파일: https://mdpi-res.com/d_attachment/jcm/jcm-13-03475/article_deploy/html/images/jcm-13-03475-g002.png
+- 저장에 사용한 주소: https://mdpi-res.com/d_attachment/jcm/jcm-13-03475/article_deploy/html/images/jcm-13-03475-g002.png
+- 변경 여부: 출판사가 제공하는 Figure 2 고해상도 PNG를 내용 변경 없이 저장. 4개 패널과 A–D 표기를 그대로 유지. 한국어 설명은 별도 캡션으로 추가.
+- 확인일: 2026-10-29
+- SHA-256: `f4496bd49f98f73dcae5a2a3eeba1a542dfe1b9a4e696fb0d1e79517a09eeea1`
+- 연결 설명: 6.4 속눈썹 찔림 (안검내반·첩모난생)
+
+## 감염 후 남은 각막 반흔과 혼탁
+
+- 파일: `./images/clinical-revision-corneal-scar.png`
+- 원작 제목: Mushroom Penetrating Keratoplasty: A Narrative Review — Figure 2
+- 저작자·표시: Pietro Bergamaschi; Linda Marie Louise Busin; Angeli Christy Yu; Massimo Busin
+- 이용허락: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+- 원본·이용 조건: [원본 설명 페이지](https://pmc.ncbi.nlm.nih.gov/articles/PMC11989387/)
+- 원본 파일: https://mdpi-res.com/d_attachment/jcm/jcm-14-02351/article_deploy/html/images/jcm-14-02351-g002.png
+- 저장에 사용한 주소: https://mdpi-res.com/d_attachment/jcm/jcm-14-02351/article_deploy/html/images/jcm-14-02351-g002.png
+- 변경 여부: 출판사의 고해상도 Figure 2 PNG를 내용 변경 없이 저장. 3개 패널과 A–C 표기를 그대로 유지. 한국어 설명은 별도 캡션으로 추가.
+- 확인일: 2026-10-29
+- SHA-256: `cb00855da03ccf79621e7acbdd90d858ae84451b60b84b0ca69c4a6fe82ee292`
+- 연결 설명: 6.4 속눈썹 찔림 (안검내반·첩모난생)
+
+## 나이에 따른 국내 소아 근시 유병률
+
+- 파일: `./images/pediatric-myopia-prevalence-chart.png`
+- 원작 제목: Factors associated with myopia in Korean children: Korea National Health and nutrition examination survey 2016–2017 (KNHANES VII), Figure 2
+- 저작자·표시: Hyuna Kim; Jin Seok Seo; Woong-Sun Yoo; Gyu-Nam Kim; Rock Bum Kim; Jae Eun Chae; Inyoung Chung; Seong-Wook Seo; Seong Jae Kim
+- 이용허락: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+- 원본·이용 조건: [원본 설명 페이지](https://link.springer.com/article/10.1186/s12886-020-1316-6/figures/2)
+- 원본 파일: https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs12886-020-1316-6/MediaObjects/12886_2020_1316_Fig2_HTML.png
+- 저장에 사용한 주소: https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs12886-020-1316-6/MediaObjects/12886_2020_1316_Fig2_HTML.png
+- 변경 여부: 원 논문의 Figure 2 PNG를 내용 변경 없이 저장. 한국어 제목·범례 설명과 자료의 한계를 이미지 밖 캡션으로 추가하고 화면 크기에 맞춰 표시.
+- 확인일: 2026-10-29
+- SHA-256: `bedbb08109e8f3bcea1c82b7b641785d911efaef9e8e31069d8a5223997baf85`
+- 연결 설명: 5.1.1 소아 근시 유병률 — 우리 아이는 어디쯤일까요?
+
+## 치료 시작 연령별 시력 개선 반응
+
+- 파일: `./images/education-amblyopia-response.png`
+- 원작 제목: 치료 시작 연령별 시력 개선 반응 — eye-guide original chart
+- 저작자·표시: eye-guide · 자체 제작 그래프
+- 이용허락: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+- 원본·이용 조건: [원본 설명 페이지](https://public.jaeb.org/pedig/stdy/1)
+- 원본 파일: https://raw.githubusercontent.com/cucube1985/eye-guide/main/dist/images/education-amblyopia-response.png
+- 저장에 사용한 주소: https://raw.githubusercontent.com/cucube1985/eye-guide/main/dist/images/education-amblyopia-response.png
+- 변경 여부: 논문이 보고한 수치를 이용해 Matplotlib으로 새로 작성한 그래프. 논문 그림을 복제하거나 편집하지 않았습니다.
+- 확인일: 2026-10-29
+- SHA-256: `df2eb9a85318d3e694df613f2ca6a8b6df2d4dc965c3b140560415346ef38fb0`
+- 연결 설명: 5.2 약시
+
+## 어린 연령에서의 평균 시력 개선량
+
+- 파일: `./images/education-amblyopia-younger.png`
+- 원작 제목: 어린 연령에서의 평균 시력 개선량 — eye-guide original chart
+- 저작자·표시: eye-guide · 자체 제작 그래프
+- 이용허락: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+- 원본·이용 조건: [원본 설명 페이지](https://pmc.ncbi.nlm.nih.gov/articles/PMC3217111/)
+- 원본 파일: https://raw.githubusercontent.com/cucube1985/eye-guide/main/dist/images/education-amblyopia-younger.png
+- 저장에 사용한 주소: https://raw.githubusercontent.com/cucube1985/eye-guide/main/dist/images/education-amblyopia-younger.png
+- 변경 여부: 논문이 보고한 수치를 이용해 Matplotlib으로 새로 작성한 그래프. 논문 그림을 복제하거나 편집하지 않았습니다.
+- 확인일: 2026-10-29
+- SHA-256: `248ff7f3d025a62d9ae8062cbfd6c7c955376fe2e8f74d298b7677fa1103751c`
+- 연결 설명: 5.2 약시

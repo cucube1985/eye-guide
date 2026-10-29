@@ -2,8 +2,9 @@ import {readFile,writeFile} from 'node:fs/promises';
 import {createHash} from 'node:crypto';
 import {resolve,sep} from 'node:path';
 import topics from '../dist/data/topics.js';
+import {hasEducationalVisual} from '../dist/educational-visuals.js';
 
-const manifestFiles=['anterior.json','retina.json','lens-glaucoma.json','supplemental.json','eyelids.json','cataract-revision.json','iol-history.json','accommodation.json'];
+const manifestFiles=['anterior.json','retina.json','lens-glaucoma.json','supplemental.json','eyelids.json','cataract-revision.json','iol-history.json','accommodation.json','retina-revision.json','clinical-revision.json','pediatric-revision.json','educational-charts.json'];
 const collected=[];
 for(const file of manifestFiles){
   try{const items=JSON.parse(await readFile(`content/images/${file}`,'utf8'));if(!Array.isArray(items))throw new Error('Expected an array');collected.push(...items);}
@@ -28,12 +29,16 @@ const topicImages=JSON.parse(await readFile('content/images/topic-map.json','utf
 const allItems=group=>[...group.items,...(group.sectionGroups || []).flatMap(g=>g.items)];
 for(const topic of topics){
   const group=topicImages[topic.id];
-  if(!group?.intro||!group.items?.length)throw new Error(`${topic.id}: missing relevant image`);
+  if(!group?.intro||(!group.items?.length&&!hasEducationalVisual(group.visualId)))throw new Error(`${topic.id}: missing relevant image`);
+  if(group.visualId&&!hasEducationalVisual(group.visualId))throw new Error(`${topic.id}: unknown visual`);
   for(const section of group.sectionGroups || []){
     if(!topic.sections.some(s=>s.title===section.sectionTitle))throw new Error(`${topic.id}: unknown section ${section.sectionTitle}`);
-    if(!section.heading||!section.intro||!section.items?.length)throw new Error(`${topic.id}: incomplete section illustrations`);
+    if(!section.heading||!section.intro||(!section.items?.length&&!hasEducationalVisual(section.visualId)))throw new Error(`${topic.id}: incomplete section illustrations`);
   }
-  for(const item of allItems(group))if(!assets[item.assetId])throw new Error(`${topic.id}: unknown image ${item.assetId}`);
+  for(const item of allItems(group)){
+    const asset=assets[item.assetId];if(!asset)throw new Error(`${topic.id}: unknown image ${item.assetId}`);
+    if(item.region){const r=item.region;if(![r.x,r.y,r.width,r.height].every(Number.isFinite)||r.x<0||r.y<0||r.width<=0||r.height<=0||r.x+r.width>asset.width||r.y+r.height>asset.height)throw new Error(`${topic.id}: invalid panel bounds`);}
+  }
 }
 for(const id of Object.keys(topicImages))if(!topics.some(t=>t.id===id))throw new Error(`Unknown topic ${id}`);
 const used=new Set(Object.values(topicImages).flatMap(g=>allItems(g).map(i=>i.assetId)));

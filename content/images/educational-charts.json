@@ -1,0 +1,84 @@
+[
+  {
+    "author": "eye-guide · 자체 제작 그래프",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "width": 2640,
+    "height": 1408,
+    "kind": "diagram",
+    "checked": "2026-10-29",
+    "changes": "논문이 보고한 수치를 이용해 Matplotlib으로 새로 작성한 그래프. 논문 그림을 복제하거나 편집하지 않았습니다.",
+    "id": "education-amblyopia-response",
+    "src": "./images/education-amblyopia-response.png",
+    "title": "치료 시작 연령별 시력 개선 반응",
+    "originalTitle": "치료 시작 연령별 시력 개선 반응 — eye-guide original chart",
+    "alt": "치료 시작 연령별 시력 개선 반응 — 7–12세는 안경+적극치료 53%, 안경교정만 25%, 13–17세는 25%와 23%였습니다. 24주 이내 시력 2줄 이상 개선을 반응으로 정의한 연구 결과이며 완치율은 아닙니다. 적극치료는 가림+근거리 활동이고 7–12세는 아트로핀도 포함했습니다. 치료 구성과 과거 치료 경험이 달라 나이만의 효과로 비교하지 않습니다. 13–17세 미치료 하위군은 47%와 20%로, 나이만으로 치료를 포기하지 않습니다.",
+    "caption": "7–12세는 안경+적극치료 53%, 안경교정만 25%, 13–17세는 25%와 23%였습니다. 24주 이내 시력 2줄 이상 개선을 반응으로 정의한 연구 결과이며 완치율은 아닙니다. 적극치료는 가림+근거리 활동이고 7–12세는 아트로핀도 포함했습니다. 치료 구성과 과거 치료 경험이 달라 나이만의 효과로 비교하지 않습니다. 13–17세 미치료 하위군은 47%와 20%로, 나이만으로 치료를 포기하지 않습니다.",
+    "sourceUrl": "https://public.jaeb.org/pedig/stdy/1",
+    "originalUrl": "https://raw.githubusercontent.com/cucube1985/eye-guide/main/dist/images/education-amblyopia-response.png",
+    "downloadUrl": "https://raw.githubusercontent.com/cucube1985/eye-guide/main/dist/images/education-amblyopia-response.png",
+    "metadataEvidence": {
+      "creation": "Original Matplotlib chart from reported numerical data; no published artwork copied.",
+      "data": {
+        "ageGroups": [
+          "7–12",
+          "13–17"
+        ],
+        "active": [
+          53,
+          25
+        ],
+        "optical": [
+          25,
+          23
+        ],
+        "endpoint": "2 lines or more by 24 weeks",
+        "PMID": "15824215"
+      },
+      "code": "scripts/create-education-charts.py"
+    }
+  },
+  {
+    "author": "eye-guide · 자체 제작 그래프",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "width": 2640,
+    "height": 1408,
+    "kind": "diagram",
+    "checked": "2026-10-29",
+    "changes": "논문이 보고한 수치를 이용해 Matplotlib으로 새로 작성한 그래프. 논문 그림을 복제하거나 편집하지 않았습니다.",
+    "id": "education-amblyopia-younger",
+    "src": "./images/education-amblyopia-younger.png",
+    "title": "어린 연령에서의 평균 시력 개선량",
+    "originalTitle": "어린 연령에서의 평균 시력 개선량 — eye-guide original chart",
+    "alt": "어린 연령에서의 평균 시력 개선량 — 3세~5세 미만, 5세~7세 미만, 7세~13세 미만의 평균 시력 개선량을 약시 정도별로 비교했습니다. 이는 성공률(%)이 아닌 17–24주 보정 평균 개선량(줄)입니다. 안경 적응 후 추가 치료 반응을 분석한 4개 시험의 통합 자료이며, 시작 시력·치료·검사법 등의 차이를 고려해야 합니다. 같은 줄 수 개선도 정상 시력 도달이나 완치를 뜻하지 않습니다.",
+    "caption": "3세~5세 미만, 5세~7세 미만, 7세~13세 미만의 평균 시력 개선량을 약시 정도별로 비교했습니다. 이는 성공률(%)이 아닌 17–24주 보정 평균 개선량(줄)입니다. 안경 적응 후 추가 치료 반응을 분석한 4개 시험의 통합 자료이며, 시작 시력·치료·검사법 등의 차이를 고려해야 합니다. 같은 줄 수 개선도 정상 시력 도달이나 완치를 뜻하지 않습니다.",
+    "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3217111/",
+    "originalUrl": "https://raw.githubusercontent.com/cucube1985/eye-guide/main/dist/images/education-amblyopia-younger.png",
+    "downloadUrl": "https://raw.githubusercontent.com/cucube1985/eye-guide/main/dist/images/education-amblyopia-younger.png",
+    "metadataEvidence": {
+      "creation": "Original Matplotlib chart from reported numerical data; no published artwork copied.",
+      "data": {
+        "ageGroups": [
+          "3–<5",
+          "5–<7",
+          "7–<13"
+        ],
+        "moderate": [
+          2.29,
+          2.41,
+          1.65
+        ],
+        "severe": [
+          4.16,
+          3.6,
+          1.99
+        ],
+        "PMID": "21746970",
+        "table": "3",
+        "endpoint": "adjusted mean logMAR lines improvement, 17–24 weeks"
+      },
+      "code": "scripts/create-education-charts.py"
+    }
+  }
+]

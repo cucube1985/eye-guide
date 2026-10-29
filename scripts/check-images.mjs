@@ -31,20 +31,20 @@ for(const asset of Object.values(assets)){
   for(const key of ['author','originalTitle','license','licenseUrl','sourceUrl','checked','changes','alt','caption'])assert.ok(asset[key],`${asset.id}: missing attribution or explanation ${key}`);
 }
 for(const t of topics){
-  assert.ok(topicImages[t.id]?.items.length,`${t.id}: no image`);
+  assert.ok(topicImages[t.id]?.items.length||topicImages[t.id]?.visualId,`${t.id}: no visual`);
   const html=imageGalleryHTML(t.id);
   assert.equal((html.match(/<figure\b/g)||[]).length,topicImages[t.id].items.length);
   assert.equal((html.match(/<img\b/g)||[]).length,topicImages[t.id].items.length);
   assert.ok(!/<img[^>]+src="https?:/i.test(html),'Serve licensed copies locally');
-  assert.match(html,/class="image-credit"/);
-  assert.match(html,/data-image-id=/);
+  if(topicImages[t.id].items.length){assert.match(html,/class="image-credit"/);assert.match(html,/data-image-id=/);}
+  if(topicImages[t.id].visualId)assert.match(html,/class="education-credit"/);
   placements+=topicImages[t.id].items.length;
   for(const group of topicImages[t.id].sectionGroups || []){
     assert.ok(t.sections.some(s=>s.title===group.sectionTitle),`${t.id}: figure section missing`);
     const sectionHTML=imageGalleryHTML(t.id,group.sectionTitle);
     const expected=topicImages[t.id].sectionGroups.filter(g=>g.sectionTitle===group.sectionTitle).reduce((n,g)=>n+g.items.length,0);
     assert.equal((sectionHTML.match(/<figure\b/g)||[]).length,expected,`${t.id}: section figures not rendered`);
-    assert.match(sectionHTML,/class="image-credit"/);
+    assert.match(sectionHTML,group.items.length?/class="image-credit"/:/class="education-credit"/);
     placements+=group.items.length;
   }
 }

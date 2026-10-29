@@ -1,6 +1,8 @@
 import topics,{categories,metadata} from './data/topics.js';
 import {navigationHTML,articleHTML} from './views.js';
 import {setupIllustrationViewer} from './image-gallery.js';
+import {setupPdtInfo} from './educational-visuals.js';
+import {setupVitreousModels} from './vitreous-model.js';
 
 const $ = selector => document.querySelector(selector);
 const escape = value => String(value ?? '').replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
@@ -9,6 +11,7 @@ const groupIcon = id => icon(({anterior:'eye',cataract:'lens',glaucoma:'nerve',r
 let filter = 'all';
 let query = '';
 let toastTimer;
+let stopVisuals=()=>{};
 
 function eyeDiagram(id='overview', hero=false) {
   const anteriorEye = ['conjunctivitis','stye','subconjunctival-hemorrhage','tearing'].includes(id);
@@ -73,6 +76,7 @@ function renderArticle(t) {
   document.title=`${t.title} · 눈에 담다`;
   $('#breadcrumb').innerHTML=`<a href="#/">눈 건강 라이브러리</a> <span>/</span> ${category.label}`;
   $('#main').innerHTML=articleHTML(t,{icon,groupIcon,eyeDiagram});
+  stopVisuals=setupVitreousModels();
   document.querySelectorAll('[data-scroll]').forEach(a=>a.addEventListener('click',e=>{e.preventDefault();document.getElementById(a.dataset.scroll)?.scrollIntoView({behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'});}));
   $('#share-guide').addEventListener('click',share);
   $('#print-guide').addEventListener('click',()=>window.print());
@@ -88,6 +92,7 @@ function adjustFont(change) {
 }
 
 function route() {
+  stopVisuals();stopVisuals=()=>{};
   const id=location.hash.replace(/^#\/?/,'').split('?')[0];
   renderNavigation(id);
   if(!id) renderHome();
@@ -134,4 +139,5 @@ window.addEventListener('beforeprint',()=>{printClosed=[...document.querySelecto
 window.addEventListener('afterprint',()=>{printClosed.forEach(d=>d.open=false);printClosed=[];});
 window.addEventListener('hashchange',route);
 setupIllustrationViewer();
+setupPdtInfo();
 route();

@@ -321,26 +321,82 @@
     ]
   },
   "retinal-detachment": {
-    "intro": "눈 안쪽의 망막이 벽에서 들떠 떨어지는 모습을 단면도로 봅니다.",
+    "heading": "초광각 안저 사진으로 보는 망막박리",
+    "intro": "주변부까지 넓게 촬영한 실제 안저 사진으로, 들뜨고 주름진 망막을 살펴봅니다.",
     "items": [
       {
-        "assetId": "retina-detachment"
+        "assetId": "retina-revision-detachment-uwf"
       }
     ]
   },
   "epiretinal-membrane": {
-    "intro": "OCT에서 망막의 표면과 황반 모양이 어떻게 보일 수 있는지 확인합니다.",
+    "heading": "망막전막과 황반의 낭성 변화 비교",
+    "layout": "compare",
+    "intro": "고해상도 OCT 원본에서 두 사례를 비교합니다. ①은 낭성 변화가 두드러지지 않는 망막전막, ②는 망막 안 낭성 공간과 층간 벌어짐이 동반된 전막입니다. 서로 다른 환자의 예이며 치료 전후 비교가 아닙니다.",
     "items": [
       {
-        "assetId": "retina-erm"
+        "assetId": "retina-revision-erm-comparison",
+        "title": "망막전막 · 뚜렷한 낭성 변화 없음",
+        "label": "① 망막전막",
+        "region": {
+          "x": 18,
+          "y": 21,
+          "width": 2319,
+          "height": 1009
+        },
+        "regionLabel": "a",
+        "caption": "원본 a: 표면의 막이 망막을 당겨 중심오목이 사라진 상태입니다. 낭성부종이 두드러지지 않지만, 이미 망막층 변형이 있는 사례이므로 초기·경증을 의미하지 않습니다.",
+        "alt": "망막전막 · 뚜렷한 낭성 변화 없음 — 원본의 a 부분을 확대해 표시한 사진입니다. 전체 원본은 크게 보기에서 확인할 수 있습니다."
+      },
+      {
+        "assetId": "retina-revision-erm-comparison",
+        "title": "진행된 전막 · 황반 내 낭성 변화",
+        "label": "② 낭성 변화·황반 두꺼워짐 동반",
+        "region": {
+          "x": 18,
+          "y": 1032,
+          "width": 2319,
+          "height": 1002
+        },
+        "regionLabel": "b",
+        "caption": "원본 b: 별표는 망막 안의 낭성 공간, 화살표는 망막층 사이의 벌어짐을 가리킵니다. 견인에 의한 낭성 변화는 누출성 부종과 구분해 평가합니다. 망막하액이나 삼출물을 보여주는 자료는 아닙니다.",
+        "alt": "진행된 전막 · 황반 내 낭성 변화 — 원본의 b 부분을 확대해 표시한 사진입니다. 전체 원본은 크게 보기에서 확인할 수 있습니다."
       }
     ]
   },
   "macular-degeneration": {
-    "intro": "망막 중심의 시세포와 그 아래 층의 관계, 건성 변화의 원리를 살펴봅니다.",
+    "heading": "드루젠이 쌓이는 위치와 실제 안저 소견",
+    "intro": "시세포 아래의 망막색소상피와 브루크막 사이에 드루젠이 쌓이는 원리입니다. 모식도 아래의 안저 사진에서 크기와 분포의 차이를 비교해 보세요.",
+    "visualId": "drusen-layers",
+    "layout": "compare",
     "items": [
       {
-        "assetId": "retina-dry-amd"
+        "assetId": "retina-revision-amd-fundus-stages",
+        "title": "초기 건성 AMD의 드루젠",
+        "label": "① 작은 드루젠이 보이는 예",
+        "region": {
+          "x": 1081,
+          "y": 78,
+          "width": 967,
+          "height": 829
+        },
+        "regionLabel": "B",
+        "caption": "원본 B: 황반 주변에 노란 드루젠이 흩어져 보이는 초기 건성 황반변성의 예입니다.",
+        "alt": "초기 건성 AMD의 드루젠 — 원본의 B 부분을 확대해 표시한 사진입니다. 전체 원본은 크게 보기에서 확인할 수 있습니다."
+      },
+      {
+        "assetId": "retina-revision-amd-fundus-stages",
+        "title": "크고 넓게 분포한 드루젠",
+        "label": "② 드루젠의 크기·범위 증가",
+        "region": {
+          "x": 2104,
+          "y": 78,
+          "width": 960,
+          "height": 829
+        },
+        "regionLabel": "C",
+        "caption": "원본 C: 크고 뭉친 드루젠이 넓게 분포한 예입니다. 드루젠의 크기·범위와 색소 변화 등을 함께 평가하며, 개수만으로 중증도나 진행 위험을 정하지 않습니다.",
+        "alt": "크고 넓게 분포한 드루젠 — 원본의 C 부분을 확대해 표시한 사진입니다. 전체 원본은 크게 보기에서 확인할 수 있습니다."
       }
     ]
   },
@@ -369,34 +425,36 @@
     ]
   },
   "diabetic-retinopathy": {
-    "intro": "혈관의 변화가 생기는 위치와 황반부종의 검사 예시를 함께 봅니다.",
+    "intro": "망막 혈관의 변화와 혈관이 손상되는 원리를 살펴봅니다.",
     "items": [
       {
         "assetId": "retina-diabetic"
-      },
+      }
+    ],
+    "sectionGroups": [
       {
-        "assetId": "retina-dme"
+        "sectionTitle": "왜 생기나요?",
+        "heading": "높은 혈당이 작은 혈관을 손상시키는 과정",
+        "intro": "만성 고혈당은 혈관을 지지하는 세포와 혈관 벽을 손상시켜 누출·막힘을 일으킬 수 있습니다. 망막이 산소를 충분히 받지 못하면 약한 새 혈관이 생길 수 있습니다.",
+        "visualId": "glucose-vessels",
+        "items": []
       }
     ]
   },
   "diabetic-treatment-timing": {
-    "intro": "치료 필요성을 판단할 때 보는 망막 혈관 변화와 황반부종의 예시입니다. 이 그림만으로 단계나 치료 시작을 결정하지는 않습니다.",
+    "heading": "증식성 당뇨망막병증의 안저 사진",
+    "intro": "약하고 불규칙한 신생혈관이 자란 증식성 단계의 실제 안저 소견입니다.",
     "items": [
       {
-        "assetId": "retina-diabetic"
-      },
-      {
-        "assetId": "retina-dme"
+        "assetId": "clinical-revision-pdr"
       }
     ]
   },
   "intravitreal-injection": {
-    "intro": "주사 치료의 대상이 될 수 있는 당뇨황반부종의 OCT 예시입니다. 주사 시술 과정이나 주사 전후 비교 영상은 아닙니다.",
-    "items": [
-      {
-        "assetId": "retina-dme"
-      }
-    ]
+    "heading": "안구내 주사로 약이 전달되는 위치",
+    "intro": "흰자를 통해 유리체 공간에 약을 넣는 원리를 보여주는 자체 제작 모식도입니다.",
+    "visualId": "intravitreal-route",
+    "items": []
   },
   "prp-laser": {
     "intro": "레이저 치료의 광선 경로를 설명하는 단순화된 그림과 치료 대상이 되는 망막 혈관 변화를 봅니다.",
@@ -434,29 +492,43 @@
     ]
   },
   "child-myopia": {
-    "intro": "빛의 초점이 망막보다 앞에 맺히는 근시의 원리를 살펴보세요.",
+    "intro": "먼저 정시·근시·원시에서 눈 길이의 대표적 차이를 보고, 아래의 기존 그림에서 근시의 초점 위치를 확인합니다.",
     "items": [
       {
         "assetId": "pediatric-myopia"
       }
-    ]
+    ],
+    "heading": "눈의 길이와 빛이 맺히는 위치",
+    "visualId": "axial-length"
   },
   "myopia-prevalence": {
-    "intro": "근시가 무엇인지 이해하는 구조 그림입니다. 나이별 도수 분포나 개인의 백분위를 나타낸 그래프는 아닙니다.",
+    "heading": "나이에 따른 국내 소아 근시 유병률",
+    "tocLabel": "근시 유병률 그래프",
+    "intro": "국민건강영양조사 2016–2017년 자료를 분석한 논문의 연령별 원본 그래프입니다. 짙은 영역과 체크무늬 영역을 합치면 전체 근시 비율입니다. 아래의 근사 백분위표와는 별도의 집단 자료입니다.",
     "items": [
       {
-        "assetId": "pediatric-myopia"
+        "assetId": "pediatric-myopia-prevalence-chart"
       }
     ]
   },
   "amblyopia": {
-    "intro": "약시와 관련될 수 있는 굴절이상과 사시를 이해하는 참고 그림입니다. 약시는 원인이 다양하고, 사시가 없어도 생길 수 있습니다.",
-    "items": [
+    "heading": "약시가 있는 눈의 선명도 차이",
+    "intro": "같은 장면을 두 눈에서 다르게 받아들일 수 있음을 보여주는 시야 재현입니다.",
+    "visualId": "amblyopia-view",
+    "items": [],
+    "sectionGroups": [
       {
-        "assetId": "pediatric-myopia"
-      },
-      {
-        "assetId": "pediatric-strabismus"
+        "sectionTitle": "어떻게 치료하나요?",
+        "heading": "치료 시작 나이에 따른 약시 치료 반응",
+        "intro": "어린 나이의 평균 개선량과 7세 이상 연구의 두 줄 이상 개선 비율을 각각 보여줍니다. 서로 다른 연구와 지표이므로 하나의 연령별 성공률 곡선으로 이어 읽지 않습니다. 아이마다 원인·초기 시력·치료 이력과 순응도에 따라 효과가 달라집니다.",
+        "items": [
+          {
+            "assetId": "education-amblyopia-younger"
+          },
+          {
+            "assetId": "education-amblyopia-response"
+          }
+        ]
       }
     ]
   },
@@ -469,12 +541,10 @@
     ]
   },
   "eyelid-twitch": {
-    "intro": "눈꺼풀을 닫는 눈둘레근의 위치를 살펴봅니다. 이 해부도만으로 눈꺼풀 떨림의 원인을 구분하지는 않습니다.",
-    "items": [
-      {
-        "assetId": "eyelid-orbicularis"
-      }
-    ]
+    "heading": "눈꺼풀 떨림을 유발·악화시키는 요인",
+    "intro": "흔한 눈꺼풀 떨림은 수면·스트레스·카페인·눈 표면 자극과 관련될 수 있습니다.",
+    "visualId": "eyelid-triggers",
+    "items": []
   },
   "uveitis": {
     "intro": "홍채·섬모체·맥락막이 눈의 어디에 위치하는지 확인합니다.",
@@ -485,18 +555,61 @@
     ]
   },
   "ptosis": {
-    "intro": "한쪽 위눈꺼풀이 내려와 보이는 사례입니다. 원인이나 수술 방법은 사진만으로 정하지 않습니다.",
+    "heading": "한쪽 처짐과 노년층 양안 안검하수 비교",
+    "layout": "compare",
+    "intro": "기존 한쪽 안검하수 사진과 양쪽 눈꺼풀이 내려온 노년층 사례를 나란히 봅니다. 양쪽 높이는 완전히 대칭적이지 않으며, 사진만으로 원인이나 치료를 결정하지 않습니다.",
     "items": [
       {
         "assetId": "eyelid-ptosis"
+      },
+      {
+        "assetId": "clinical-revision-ptosis-bilateral",
+        "title": "노년층의 양안 안검하수 · 수술 전",
+        "label": "양쪽 윗눈꺼풀이 내려온 사례",
+        "region": {
+          "x": 0,
+          "y": 0,
+          "width": 324,
+          "height": 357
+        },
+        "regionLabel": "왼쪽 수술 전",
+        "caption": "노년층에서 양쪽 윗눈꺼풀이 내려온 수술 전 사진입니다. 양안 높이에 차이가 있어 완전히 대칭적이지는 않습니다. 처진 피부·눈썹과 실제 안검하수는 진찰로 구분합니다.",
+        "alt": "노년층의 양안 안검하수 · 수술 전 — 원본의 왼쪽 수술 전 부분을 확대해 표시한 사진입니다. 전체 원본은 크게 보기에서 확인할 수 있습니다."
       }
     ]
   },
   "trichiasis": {
-    "intro": "속눈썹이 눈 표면을 향하는 구조를 살펴보세요. 함께 실린 수술 사진은 트라코마 후유증 사례로, 국내 소아 덧눈꺼풀과 원인이 같다는 뜻은 아닙니다.",
+    "heading": "속눈썹 접촉과 각막 반흔의 실제 사진",
+    "layout": "compare",
+    "intro": "① 속눈썹이 각막에 닿는 모습과 ② 오래된 손상 후 각막에 흉터가 남은 모습을 봅니다. 서로 다른 환자의 사례이며 시간 경과나 치료 전후 비교가 아닙니다.",
     "items": [
       {
-        "assetId": "eyelid-trichiasis"
+        "assetId": "clinical-revision-cilia-contact",
+        "title": "속눈썹이 각막에 닿는 전안부 사진",
+        "label": "① 속눈썹과 각막의 접촉",
+        "region": {
+          "x": 0,
+          "y": 0,
+          "width": 1087,
+          "height": 746
+        },
+        "regionLabel": "A",
+        "caption": "덧눈꺼풀로 아래 속눈썹이 각막 쪽으로 눕고 닿은 수술 전 모습입니다. 반복 접촉하면 눈물·이물감·각막 상피 손상이 생길 수 있습니다.",
+        "alt": "속눈썹이 각막에 닿는 전안부 사진 — 원본의 A 부분을 확대해 표시한 사진입니다. 전체 원본은 크게 보기에서 확인할 수 있습니다."
+      },
+      {
+        "assetId": "clinical-revision-corneal-scar",
+        "label": "② 오래된 손상 뒤 각막 혼탁",
+        "caption": "각막염이 지나간 뒤 혼탁과 혈관이 남은 반흔의 실제 사례입니다. 이 환자의 원인은 헤르페스각막염으로, 속눈썹에 찔려 생긴 흉터는 아닙니다. 오래된 각막 손상 뒤 투명도가 떨어질 수 있음을 설명하는 참고 사진이며, 시력 영향은 흉터의 위치·깊이·범위에 따라 다릅니다.",
+        "title": "각막염이 지나간 뒤 남은 각막 반흔",
+        "region": {
+          "x": 0,
+          "y": 0,
+          "width": 1120,
+          "height": 1101
+        },
+        "regionLabel": "A",
+        "alt": "각막염 뒤 혼탁과 신생혈관이 남은 각막의 실제 사진. 원본 A 패널을 화면에서 확대했습니다."
       }
     ]
   }

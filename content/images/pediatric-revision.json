@@ -1,0 +1,35 @@
+[
+  {
+    "id": "pediatric-myopia-prevalence-chart",
+    "src": "./images/pediatric-myopia-prevalence-chart.png",
+    "title": "나이에 따른 국내 소아 근시 유병률",
+    "originalTitle": "Factors associated with myopia in Korean children: Korea National Health and nutrition examination survey 2016–2017 (KNHANES VII), Figure 2",
+    "alt": "국민건강영양조사 2016–2017 자료를 분석한 나이별 근시 유병률 그래프. 가로축은 5세부터 18세, 세로축은 비율 0부터 100퍼센트입니다. 점무늬는 비근시, 짙은 막대는 경도 근시, 체크무늬는 고도근시를 나타냅니다.",
+    "caption": "2016–2017년 국민건강영양조사에 참여한 국내 5–18세를 분석한 원 논문의 그래프입니다. 점무늬(Non myopia)는 비근시, 짙은 막대(Low myopia)는 고도근시를 제외한 근시, 체크무늬(High myopia)는 고도근시입니다. 두 근시 영역을 합쳐 전체 근시 비율을 봅니다. 조절마비제 없이 자동굴절검사로 측정한 과거 집단 자료이므로 현재 아이의 개인별 백분위나 치료 시작 기준을 정하는 그래프는 아닙니다.",
+    "author": "Hyuna Kim; Jin Seok Seo; Woong-Sun Yoo; Gyu-Nam Kim; Rock Bum Kim; Jae Eun Chae; Inyoung Chung; Seong-Wook Seo; Seong Jae Kim",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": "https://link.springer.com/article/10.1186/s12886-020-1316-6/figures/2",
+    "originalUrl": "https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs12886-020-1316-6/MediaObjects/12886_2020_1316_Fig2_HTML.png",
+    "downloadUrl": "https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs12886-020-1316-6/MediaObjects/12886_2020_1316_Fig2_HTML.png",
+    "width": 1418,
+    "height": 921,
+    "kind": "diagram",
+    "checked": "2026-10-29",
+    "changes": "원 논문의 Figure 2 PNG를 내용 변경 없이 저장. 한국어 제목·범례 설명과 자료의 한계를 이미지 밖 캡션으로 추가하고 화면 크기에 맞춰 표시.",
+    "metadataEvidence": {
+      "publicationTitle": "Factors associated with myopia in Korean children: Korea National Health and nutrition examination survey 2016–2017 (KNHANES VII)",
+      "publicationUrl": "https://link.springer.com/article/10.1186/s12886-020-1316-6",
+      "publicationDOI": "10.1186/s12886-020-1316-6",
+      "publicationDate": "2020-01-20",
+      "figure": "2",
+      "licenseEvidence": "Publisher Rights and permissions explicitly states Creative Commons Attribution 4.0 International License with unrestricted use, distribution and reproduction, appropriate author/source credit, license link, and indication of changes. No separate third-party credit or restrictive notice appears on Figure 2 or its caption.",
+      "figureCaption": "Overall prevalence of myopia by age (5–18 year old), grouped non myopia, low myopia, high myopia",
+      "measurement": "Left-eye spherical equivalent; non-cycloplegic autorefraction; myopia SE ≤ −0.50 D, high myopia SE ≤ −6.0 D. Low myopia in this graph includes non-high myopia, not a separate modern severity classification.",
+      "studySample": "Methods and abstract report 983 analyzed children. Results prose contains a 938 typographical inconsistency; Table 1 counts sum to 983. No sample count is displayed in the asset caption.",
+      "clinicalLimit": "Cross-sectional age groups from 2016–2017, not one child's longitudinal progression and not current individual percentile or diagnosis. The existing manuscript's 20/35/60/75/80 percent age references are not reconstructed as precise data points here.",
+      "sha256": "bedbb08109e8f3bcea1c82b7b641785d911efaef9e8e31069d8a5223997baf85",
+      "VisualCheck": "2026-10-29: view_image로 1418×921 원본 PNG 확인. 5–18세 14개 누적 막대, 0–100% 세로축, 비근시·고도근시 제외 근시·고도근시의 세 범례를 확인함. 원문 그래프를 재구성하거나 값을 추정하지 않음."
+    }
+  }
+]

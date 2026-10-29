@@ -210,48 +210,6 @@ export const assets = {
     "sha256": "9d56450f2d1a9f542ec527ff0d8c133f756a40f3179bf1661eb2cc6e52eb371f",
     "bytes": 112116
   },
-  "retina-detachment": {
-    "id": "retina-detachment",
-    "src": "./images/retina-detachment.png",
-    "title": "망막이 떨어지는 과정",
-    "alt": "눈의 단면에서 위쪽 망막이 바깥층과 떨어져 들떠 있는 모식도",
-    "caption": "위쪽의 붉은 망막이 눈의 바깥층에서 들떠 있습니다. 망막박리는 빛을 받아들이는 조직이 제자리에서 떨어지는 상태입니다. 실제 범위와 모양은 검사로 확인합니다.",
-    "author": "Erin Silversmith, Delta G, RexxS",
-    "license": "CC BY-SA 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Human_eye_cross_section_detached_retina.svg",
-    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/04/Human_eye_cross_section_detached_retina.svg",
-    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Human_eye_cross_section_detached_retina.svg/960px-Human_eye_cross_section_detached_retina.svg.png",
-    "width": 960,
-    "height": 768,
-    "kind": "diagram",
-    "checked": "2026-10-29",
-    "changes": "원본 이미지 내용 변경 없음; Wikimedia Commons 제공 축소판 사용.",
-    "sha256": "7b19821c7b2575122aec1e778975c8070a87750b342b8006da5ca8f5b9602d43",
-    "bytes": 122435,
-    "originalTitle": "Human eye cross section detached retina.svg"
-  },
-  "retina-erm": {
-    "id": "retina-erm",
-    "src": "./images/retina-erm-oct.png",
-    "title": "망막전막의 OCT 단면",
-    "alt": "망막 표면이 고르지 않고 중심부가 당겨진 망막전막 OCT 검사 예시",
-    "caption": "실제 OCT 검사 예시입니다. 망막의 표면에 생긴 막과 당김 때문에 표면의 모양과 중심부 구조가 달라질 수 있습니다. 시력·불편감과 여러 검사 결과를 함께 평가합니다.",
-    "author": "Jmarchn",
-    "license": "CC BY-SA 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:EpiretinalMembrane_OCT.png",
-    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a2/EpiretinalMembrane_OCT.png",
-    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a2/EpiretinalMembrane_OCT.png",
-    "width": 525,
-    "height": 346,
-    "kind": "clinical",
-    "checked": "2026-10-29",
-    "changes": "원본 이미지 내용 변경 없음; 원본 파일 사용.",
-    "sha256": "bef7ef5d726a82f22fd52d44dfc1b6c2f357201df909c092314bbd5bd402e499",
-    "bytes": 209344,
-    "originalTitle": "EpiretinalMembrane OCT.png"
-  },
   "retina-csc": {
     "id": "retina-csc",
     "src": "./images/retina-csc-oct.png",
@@ -609,48 +567,6 @@ export const assets = {
     "sha256": "14bf444ee4e4f0b5b9823fcf746e45f08170d81c8083306d7c1bf4d1b8a95248",
     "bytes": 306084
   },
-  "eyelid-trichiasis": {
-    "id": "eyelid-trichiasis",
-    "src": "./images/eyelid-trichiasis.jpg",
-    "title": "눈 쪽으로 향하는 속눈썹",
-    "alt": "눈 쪽으로 향한 속눈썹의 도식과 이를 교정한 수술 사진이 나란히 있는 그림",
-    "caption": "왼쪽(a)은 속눈썹이 눈 표면 쪽으로 향하는 모습을, 오른쪽(b)은 교정 수술의 한 예를 보여줍니다. 원 자료는 트라코마 후유증 사례로, 국내에서 흔한 덧눈꺼풀·안검내반과 원인이 같다는 뜻은 아닙니다.",
-    "author": "CNX OpenStax",
-    "license": "CC BY 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:OSC_Microbio_21_02_trichiasis.jpg",
-    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6c/OSC_Microbio_21_02_trichiasis.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
-    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6c/OSC_Microbio_21_02_trichiasis.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
-    "width": 1100,
-    "height": 581,
-    "kind": "clinical",
-    "checked": "2026-10-29",
-    "changes": "원본 페이지의 현행 파일을 그대로 사용; 추가 내용 변경 없음.",
-    "originalTitle": "OSC_Microbio_21_02_trichiasis.jpg",
-    "sha256": "a661a521814974cc4bf9112ea75e7c845eeb7a28783cfb241ead0675b11038cf",
-    "bytes": 264323
-  },
-  "eyelid-orbicularis": {
-    "id": "eyelid-orbicularis",
-    "src": "./images/eyelid-orbicularis.png",
-    "title": "눈꺼풀을 닫는 눈둘레근",
-    "alt": "머리 옆면의 근육 가운데 눈 주위를 고리 모양으로 감싼 눈둘레근을 붉게 강조한 해부 그림",
-    "caption": "눈 주위를 고리처럼 둘러싼 진한 붉은 근육이 눈둘레근입니다. 눈꺼풀을 닫고 깜박일 때 쓰이며, 눈꺼풀 떨림의 위치를 이해하기 위한 해부 그림입니다. 떨림의 원인을 보여주는 그림은 아닙니다.",
-    "author": "Berichard",
-    "license": "CC BY-SA 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Orbiculaire_de_l%27oeil.png",
-    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/29/Orbiculaire_de_l%27oeil.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
-    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/2/29/Orbiculaire_de_l%27oeil.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
-    "width": 762,
-    "height": 842,
-    "kind": "diagram",
-    "checked": "2026-10-29",
-    "changes": "원본 페이지의 현행 파일을 그대로 사용; 추가 내용 변경 없음.",
-    "originalTitle": "Orbiculaire_de_l%27oeil.png",
-    "sha256": "5471e3be7766ec3aae19366a0fa4df93b85e648ab94408a36ce5f01fbfa1327e",
-    "bytes": 354373
-  },
   "lens-grade-nc1": {
     "id": "lens-grade-nc1",
     "src": "./images/lens-grade-nc1.jpg",
@@ -818,6 +734,216 @@ export const assets = {
     "changes": "원본 이미지 내용 변경 없음. 제공처의 PNG 미리보기 또는 PNG 원본을 저장하고 화면 크기에 맞춰 표시.",
     "sha256": "bda6120f49e26b9083a4a63a0b386e930e3acb4f92f894ef1d3b93b0c2c24ad4",
     "bytes": 175917
+  },
+  "retina-revision-detachment-uwf": {
+    "id": "retina-revision-detachment-uwf",
+    "src": "./images/retina-revision-detachment-uwf.png",
+    "title": "초광각 안저 사진으로 보는 망막박리",
+    "originalTitle": "Non-Mydriatic Ultra-Wide Field Imaging Versus Dilated Fundus Exam and Intraoperative Findings for Assessment of Rhegmatogenous Retinal Detachment — Figure 1",
+    "alt": "위쪽 망막이 주름지고 들떠 있으며 위쪽에 말발굽 모양 열공이 보이는 실제 초광각 안저 사진",
+    "caption": "실제 초광각 안저 사진입니다. 위쪽의 주름지고 들뜬 부분이 박리된 망막이며, 12시 방향에 말발굽 모양 열공이 보입니다. 원 논문에서는 황반까지 박리된 사례로 설명합니다. 촬영 방식에 따른 녹색·주황색의 합성색이며, 사진으로 모든 주변부 열공을 확인할 수 있는 것은 아닙니다.",
+    "author": "Beatriz Abadia; Maria Carmen Desco; Jorge Mataix; Elena Palacios; Amparo Navea; Pilar Calvo; Antonio Ferreras",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": "https://doi.org/10.3390/brainsci10080521",
+    "originalUrl": "https://mdpi-res.com/brainsci/brainsci-10-00521/article_deploy/html/images/brainsci-10-00521-g001.png",
+    "downloadUrl": "https://mdpi-res.com/brainsci/brainsci-10-00521/article_deploy/html/images/brainsci-10-00521-g001.png",
+    "width": 1713,
+    "height": 1350,
+    "kind": "clinical",
+    "checked": "2026-10-29",
+    "changes": "논문의 고해상도 PNG를 내용 변경·크롭 없이 저장. 한국어 설명은 이미지와 분리하여 표시.",
+    "sha256": "07b293a11506b7840551a052d3ab9e13d26c2d88c6295dbf528e44564f9ca30d",
+    "bytes": 1359826
+  },
+  "retina-revision-erm-comparison": {
+    "id": "retina-revision-erm-comparison",
+    "src": "./images/retina-revision-erm-comparison.png",
+    "title": "망막전막과 낭성 변화가 동반된 망막전막의 고해상도 OCT",
+    "originalTitle": "Anatomical and Functional Factors Influencing Recovery in Idiopathic Epiretinal Membrane After Surgery — Figure 1",
+    "alt": "위 a는 망막 표면의 전막과 중심오목 소실, 아래 b는 심한 전막과 별표로 표시한 망막 안 낭성 공간을 보여 주는 두 사례의 고해상도 OCT",
+    "caption": "위(a)는 낭성부종이 두드러지지 않는 특발성 망막전막의 예로, 전막이 당겨 황반 중심오목이 사라지고 망막층이 변형되어 있습니다. 아래(b)는 더 진행된 전막과 함께 망막 안 낭성 공간(별표)과 층간 벌어짐(화살표)이 나타난 예입니다. 망막하액이나 삼출물을 보여 주는 자료가 아니며, 서로 다른 사례의 비교입니다. 견인에 의한 낭성·분리 변화는 혈관 누출에 의한 부종과 구분해 평가합니다.",
+    "author": "En-Jie Shih; Kai-Ling Peng; Ya-Hsin Kung; Tsung-Tien Wu",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": "https://doi.org/10.3390/diagnostics16081204",
+    "originalUrl": "https://mdpi-res.com/diagnostics/diagnostics-16-01204/article_deploy/html/images/diagnostics-16-01204-g001.png",
+    "downloadUrl": "https://mdpi-res.com/diagnostics/diagnostics-16-01204/article_deploy/html/images/diagnostics-16-01204-g001.png",
+    "width": 3303,
+    "height": 2054,
+    "kind": "clinical",
+    "checked": "2026-10-29",
+    "changes": "논문의 고해상도 PNG를 내용 변경·크롭 없이 저장. 한국어 설명은 이미지와 분리하여 표시.",
+    "sha256": "2ac240cde1f58e2eb0dd75d7d91efb6ff1af3b04504800943fc55d4c6ffef68c",
+    "bytes": 2460902
+  },
+  "retina-revision-amd-fundus-stages": {
+    "id": "retina-revision-amd-fundus-stages",
+    "src": "./images/retina-revision-amd-fundus-stages.png",
+    "title": "드루젠의 범위와 진행 단계별 안저 사진",
+    "originalTitle": "Role of Optical Coherence Tomography Imaging in Predicting Progression of Age-Related Macular Disease: A Survey — Figure 4",
+    "alt": "A 정상, B 초기 건성 황반변성의 드루젠, C 크고 넓게 분포한 드루젠, D 지도모양위축, E 습성 황반변성의 다섯 안저 사진",
+    "caption": "A는 정상 참고 사진, B는 드루젠이 보이는 초기 건성 황반변성, C는 크거나 넓게 분포한 드루젠의 예입니다. D는 진행된 건성 황반변성의 위축, E는 출혈·흉터가 동반된 습성 황반변성입니다. 드루젠의 크기·범위와 색소 변화 등을 함께 평가하며, 사진 하나나 드루젠 개수만으로 개인의 진행 위험을 정하지 않습니다. 같은 환자의 시간 경과 사진은 아닙니다.",
+    "author": "Mohamed Elsharkawy; Mostafa Elrazzaz; Mohammed Ghazal; Marah Alhalabi; Ahmed Soliman; Ali Mahmoud; Eman El-Daydamony; Ahmed Atwan; Aristomenis Thanos; Harpal Singh Sandhu; Guruprasad Giridharan; Ayman El-Baz",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": "https://doi.org/10.3390/diagnostics11122313",
+    "originalUrl": "https://mdpi-res.com/diagnostics/diagnostics-11-02313/article_deploy/html/images/diagnostics-11-02313-g004.png",
+    "downloadUrl": "https://mdpi-res.com/diagnostics/diagnostics-11-02313/article_deploy/html/images/diagnostics-11-02313-g004.png",
+    "width": 3141,
+    "height": 1849,
+    "kind": "clinical",
+    "checked": "2026-10-29",
+    "changes": "논문의 고해상도 PNG를 내용 변경·크롭 없이 저장. 한국어 설명은 이미지와 분리하여 표시.",
+    "sha256": "feab7d52c0ea3f0cc0e931f7d3c31e0453d02eca95771d3771f4918cb11b6667",
+    "bytes": 2143568
+  },
+  "clinical-revision-pdr": {
+    "id": "clinical-revision-pdr",
+    "src": "./images/clinical-revision-pdr.jpg",
+    "title": "증식성 당뇨망막병증의 안저 사진",
+    "originalTitle": "Fundus Proliferative retinopathy EDA01.JPG",
+    "alt": "시신경유두 주변에 가늘고 불규칙한 신생혈관이 퍼져 보이는 증식성 당뇨망막병증의 안저 사진",
+    "caption": "증식성 당뇨망막병증의 실제 안저 사진입니다. 시신경유두 주변에 가늘고 불규칙한 신생혈관이 보입니다. 신생혈관은 출혈과 섬유조직 형성의 원인이 될 수 있으며, 치료 여부는 안저검사와 시력·OCT 등을 함께 보고 정합니다.",
+    "author": "National Eye Institute, National Institutes of Health (자료 번호 EDA01)",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fundus_Proliferative_retinopathy_EDA01.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Fundus_Proliferative_retinopathy_EDA01.JPG",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Fundus_Proliferative_retinopathy_EDA01.JPG",
+    "width": 1000,
+    "height": 655,
+    "kind": "clinical",
+    "checked": "2026-10-29",
+    "changes": "원본 JPG 파일 내용 변경 없이 저장. 화면 크기에 맞춰 표시. 한국어 설명은 별도 캡션으로 추가.",
+    "sha256": "992cc2513810812621c0315cd71c37e788f6e9233b26d319306993b1c1041d03",
+    "bytes": 30000
+  },
+  "clinical-revision-ptosis-bilateral": {
+    "id": "clinical-revision-ptosis-bilateral",
+    "src": "./images/clinical-revision-ptosis-bilateral.jpg",
+    "title": "노년층의 양안 안검하수 사례",
+    "originalTitle": "Evaluation and management of acquired ptosis — Figure 27",
+    "alt": "노인 남성의 양안 안검하수 수술 전 사진이 왼쪽, 수술 후 사진이 오른쪽에 나란히 놓인 임상 사진",
+    "caption": "노년층에서 양쪽 윗눈꺼풀이 내려온 사례입니다. 왼쪽은 수술 전, 오른쪽은 같은 환자의 수술 후 사진입니다. 양안의 높이와 눈꺼풀 주름에는 차이가 있어 완전히 대칭적인 사례는 아닙니다. 한 사례의 수술 결과이며 개인별 효과를 보장하지 않습니다.",
+    "author": "Stephanie E. Farber; Mark A. Codner",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": "https://www.oaepress.com/articles/2347-9264.2020.05",
+    "originalUrl": "https://f.oaes.cc/xmlpdf/91178549-a547-4c8d-ad7a-e9e75cada58f/3430_down.pdf?v=35",
+    "downloadUrl": "https://f.oaes.cc/xmlpdf/91178549-a547-4c8d-ad7a-e9e75cada58f/3430_down.pdf?v=35",
+    "width": 648,
+    "height": 357,
+    "kind": "clinical",
+    "checked": "2026-10-29",
+    "changes": "원 논문 PDF 19쪽 Figure 27의 내장 JPEG를 원래 픽셀 그대로 추출. 자르기·색·밝기 변경 없음. 한국어 설명은 별도 캡션으로 추가.",
+    "sha256": "14dc948777faffa453a644bf91a76e013710853c822cceb3942b3a2421571062",
+    "bytes": 80686
+  },
+  "clinical-revision-cilia-contact": {
+    "id": "clinical-revision-cilia-contact",
+    "src": "./images/clinical-revision-cilia-contact.png",
+    "title": "각막에 닿는 속눈썹 — 덧눈꺼풀의 전안부 사진",
+    "originalTitle": "Hsu et al. 2024 — Figure 2: External eye photography of a patient in group A",
+    "alt": "네 패널의 덧눈꺼풀 임상 사진 중 왼쪽 위 A에서 아래 속눈썹이 각막 위로 올라와 닿아 있는 모습",
+    "caption": "왼쪽 위 A는 수술 전 덧눈꺼풀로 아래 속눈썹이 각막에 닿는 모습입니다. 반복 접촉은 이물감·눈물·각막 상피 손상을 일으킬 수 있습니다. 원본의 B·C·D는 같은 환자의 수술 후 1일·7일·30일 모습으로, 일반적인 치료 효과를 보장하는 비교 자료는 아닙니다.",
+    "author": "Chia-Chen Hsu; Lung-Chi Lee; Hsu-Chieh Chang; Yi-Hao Chen; Meng-Wei Hsieh; Ke-Hung Chien",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11204930/",
+    "originalUrl": "https://mdpi-res.com/d_attachment/jcm/jcm-13-03475/article_deploy/html/images/jcm-13-03475-g002.png",
+    "downloadUrl": "https://mdpi-res.com/d_attachment/jcm/jcm-13-03475/article_deploy/html/images/jcm-13-03475-g002.png",
+    "width": 2173,
+    "height": 1492,
+    "kind": "clinical",
+    "checked": "2026-10-29",
+    "changes": "출판사가 제공하는 Figure 2 고해상도 PNG를 내용 변경 없이 저장. 4개 패널과 A–D 표기를 그대로 유지. 한국어 설명은 별도 캡션으로 추가.",
+    "sha256": "f4496bd49f98f73dcae5a2a3eeba1a542dfe1b9a4e696fb0d1e79517a09eeea1",
+    "bytes": 2252003
+  },
+  "clinical-revision-corneal-scar": {
+    "id": "clinical-revision-corneal-scar",
+    "src": "./images/clinical-revision-corneal-scar.png",
+    "title": "감염 후 남은 각막 반흔과 혼탁",
+    "originalTitle": "Mushroom Penetrating Keratoplasty: A Narrative Review — Figure 2",
+    "alt": "세 패널의 임상 사진 중 왼쪽 A에서 이전 헤르페스 각막염 뒤 희고 불투명한 반흔과 혈관이 자란 각막이 보이는 모습",
+    "caption": "왼쪽 A는 이전 헤르페스 각막염으로 각막 전체 두께에 반흔과 혈관이 남은 실제 사례입니다. 손상 뒤에는 감염이 가라앉아도 각막이 투명함을 잃을 수 있습니다. 이 환자의 흉터가 속눈썹 접촉으로 생긴 것은 아닙니다. 원본 B·C는 같은 눈의 각막이식 후 5년·10년 모습이며, 개인별 치료 효과를 보장하는 비교 자료는 아닙니다.",
+    "author": "Pietro Bergamaschi; Linda Marie Louise Busin; Angeli Christy Yu; Massimo Busin",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11989387/",
+    "originalUrl": "https://mdpi-res.com/d_attachment/jcm/jcm-14-02351/article_deploy/html/images/jcm-14-02351-g002.png",
+    "downloadUrl": "https://mdpi-res.com/d_attachment/jcm/jcm-14-02351/article_deploy/html/images/jcm-14-02351-g002.png",
+    "width": 3152,
+    "height": 1101,
+    "kind": "clinical",
+    "checked": "2026-10-29",
+    "changes": "출판사의 고해상도 Figure 2 PNG를 내용 변경 없이 저장. 3개 패널과 A–C 표기를 그대로 유지. 한국어 설명은 별도 캡션으로 추가.",
+    "sha256": "cb00855da03ccf79621e7acbdd90d858ae84451b60b84b0ca69c4a6fe82ee292",
+    "bytes": 1867536
+  },
+  "pediatric-myopia-prevalence-chart": {
+    "id": "pediatric-myopia-prevalence-chart",
+    "src": "./images/pediatric-myopia-prevalence-chart.png",
+    "title": "나이에 따른 국내 소아 근시 유병률",
+    "originalTitle": "Factors associated with myopia in Korean children: Korea National Health and nutrition examination survey 2016–2017 (KNHANES VII), Figure 2",
+    "alt": "국민건강영양조사 2016–2017 자료를 분석한 나이별 근시 유병률 그래프. 가로축은 5세부터 18세, 세로축은 비율 0부터 100퍼센트입니다. 점무늬는 비근시, 짙은 막대는 경도 근시, 체크무늬는 고도근시를 나타냅니다.",
+    "caption": "2016–2017년 국민건강영양조사에 참여한 국내 5–18세를 분석한 원 논문의 그래프입니다. 점무늬(Non myopia)는 비근시, 짙은 막대(Low myopia)는 고도근시를 제외한 근시, 체크무늬(High myopia)는 고도근시입니다. 두 근시 영역을 합쳐 전체 근시 비율을 봅니다. 조절마비제 없이 자동굴절검사로 측정한 과거 집단 자료이므로 현재 아이의 개인별 백분위나 치료 시작 기준을 정하는 그래프는 아닙니다.",
+    "author": "Hyuna Kim; Jin Seok Seo; Woong-Sun Yoo; Gyu-Nam Kim; Rock Bum Kim; Jae Eun Chae; Inyoung Chung; Seong-Wook Seo; Seong Jae Kim",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": "https://link.springer.com/article/10.1186/s12886-020-1316-6/figures/2",
+    "originalUrl": "https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs12886-020-1316-6/MediaObjects/12886_2020_1316_Fig2_HTML.png",
+    "downloadUrl": "https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs12886-020-1316-6/MediaObjects/12886_2020_1316_Fig2_HTML.png",
+    "width": 1418,
+    "height": 921,
+    "kind": "diagram",
+    "checked": "2026-10-29",
+    "changes": "원 논문의 Figure 2 PNG를 내용 변경 없이 저장. 한국어 제목·범례 설명과 자료의 한계를 이미지 밖 캡션으로 추가하고 화면 크기에 맞춰 표시.",
+    "sha256": "bedbb08109e8f3bcea1c82b7b641785d911efaef9e8e31069d8a5223997baf85",
+    "bytes": 555344
+  },
+  "education-amblyopia-response": {
+    "author": "eye-guide · 자체 제작 그래프",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "width": 2640,
+    "height": 1408,
+    "kind": "diagram",
+    "checked": "2026-10-29",
+    "changes": "논문이 보고한 수치를 이용해 Matplotlib으로 새로 작성한 그래프. 논문 그림을 복제하거나 편집하지 않았습니다.",
+    "id": "education-amblyopia-response",
+    "src": "./images/education-amblyopia-response.png",
+    "title": "치료 시작 연령별 시력 개선 반응",
+    "originalTitle": "치료 시작 연령별 시력 개선 반응 — eye-guide original chart",
+    "alt": "치료 시작 연령별 시력 개선 반응 — 7–12세는 안경+적극치료 53%, 안경교정만 25%, 13–17세는 25%와 23%였습니다. 24주 이내 시력 2줄 이상 개선을 반응으로 정의한 연구 결과이며 완치율은 아닙니다. 적극치료는 가림+근거리 활동이고 7–12세는 아트로핀도 포함했습니다. 치료 구성과 과거 치료 경험이 달라 나이만의 효과로 비교하지 않습니다. 13–17세 미치료 하위군은 47%와 20%로, 나이만으로 치료를 포기하지 않습니다.",
+    "caption": "7–12세는 안경+적극치료 53%, 안경교정만 25%, 13–17세는 25%와 23%였습니다. 24주 이내 시력 2줄 이상 개선을 반응으로 정의한 연구 결과이며 완치율은 아닙니다. 적극치료는 가림+근거리 활동이고 7–12세는 아트로핀도 포함했습니다. 치료 구성과 과거 치료 경험이 달라 나이만의 효과로 비교하지 않습니다. 13–17세 미치료 하위군은 47%와 20%로, 나이만으로 치료를 포기하지 않습니다.",
+    "sourceUrl": "https://public.jaeb.org/pedig/stdy/1",
+    "originalUrl": "https://raw.githubusercontent.com/cucube1985/eye-guide/main/dist/images/education-amblyopia-response.png",
+    "downloadUrl": "https://raw.githubusercontent.com/cucube1985/eye-guide/main/dist/images/education-amblyopia-response.png",
+    "sha256": "df2eb9a85318d3e694df613f2ca6a8b6df2d4dc965c3b140560415346ef38fb0",
+    "bytes": 105128
+  },
+  "education-amblyopia-younger": {
+    "author": "eye-guide · 자체 제작 그래프",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "width": 2640,
+    "height": 1408,
+    "kind": "diagram",
+    "checked": "2026-10-29",
+    "changes": "논문이 보고한 수치를 이용해 Matplotlib으로 새로 작성한 그래프. 논문 그림을 복제하거나 편집하지 않았습니다.",
+    "id": "education-amblyopia-younger",
+    "src": "./images/education-amblyopia-younger.png",
+    "title": "어린 연령에서의 평균 시력 개선량",
+    "originalTitle": "어린 연령에서의 평균 시력 개선량 — eye-guide original chart",
+    "alt": "어린 연령에서의 평균 시력 개선량 — 3세~5세 미만, 5세~7세 미만, 7세~13세 미만의 평균 시력 개선량을 약시 정도별로 비교했습니다. 이는 성공률(%)이 아닌 17–24주 보정 평균 개선량(줄)입니다. 안경 적응 후 추가 치료 반응을 분석한 4개 시험의 통합 자료이며, 시작 시력·치료·검사법 등의 차이를 고려해야 합니다. 같은 줄 수 개선도 정상 시력 도달이나 완치를 뜻하지 않습니다.",
+    "caption": "3세~5세 미만, 5세~7세 미만, 7세~13세 미만의 평균 시력 개선량을 약시 정도별로 비교했습니다. 이는 성공률(%)이 아닌 17–24주 보정 평균 개선량(줄)입니다. 안경 적응 후 추가 치료 반응을 분석한 4개 시험의 통합 자료이며, 시작 시력·치료·검사법 등의 차이를 고려해야 합니다. 같은 줄 수 개선도 정상 시력 도달이나 완치를 뜻하지 않습니다.",
+    "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3217111/",
+    "originalUrl": "https://raw.githubusercontent.com/cucube1985/eye-guide/main/dist/images/education-amblyopia-younger.png",
+    "downloadUrl": "https://raw.githubusercontent.com/cucube1985/eye-guide/main/dist/images/education-amblyopia-younger.png",
+    "sha256": "248ff7f3d025a62d9ae8062cbfd6c7c955376fe2e8f74d298b7677fa1103751c",
+    "bytes": 102150
   }
 };
 export const topicImages = {
@@ -1143,26 +1269,82 @@ export const topicImages = {
     ]
   },
   "retinal-detachment": {
-    "intro": "눈 안쪽의 망막이 벽에서 들떠 떨어지는 모습을 단면도로 봅니다.",
+    "heading": "초광각 안저 사진으로 보는 망막박리",
+    "intro": "주변부까지 넓게 촬영한 실제 안저 사진으로, 들뜨고 주름진 망막을 살펴봅니다.",
     "items": [
       {
-        "assetId": "retina-detachment"
+        "assetId": "retina-revision-detachment-uwf"
       }
     ]
   },
   "epiretinal-membrane": {
-    "intro": "OCT에서 망막의 표면과 황반 모양이 어떻게 보일 수 있는지 확인합니다.",
+    "heading": "망막전막과 황반의 낭성 변화 비교",
+    "layout": "compare",
+    "intro": "고해상도 OCT 원본에서 두 사례를 비교합니다. ①은 낭성 변화가 두드러지지 않는 망막전막, ②는 망막 안 낭성 공간과 층간 벌어짐이 동반된 전막입니다. 서로 다른 환자의 예이며 치료 전후 비교가 아닙니다.",
     "items": [
       {
-        "assetId": "retina-erm"
+        "assetId": "retina-revision-erm-comparison",
+        "title": "망막전막 · 뚜렷한 낭성 변화 없음",
+        "label": "① 망막전막",
+        "region": {
+          "x": 18,
+          "y": 21,
+          "width": 2319,
+          "height": 1009
+        },
+        "regionLabel": "a",
+        "caption": "원본 a: 표면의 막이 망막을 당겨 중심오목이 사라진 상태입니다. 낭성부종이 두드러지지 않지만, 이미 망막층 변형이 있는 사례이므로 초기·경증을 의미하지 않습니다.",
+        "alt": "망막전막 · 뚜렷한 낭성 변화 없음 — 원본의 a 부분을 확대해 표시한 사진입니다. 전체 원본은 크게 보기에서 확인할 수 있습니다."
+      },
+      {
+        "assetId": "retina-revision-erm-comparison",
+        "title": "진행된 전막 · 황반 내 낭성 변화",
+        "label": "② 낭성 변화·황반 두꺼워짐 동반",
+        "region": {
+          "x": 18,
+          "y": 1032,
+          "width": 2319,
+          "height": 1002
+        },
+        "regionLabel": "b",
+        "caption": "원본 b: 별표는 망막 안의 낭성 공간, 화살표는 망막층 사이의 벌어짐을 가리킵니다. 견인에 의한 낭성 변화는 누출성 부종과 구분해 평가합니다. 망막하액이나 삼출물을 보여주는 자료는 아닙니다.",
+        "alt": "진행된 전막 · 황반 내 낭성 변화 — 원본의 b 부분을 확대해 표시한 사진입니다. 전체 원본은 크게 보기에서 확인할 수 있습니다."
       }
     ]
   },
   "macular-degeneration": {
-    "intro": "망막 중심의 시세포와 그 아래 층의 관계, 건성 변화의 원리를 살펴봅니다.",
+    "heading": "드루젠이 쌓이는 위치와 실제 안저 소견",
+    "intro": "시세포 아래의 망막색소상피와 브루크막 사이에 드루젠이 쌓이는 원리입니다. 모식도 아래의 안저 사진에서 크기와 분포의 차이를 비교해 보세요.",
+    "visualId": "drusen-layers",
+    "layout": "compare",
     "items": [
       {
-        "assetId": "retina-dry-amd"
+        "assetId": "retina-revision-amd-fundus-stages",
+        "title": "초기 건성 AMD의 드루젠",
+        "label": "① 작은 드루젠이 보이는 예",
+        "region": {
+          "x": 1081,
+          "y": 78,
+          "width": 967,
+          "height": 829
+        },
+        "regionLabel": "B",
+        "caption": "원본 B: 황반 주변에 노란 드루젠이 흩어져 보이는 초기 건성 황반변성의 예입니다.",
+        "alt": "초기 건성 AMD의 드루젠 — 원본의 B 부분을 확대해 표시한 사진입니다. 전체 원본은 크게 보기에서 확인할 수 있습니다."
+      },
+      {
+        "assetId": "retina-revision-amd-fundus-stages",
+        "title": "크고 넓게 분포한 드루젠",
+        "label": "② 드루젠의 크기·범위 증가",
+        "region": {
+          "x": 2104,
+          "y": 78,
+          "width": 960,
+          "height": 829
+        },
+        "regionLabel": "C",
+        "caption": "원본 C: 크고 뭉친 드루젠이 넓게 분포한 예입니다. 드루젠의 크기·범위와 색소 변화 등을 함께 평가하며, 개수만으로 중증도나 진행 위험을 정하지 않습니다.",
+        "alt": "크고 넓게 분포한 드루젠 — 원본의 C 부분을 확대해 표시한 사진입니다. 전체 원본은 크게 보기에서 확인할 수 있습니다."
       }
     ]
   },
@@ -1191,34 +1373,36 @@ export const topicImages = {
     ]
   },
   "diabetic-retinopathy": {
-    "intro": "혈관의 변화가 생기는 위치와 황반부종의 검사 예시를 함께 봅니다.",
+    "intro": "망막 혈관의 변화와 혈관이 손상되는 원리를 살펴봅니다.",
     "items": [
       {
         "assetId": "retina-diabetic"
-      },
+      }
+    ],
+    "sectionGroups": [
       {
-        "assetId": "retina-dme"
+        "sectionTitle": "왜 생기나요?",
+        "heading": "높은 혈당이 작은 혈관을 손상시키는 과정",
+        "intro": "만성 고혈당은 혈관을 지지하는 세포와 혈관 벽을 손상시켜 누출·막힘을 일으킬 수 있습니다. 망막이 산소를 충분히 받지 못하면 약한 새 혈관이 생길 수 있습니다.",
+        "visualId": "glucose-vessels",
+        "items": []
       }
     ]
   },
   "diabetic-treatment-timing": {
-    "intro": "치료 필요성을 판단할 때 보는 망막 혈관 변화와 황반부종의 예시입니다. 이 그림만으로 단계나 치료 시작을 결정하지는 않습니다.",
+    "heading": "증식성 당뇨망막병증의 안저 사진",
+    "intro": "약하고 불규칙한 신생혈관이 자란 증식성 단계의 실제 안저 소견입니다.",
     "items": [
       {
-        "assetId": "retina-diabetic"
-      },
-      {
-        "assetId": "retina-dme"
+        "assetId": "clinical-revision-pdr"
       }
     ]
   },
   "intravitreal-injection": {
-    "intro": "주사 치료의 대상이 될 수 있는 당뇨황반부종의 OCT 예시입니다. 주사 시술 과정이나 주사 전후 비교 영상은 아닙니다.",
-    "items": [
-      {
-        "assetId": "retina-dme"
-      }
-    ]
+    "heading": "안구내 주사로 약이 전달되는 위치",
+    "intro": "흰자를 통해 유리체 공간에 약을 넣는 원리를 보여주는 자체 제작 모식도입니다.",
+    "visualId": "intravitreal-route",
+    "items": []
   },
   "prp-laser": {
     "intro": "레이저 치료의 광선 경로를 설명하는 단순화된 그림과 치료 대상이 되는 망막 혈관 변화를 봅니다.",
@@ -1256,29 +1440,43 @@ export const topicImages = {
     ]
   },
   "child-myopia": {
-    "intro": "빛의 초점이 망막보다 앞에 맺히는 근시의 원리를 살펴보세요.",
+    "intro": "먼저 정시·근시·원시에서 눈 길이의 대표적 차이를 보고, 아래의 기존 그림에서 근시의 초점 위치를 확인합니다.",
     "items": [
       {
         "assetId": "pediatric-myopia"
       }
-    ]
+    ],
+    "heading": "눈의 길이와 빛이 맺히는 위치",
+    "visualId": "axial-length"
   },
   "myopia-prevalence": {
-    "intro": "근시가 무엇인지 이해하는 구조 그림입니다. 나이별 도수 분포나 개인의 백분위를 나타낸 그래프는 아닙니다.",
+    "heading": "나이에 따른 국내 소아 근시 유병률",
+    "tocLabel": "근시 유병률 그래프",
+    "intro": "국민건강영양조사 2016–2017년 자료를 분석한 논문의 연령별 원본 그래프입니다. 짙은 영역과 체크무늬 영역을 합치면 전체 근시 비율입니다. 아래의 근사 백분위표와는 별도의 집단 자료입니다.",
     "items": [
       {
-        "assetId": "pediatric-myopia"
+        "assetId": "pediatric-myopia-prevalence-chart"
       }
     ]
   },
   "amblyopia": {
-    "intro": "약시와 관련될 수 있는 굴절이상과 사시를 이해하는 참고 그림입니다. 약시는 원인이 다양하고, 사시가 없어도 생길 수 있습니다.",
-    "items": [
+    "heading": "약시가 있는 눈의 선명도 차이",
+    "intro": "같은 장면을 두 눈에서 다르게 받아들일 수 있음을 보여주는 시야 재현입니다.",
+    "visualId": "amblyopia-view",
+    "items": [],
+    "sectionGroups": [
       {
-        "assetId": "pediatric-myopia"
-      },
-      {
-        "assetId": "pediatric-strabismus"
+        "sectionTitle": "어떻게 치료하나요?",
+        "heading": "치료 시작 나이에 따른 약시 치료 반응",
+        "intro": "어린 나이의 평균 개선량과 7세 이상 연구의 두 줄 이상 개선 비율을 각각 보여줍니다. 서로 다른 연구와 지표이므로 하나의 연령별 성공률 곡선으로 이어 읽지 않습니다. 아이마다 원인·초기 시력·치료 이력과 순응도에 따라 효과가 달라집니다.",
+        "items": [
+          {
+            "assetId": "education-amblyopia-younger"
+          },
+          {
+            "assetId": "education-amblyopia-response"
+          }
+        ]
       }
     ]
   },
@@ -1291,12 +1489,10 @@ export const topicImages = {
     ]
   },
   "eyelid-twitch": {
-    "intro": "눈꺼풀을 닫는 눈둘레근의 위치를 살펴봅니다. 이 해부도만으로 눈꺼풀 떨림의 원인을 구분하지는 않습니다.",
-    "items": [
-      {
-        "assetId": "eyelid-orbicularis"
-      }
-    ]
+    "heading": "눈꺼풀 떨림을 유발·악화시키는 요인",
+    "intro": "흔한 눈꺼풀 떨림은 수면·스트레스·카페인·눈 표면 자극과 관련될 수 있습니다.",
+    "visualId": "eyelid-triggers",
+    "items": []
   },
   "uveitis": {
     "intro": "홍채·섬모체·맥락막이 눈의 어디에 위치하는지 확인합니다.",
@@ -1307,18 +1503,61 @@ export const topicImages = {
     ]
   },
   "ptosis": {
-    "intro": "한쪽 위눈꺼풀이 내려와 보이는 사례입니다. 원인이나 수술 방법은 사진만으로 정하지 않습니다.",
+    "heading": "한쪽 처짐과 노년층 양안 안검하수 비교",
+    "layout": "compare",
+    "intro": "기존 한쪽 안검하수 사진과 양쪽 눈꺼풀이 내려온 노년층 사례를 나란히 봅니다. 양쪽 높이는 완전히 대칭적이지 않으며, 사진만으로 원인이나 치료를 결정하지 않습니다.",
     "items": [
       {
         "assetId": "eyelid-ptosis"
+      },
+      {
+        "assetId": "clinical-revision-ptosis-bilateral",
+        "title": "노년층의 양안 안검하수 · 수술 전",
+        "label": "양쪽 윗눈꺼풀이 내려온 사례",
+        "region": {
+          "x": 0,
+          "y": 0,
+          "width": 324,
+          "height": 357
+        },
+        "regionLabel": "왼쪽 수술 전",
+        "caption": "노년층에서 양쪽 윗눈꺼풀이 내려온 수술 전 사진입니다. 양안 높이에 차이가 있어 완전히 대칭적이지는 않습니다. 처진 피부·눈썹과 실제 안검하수는 진찰로 구분합니다.",
+        "alt": "노년층의 양안 안검하수 · 수술 전 — 원본의 왼쪽 수술 전 부분을 확대해 표시한 사진입니다. 전체 원본은 크게 보기에서 확인할 수 있습니다."
       }
     ]
   },
   "trichiasis": {
-    "intro": "속눈썹이 눈 표면을 향하는 구조를 살펴보세요. 함께 실린 수술 사진은 트라코마 후유증 사례로, 국내 소아 덧눈꺼풀과 원인이 같다는 뜻은 아닙니다.",
+    "heading": "속눈썹 접촉과 각막 반흔의 실제 사진",
+    "layout": "compare",
+    "intro": "① 속눈썹이 각막에 닿는 모습과 ② 오래된 손상 후 각막에 흉터가 남은 모습을 봅니다. 서로 다른 환자의 사례이며 시간 경과나 치료 전후 비교가 아닙니다.",
     "items": [
       {
-        "assetId": "eyelid-trichiasis"
+        "assetId": "clinical-revision-cilia-contact",
+        "title": "속눈썹이 각막에 닿는 전안부 사진",
+        "label": "① 속눈썹과 각막의 접촉",
+        "region": {
+          "x": 0,
+          "y": 0,
+          "width": 1087,
+          "height": 746
+        },
+        "regionLabel": "A",
+        "caption": "덧눈꺼풀로 아래 속눈썹이 각막 쪽으로 눕고 닿은 수술 전 모습입니다. 반복 접촉하면 눈물·이물감·각막 상피 손상이 생길 수 있습니다.",
+        "alt": "속눈썹이 각막에 닿는 전안부 사진 — 원본의 A 부분을 확대해 표시한 사진입니다. 전체 원본은 크게 보기에서 확인할 수 있습니다."
+      },
+      {
+        "assetId": "clinical-revision-corneal-scar",
+        "label": "② 오래된 손상 뒤 각막 혼탁",
+        "caption": "각막염이 지나간 뒤 혼탁과 혈관이 남은 반흔의 실제 사례입니다. 이 환자의 원인은 헤르페스각막염으로, 속눈썹에 찔려 생긴 흉터는 아닙니다. 오래된 각막 손상 뒤 투명도가 떨어질 수 있음을 설명하는 참고 사진이며, 시력 영향은 흉터의 위치·깊이·범위에 따라 다릅니다.",
+        "title": "각막염이 지나간 뒤 남은 각막 반흔",
+        "region": {
+          "x": 0,
+          "y": 0,
+          "width": 1120,
+          "height": 1101
+        },
+        "regionLabel": "A",
+        "alt": "각막염 뒤 혼탁과 신생혈관이 남은 각막의 실제 사진. 원본 A 패널을 화면에서 확대했습니다."
       }
     ]
   }

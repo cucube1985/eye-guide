@@ -20,5 +20,5 @@ export function resolveLinks(markdown) {
     return topic?`[${label}](#/${topic.id})`:label;
   });
 }
-export const renderMarkdown=(markdown,title='')=>md.render(resolveLinks(markdown || ''),{sectionTitle:title});
+export const renderMarkdown=(markdown,title='')=>md.render(resolveLinks(markdown || ''),{sectionTitle:title}).replace(/<a href="#csc-pdt-info">([^<]+)<\/a>/g,'<button type="button" class="inline-info-button" data-pdt-info>$1 <span aria-hidden="true">ⓘ</span></button>');
 export const renderInline=markdown=>md.renderInline(resolveLinks(markdown || ''));

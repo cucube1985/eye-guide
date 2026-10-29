@@ -1,0 +1,128 @@
+[
+  {
+    "id": "retina-revision-detachment-uwf",
+    "src": "./images/retina-revision-detachment-uwf.png",
+    "title": "초광각 안저 사진으로 보는 망막박리",
+    "originalTitle": "Non-Mydriatic Ultra-Wide Field Imaging Versus Dilated Fundus Exam and Intraoperative Findings for Assessment of Rhegmatogenous Retinal Detachment — Figure 1",
+    "alt": "위쪽 망막이 주름지고 들떠 있으며 위쪽에 말발굽 모양 열공이 보이는 실제 초광각 안저 사진",
+    "caption": "실제 초광각 안저 사진입니다. 위쪽의 주름지고 들뜬 부분이 박리된 망막이며, 12시 방향에 말발굽 모양 열공이 보입니다. 원 논문에서는 황반까지 박리된 사례로 설명합니다. 촬영 방식에 따른 녹색·주황색의 합성색이며, 사진으로 모든 주변부 열공을 확인할 수 있는 것은 아닙니다.",
+    "author": "Beatriz Abadia; Maria Carmen Desco; Jorge Mataix; Elena Palacios; Amparo Navea; Pilar Calvo; Antonio Ferreras",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": "https://doi.org/10.3390/brainsci10080521",
+    "originalUrl": "https://mdpi-res.com/brainsci/brainsci-10-00521/article_deploy/html/images/brainsci-10-00521-g001.png",
+    "downloadUrl": "https://mdpi-res.com/brainsci/brainsci-10-00521/article_deploy/html/images/brainsci-10-00521-g001.png",
+    "width": 1713,
+    "height": 1350,
+    "kind": "clinical",
+    "checked": "2026-10-29",
+    "changes": "논문의 고해상도 PNG를 내용 변경·크롭 없이 저장. 한국어 설명은 이미지와 분리하여 표시.",
+    "metadataEvidence": {
+      "ArticleTitle": "Non-Mydriatic Ultra-Wide Field Imaging Versus Dilated Fundus Exam and Intraoperative Findings for Assessment of Rhegmatogenous Retinal Detachment",
+      "DOI": "10.3390/brainsci10080521",
+      "PMC": "PMC7466016",
+      "Figure": "brainsci-10-00521-f001",
+      "FigureCaption": "Superior rhegmatogenous retinal detachment (RRD), macula-off, and a horseshoe tear located at 12 o’clock.",
+      "LicenseStatement": "© 2020 by the authors. Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license ( http://creativecommons.org/licenses/by/4.0/ ).",
+      "LicenseEvidenceSource": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7466016/fullTextXML",
+      "VisualCheck": "원본 고해상도 파일을 직접 열어 소견과 패널 표기를 확인함. 내용 편집·크롭·주석 추가 없음."
+    }
+  },
+  {
+    "id": "retina-revision-erm-comparison",
+    "src": "./images/retina-revision-erm-comparison.png",
+    "title": "망막전막과 낭성 변화가 동반된 망막전막의 고해상도 OCT",
+    "originalTitle": "Anatomical and Functional Factors Influencing Recovery in Idiopathic Epiretinal Membrane After Surgery — Figure 1",
+    "alt": "위 a는 망막 표면의 전막과 중심오목 소실, 아래 b는 심한 전막과 별표로 표시한 망막 안 낭성 공간을 보여 주는 두 사례의 고해상도 OCT",
+    "caption": "위(a)는 낭성부종이 두드러지지 않는 특발성 망막전막의 예로, 전막이 당겨 황반 중심오목이 사라지고 망막층이 변형되어 있습니다. 아래(b)는 더 진행된 전막과 함께 망막 안 낭성 공간(별표)과 층간 벌어짐(화살표)이 나타난 예입니다. 망막하액이나 삼출물을 보여 주는 자료가 아니며, 서로 다른 사례의 비교입니다. 견인에 의한 낭성·분리 변화는 혈관 누출에 의한 부종과 구분해 평가합니다.",
+    "author": "En-Jie Shih; Kai-Ling Peng; Ya-Hsin Kung; Tsung-Tien Wu",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": "https://doi.org/10.3390/diagnostics16081204",
+    "originalUrl": "https://mdpi-res.com/diagnostics/diagnostics-16-01204/article_deploy/html/images/diagnostics-16-01204-g001.png",
+    "downloadUrl": "https://mdpi-res.com/diagnostics/diagnostics-16-01204/article_deploy/html/images/diagnostics-16-01204-g001.png",
+    "width": 3303,
+    "height": 2054,
+    "kind": "clinical",
+    "checked": "2026-10-29",
+    "changes": "논문의 고해상도 PNG를 내용 변경·크롭 없이 저장. 한국어 설명은 이미지와 분리하여 표시.",
+    "metadataEvidence": {
+      "ArticleTitle": "Anatomical and Functional Factors Influencing Recovery in Idiopathic Epiretinal Membrane After Surgery",
+      "DOI": "10.3390/diagnostics16081204",
+      "PMC": "PMC13115038",
+      "Figure": "diagnostics-16-01204-f001",
+      "FigureCaption": "( a ) This case represents a preoperative stage 3 ERM with no foveal pit and the presence of EIFL. In OCT images, a central bouquet of cotton ball signs, emphasized by a diamond, was observed at the outer retinal layer of the fovea. The mean CFT was measured within a 1.0 mm diameter area, encompassing the foveal pit, slope, and avascular zone. ( b ) This is a preoperative stage 4 case with the absence of a foveal pit, the presence of EIFL, and disrupted retinal layers. Intraretinal cysts, characterized by hypo-reflective and round-shaped intraretinal fluid, are marked with a star. Schisis-like changes, consisting of hypo-reflective longitudinal intraretinal fluid combined with tractional fibers, are shown with an arrow. The EZ and ELM are distorted and disrupted, indicated by a triangle. The IRLT and ORLT were measured using OCT based on various thickness options.",
+      "LicenseStatement": "© 2026 by the authors. 2026 https://creativecommons.org/licenses/by/4.0/ Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the  Creative Commons Attribution (CC BY) license .",
+      "LicenseEvidenceSource": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13115038/fullTextXML",
+      "VisualCheck": "원본 고해상도 파일을 직접 열어 소견과 패널 표기를 확인함. 내용 편집·크롭·주석 추가 없음.",
+      "StudyExclusion": "Secondary ERM related to uveitis, retinal detachment, vascular disease, age-related macular degeneration, ocular trauma, and other non-cataract ocular surgeries were excluded.",
+      "ClinicalLimit": "Panel a is stage 3, not a normal/mild retina. Panel b is stage 4 with intraretinal cysts and schisis-like changes. No subretinal fluid or exudates shown. Cystic tractional spaces do not establish vascular leakage.",
+      "panelRegions": {
+        "a": {
+          "x": 18,
+          "y": 21,
+          "width": 2319,
+          "height": 1009
+        },
+        "b": {
+          "x": 18,
+          "y": 1032,
+          "width": 2319,
+          "height": 1002
+        },
+        "coordinateSystem": "Original 3303×2054 pixel image; rectangles include panel letters a/b and OCT scan, exclude right-hand thickness maps. Source bytes unchanged."
+      }
+    }
+  },
+  {
+    "id": "retina-revision-amd-fundus-stages",
+    "src": "./images/retina-revision-amd-fundus-stages.png",
+    "title": "드루젠의 범위와 진행 단계별 안저 사진",
+    "originalTitle": "Role of Optical Coherence Tomography Imaging in Predicting Progression of Age-Related Macular Disease: A Survey — Figure 4",
+    "alt": "A 정상, B 초기 건성 황반변성의 드루젠, C 크고 넓게 분포한 드루젠, D 지도모양위축, E 습성 황반변성의 다섯 안저 사진",
+    "caption": "A는 정상 참고 사진, B는 드루젠이 보이는 초기 건성 황반변성, C는 크거나 넓게 분포한 드루젠의 예입니다. D는 진행된 건성 황반변성의 위축, E는 출혈·흉터가 동반된 습성 황반변성입니다. 드루젠의 크기·범위와 색소 변화 등을 함께 평가하며, 사진 하나나 드루젠 개수만으로 개인의 진행 위험을 정하지 않습니다. 같은 환자의 시간 경과 사진은 아닙니다.",
+    "author": "Mohamed Elsharkawy; Mostafa Elrazzaz; Mohammed Ghazal; Marah Alhalabi; Ahmed Soliman; Ali Mahmoud; Eman El-Daydamony; Ahmed Atwan; Aristomenis Thanos; Harpal Singh Sandhu; Guruprasad Giridharan; Ayman El-Baz",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": "https://doi.org/10.3390/diagnostics11122313",
+    "originalUrl": "https://mdpi-res.com/diagnostics/diagnostics-11-02313/article_deploy/html/images/diagnostics-11-02313-g004.png",
+    "downloadUrl": "https://mdpi-res.com/diagnostics/diagnostics-11-02313/article_deploy/html/images/diagnostics-11-02313-g004.png",
+    "width": 3141,
+    "height": 1849,
+    "kind": "clinical",
+    "checked": "2026-10-29",
+    "changes": "논문의 고해상도 PNG를 내용 변경·크롭 없이 저장. 한국어 설명은 이미지와 분리하여 표시.",
+    "metadataEvidence": {
+      "ArticleTitle": "Role of Optical Coherence Tomography Imaging in Predicting Progression of Age-Related Macular Disease: A Survey",
+      "DOI": "10.3390/diagnostics11122313",
+      "PMC": "PMC8699887",
+      "Figure": "diagnostics-11-02313-f004",
+      "FigureCaption": "Examples of retinal fundus image for ( A ) an image of a patient with normal retinal health. As a result of more epithelial cells in the macula, it appears darker than other areas in the retina, ( B ) early dry AMD (drusen are deposits under the retina, and this image shows them as yellow. The presence of drusen is a hallmark of AMD), ( C ) One or more large or extensive intermediate drusen, ( D ) advanced dry AMD (it is common for some eyes to develop central atrophy of the RPE and photoreceptors. A significant loss of central vision can result from this, which can be a symptom of advanced dry AMD.), ( E ) wet AMD (this is an example of wet AMD in a retina. An image showing calcified drusen, subretinal bleeding, a black choroidal neovascular membrane (resulting from fibrosis and old blood), and pigmented Xanthophyll in the macula).",
+      "LicenseStatement": "© 2021 by the authors. Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license ( https://creativecommons.org/licenses/by/4.0/ ).",
+      "LicenseEvidenceSource": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8699887/fullTextXML",
+      "VisualCheck": "원본 고해상도 파일을 직접 열어 소견과 패널 표기를 확인함. 내용 편집·크롭·주석 추가 없음.",
+      "ClinicalLimit": "Different patients, not longitudinal progression; A-E panel labeling follows original caption. B and C compare early drusen vs large/extensive drusen; D/E are late AMD phenotypes, not simply larger drusen.",
+      "panelRegions": {
+        "A": {
+          "x": 83,
+          "y": 78,
+          "width": 958,
+          "height": 829
+        },
+        "B": {
+          "x": 1081,
+          "y": 78,
+          "width": 967,
+          "height": 829
+        },
+        "C": {
+          "x": 2104,
+          "y": 78,
+          "width": 960,
+          "height": 829
+        },
+        "coordinateSystem": "Original 3141×1849 pixel image; rectangles include original A/B/C letters. Source bytes unchanged."
+      }
+    }
+  }
+]
