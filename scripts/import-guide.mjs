@@ -72,7 +72,7 @@ export function parseGuide(input) {
       if(!topics.some(x=>x.number===link[1]))throw new Error(`${t.id}: 연결 대상 ${link[1]} 누락`);
     }
   }
-  return {categories,topics,metadata:{updated:'2026.10.29',sourceSha256:createHash('sha256').update(text).digest('hex')}};
+  return {categories,topics,metadata:{updated:'2026.10.31',sourceSha256:createHash('sha256').update(text).digest('hex')}};
 }
 
 if(process.argv[1]===fileURLToPath(import.meta.url)) {

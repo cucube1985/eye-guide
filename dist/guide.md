@@ -1375,6 +1375,14 @@ Presbyopia
 - [NEI · Presbyopia](https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/presbyopia)
 - [AAO · What Is Presbyopia?](https://www.aao.org/eye-health/diseases/what-is-presbyopia)
 
+#### 함께 보는 외부 도구 · 영문
+
+- [눈의 초점 조절 시뮬레이터 — Ray Optics](https://phydemo.app/ray-optics/gallery/optics-of-human-eye): 동공 크기와 수정체의 초점거리를 바꾸며 빛이 모이는 원리를 살펴봅니다.
+- [더 자세한 안구 광학 모형 — Schematic Eye](https://phydemo.app/ray-optics/gallery/schematic-eye): 단순화한 눈 모형에서 빛의 경로를 확인합니다.
+- [제작 자료 · GitHub: ricktu288/ray-optics](https://github.com/ricktu288/ray-optics)
+
+원리 학습용 도구로, 개인의 도수·안축장·수술 결과를 예측하는 검사는 아닙니다.
+
 ---
 
 ### 2.2.1 노안 안약 (1% 필로카르핀)
@@ -1982,6 +1990,10 @@ Retinal detachment
 - [NEI · Retinal Detachment](https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/retinal-detachment)
 - [NHS · Detached retina](https://www.nhs.uk/conditions/detached-retina-retinal-detachment/)
 
+#### 소견 그림 도구 · 의료진·제작자 참고
+
+- [EyeDraw · GitHub](https://github.com/AppertaFoundation/eyedraw): 전안부·녹내장·망막·유리체 등의 진찰 소견을 그림으로 기록하는 OpenEyes 계열 도구입니다. 의료진이 소견을 그려 설명하는 기능을 검토할 때 참고할 수 있습니다. 환자가 스스로 진단하는 도구는 아닙니다.
+
 ---
 
 ### 4.2 망막전막
@@ -2050,6 +2062,10 @@ Epiretinal membrane · Macular pucker
 
 - [ASRS · Epiretinal Membranes](https://www.asrs.org/patients/retinal-diseases/19/epiretinal-membranes)
 - [NEI · Macular Pucker](https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/macular-pucker)
+
+#### 소견 그림 도구 · 의료진·제작자 참고
+
+- [EyeDraw · GitHub](https://github.com/AppertaFoundation/eyedraw): 전안부·녹내장·망막·유리체 등의 진찰 소견을 그림으로 기록하는 OpenEyes 계열 도구입니다. 의료진이 소견을 그려 설명하는 기능을 검토할 때 참고할 수 있습니다. 환자가 스스로 진단하는 도구는 아닙니다.
 
 ---
 
@@ -2881,6 +2897,14 @@ Myopia in children
 - [NEI · Nearsightedness (Myopia)](https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/nearsightedness-myopia)
 - [NHS · Short-sightedness](https://www.nhs.uk/conditions/short-sightedness/)
 - [AAO · Myopia Control in Children](https://www.aao.org/eye-health/diseases/myopia-control-in-children)
+
+#### 함께 보는 외부 도구 · 영문
+
+- [눈의 초점 조절 시뮬레이터 — Ray Optics](https://phydemo.app/ray-optics/gallery/optics-of-human-eye): 동공 크기와 수정체의 초점거리를 바꾸며 빛이 모이는 원리를 살펴봅니다.
+- [더 자세한 안구 광학 모형 — Schematic Eye](https://phydemo.app/ray-optics/gallery/schematic-eye): 단순화한 눈 모형에서 빛의 경로를 확인합니다.
+- [제작 자료 · GitHub: ricktu288/ray-optics](https://github.com/ricktu288/ray-optics)
+
+원리 학습용 도구로, 개인의 도수·안축장·수술 결과를 예측하는 검사는 아닙니다.
 
 ---
 
