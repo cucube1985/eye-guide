@@ -1,3 +1,4 @@
+import {tearFilmReviewed,ciliaContactReviewed} from './reviewed-visuals.js';
 // Original vector illustrations added in the 2026-10-29 image review. Artwork: CC BY 4.0.
 // Anterior segment, dry-eye treatment, glaucoma and presbyopia-drop explanations.
 const source=(url,label)=>`<a href="${url}" target="_blank" rel="noopener noreferrer">${label}</a>`;
@@ -8,45 +9,17 @@ const text=(x,y,value,size=17,weight=400,fill='#36594c',anchor='start')=>`<text 
 const arrowDefs=(id,color)=>`<marker id="${id}" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10Z" fill="${color}"/></marker>`;
 
 const NEI_DRY='https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/dry-eye';
-const TFOS='https://www.tfosdewsreport.org/';
+const TFOS='https://pubmed.ncbi.nlm.nih.gov/40467022/';
 const NEI_GLAUCOMA='https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/glaucoma';
 
-/* ---------- 1. 눈물막 3층과 치료가 돕는 곳 ---------- */
-const TEAR_ROWS=[
-  {key:'artificial',color:'#6fa9c0',title:'인공눈물',desc:'부족한 물층을 바깥에서 보충',layerY:210},
-  {key:'mucin',color:'#c084a6',title:'디쿠아포솔 · 레바미피드',desc:'눈이 스스로 점액·수분을 더 만들도록',layerY:285},
-  {key:'inflammation',color:'#c4675a',title:'사이클로스포린 · 스테로이드',desc:'표면 염증을 줄여 악순환을 끊음',layerY:350},
-  {key:'serum',color:'#d09a4e',title:'자가혈청',desc:'성장인자로 표면 세포 회복을 도움',layerY:350},
-  {key:'lipid',color:'#cfa23a',title:'온찜질 · 눈꺼풀 관리 · IPL',desc:'기름샘을 열어 기름층을 회복',layerY:135},
-  {key:'plug',color:'#5f927c',title:'눈물점 마개',desc:'눈물이 빠져나가는 양을 줄임',layerY:210}
-];
-function tearFilm(focus='all'){
-  const cells=Array.from({length:9},(_,i)=>`<rect x="${62+i*51}" y="304" width="47" height="56" rx="12" fill="#f4e5d6" stroke="#cfae90" stroke-width="2"/><circle cx="${85+i*51}" cy="332" r="7" fill="#d8b896"/>`).join('');
-  const strands=Array.from({length:22},(_,i)=>{const x=70+i*21;return `<path d="M${x} 300c-4-9 4-15 0-24" stroke="#c98fb0" stroke-width="2" fill="none"/>`;}).join('');
-  const drops=[[120,200],[200,232],[300,190],[390,240],[460,205]].map(([x,y])=>`<path d="M${x} ${y-12}c7 9 9 13 9 17a9 9 0 0 1-18 0c0-4 2-8 9-17Z" fill="#9fd0e2"/>`).join('');
-  const inflam=focus==='inflammation'?[[110,318],[230,340],[330,322],[420,345]].map(([x,y])=>`<circle cx="${x}" cy="${y}" r="9" fill="#e07b6b" stroke="#a9473b" stroke-width="2"/>`).join(''):'';
-  const rows=TEAR_ROWS.map((r,i)=>{const on=focus===r.key;const y=40+i*72;return `<g><rect x="574" y="${y}" width="356" height="62" rx="12" fill="${on?'#fff3d3':'#f1f4ec'}" stroke="${on?'#d4a033':'#dbe3d6'}" stroke-width="${on?3:1.5}"/><circle cx="600" cy="${y+31}" r="9" fill="${r.color}"/>${text(620,y+27,r.title,17,700,'#294f43')}${text(620,y+50,r.desc,14,400,'#61776c')}</g>`;}).join('');
-  const active=TEAR_ROWS.find(r=>r.key===focus);
-  const pointer=active?`<path d="M548 ${active.layerY}h-24" stroke="${active.color}" stroke-width="5" marker-end="url(#tf-arrow)"/><circle cx="556" cy="${active.layerY}" r="7" fill="${active.color}"/>`:'';
-  const body=`<defs>${arrowDefs('tf-arrow',active?.color||'#5f927c')}</defs><rect width="960" height="500" rx="14" fill="#faf9f2"/>
-  ${text(40,40,'눈 표면의 눈물막 (확대 모식도)',19,700,'#294f43')}
-  <rect x="60" y="62" width="460" height="58" fill="#eef5f8"/>${text(74,98,'공기와 닿는 면',15,400,'#61776c')}
-  <rect x="60" y="120" width="460" height="30" fill="#f2cd68"/>${text(74,141,'기름층 · 눈물이 마르지 않게 막음 (눈꺼풀 기름샘)',15,700,'#6b5313')}
-  <rect x="60" y="150" width="460" height="126" fill="#c6e4ef"/>${drops}${text(74,262,'물층 · 수분과 영양 공급 (눈물샘)',15,700,'#2f6377')}
-  <rect x="60" y="276" width="460" height="28" fill="#ecc6da"/>${strands}<rect x="68" y="281" width="250" height="20" rx="4" fill="#ecc6da"/>${text(74,296,'점액층 · 눈물이 표면에 붙게 함',15,700,'#7b3b5d')}
-  ${cells}${inflam}${text(74,392,'각막·결막 표면 세포',15,700,'#7a5638')}
-  <path d="M60 120h460M60 304h460" stroke="#ffffff" stroke-width="1"/>
-  ${pointer}
-  ${text(574,26,'치료가 돕는 곳',17,700,'#294f43')}${rows}
-  ${text(60,440,'세 층 중 하나라도 부족하면 눈물막이 빨리 깨져',15,400,'#61776c')}${text(60,464,'뻑뻑함·이물감·흐림이 생깁니다.',15,400,'#61776c')}`;
-  return svg(`tear-film-${focus}`,'눈물막의 세 층과 치료가 작용하는 곳','눈 표면은 바깥에서부터 기름층, 물층, 점액층이 덮고 있고 그 아래 표면 세포가 있습니다. 오른쪽 목록은 각 치료가 어느 층을 돕는지 보여줍니다.',body);
-}
+/* ---------- 1. 눈물막의 성분과 치료가 돕는 곳 ---------- */
+function tearFilm(focus='all'){return tearFilmReviewed(focus);}
 const TEAR_NOTES={
-  all:'층마다 부족한 원인이 달라 치료도 달라집니다. 기름층이 부족한 경우(마이봄샘 기능장애)가 가장 흔하며, 여러 원인이 함께 있는 경우가 많습니다.',
-  artificial:'인공눈물은 주로 물층을 보충합니다. 지질(기름) 성분이 든 우윳빛 제품은 기름층 보충에도 도움이 됩니다. 원인을 없애는 치료는 아니므로 불편이 계속되면 다른 치료를 함께 합니다.',
-  mucin:'디쿠아포솔은 결막에서 수분과 점액 분비를, 레바미피드는 점액을 만드는 세포를 늘립니다. 효과가 나타나기까지 2~4주 이상 꾸준히 사용합니다.',
-  inflammation:'붉은 점은 표면의 염증을 나타냅니다. 염증이 눈물막을 더 불안정하게 만드는 악순환을 끊는 것이 목적입니다. 스테로이드는 짧게, 사이클로스포린은 길게 씁니다.',
-  serum:'자가혈청에는 실제 눈물에 가까운 성장인자·비타민이 들어 있어 잘 낫지 않는 표면 세포의 회복을 돕습니다.'
+  all:'눈물의 양과 성분, 깜박임, 눈꺼풀과 눈 표면의 상태가 함께 영향을 줍니다. 증상과 검사 결과를 보고 치료를 조합합니다.',
+  artificial:'인공눈물은 수분과 윤활을 보충합니다. 지질 성분을 포함한 제제도 있으므로 제품 성분과 사용법을 확인합니다. 원인을 없애는 치료는 아니므로 불편이 계속되면 다른 치료를 함께 합니다.',
+  mucin:'디쿠아포솔과 레바미피드는 수분·뮤신 분비와 눈 표면 상태를 돕는 약입니다. 작용과 용법이 서로 다르며 효과와 불편을 진료에서 확인합니다.',
+  inflammation:'염증이 눈물막을 더 불안정하게 만드는 악순환을 끊는 것이 목적입니다. 스테로이드는 안압·감염 위험 등을 확인하며 기간을 정하고, 다른 항염증 점안제도 반응을 보며 사용합니다.',
+  serum:'혈청 점안제는 잘 낫지 않는 눈 표면 손상 등에서 고려합니다. 효과·보관·오염 위험을 함께 확인합니다.'
 };
 
 /* ---------- 2. 다래끼 절개: 안쪽 vs 바깥쪽 ---------- */
@@ -170,7 +143,7 @@ function anteriorSegment(mode='flow'){
   ${text(400,76,'쉴렘관 → 혈관으로',15,700,'#3f6f86','end')}<path d="M404 72L440 128" stroke="#5f8fa8" stroke-width="1.5"/>`;
   const flowInfo=`<rect x="700" y="170" width="236" height="270" rx="14" fill="#eef4ee"/>${text(718,204,'안압은 균형으로 정해져요',16,700,'#294f43')}
   ${text(718,236,'만들어지는 양 (섬모체)',14,400,'#36594c')}${text(718,258,'↕',16,700,'#3f8fb3')}${text(736,258,'빠져나가는 양 (섬유주)',14,400,'#36594c')}
-  ${text(718,296,'배출이 잘 안 되면 안압↑',14,700,'#b5534a')}${text(718,320,'→ 눈 뒤쪽 시신경이 눌리고',14,400,'#36594c')}${text(718,342,'혈류가 줄어 손상될 수 있음',14,400,'#36594c')}
+  ${text(718,296,'배출이 잘 안 되면 안압↑',14,700,'#b5534a')}${text(718,320,'→ 시신경 손상의 위험이 커짐',14,400,'#36594c')}${text(718,342,'손상에는 여러 요인이 관여함',14,400,'#36594c')}
   ${text(718,380,'시신경이 약하면 안압이',14,400,'#36594c')}${text(718,402,'정상이어도 손상될 수 있음',14,400,'#36594c')}${text(718,424,'(정상안압 녹내장)',14,700,'#a47c1d')}`;
   const badge=(x,y,n,c)=>`<circle cx="${x}" cy="${y}" r="17" fill="${c}"/>${text(x,y+6,n,17,700,'#ffffff','middle')}`;
   const treat=`<path d="M446 172C500 140 560 108 616 82" stroke="#5f927c" stroke-width="6" fill="none" marker-end="url(#as-new)"/><ellipse cx="648" cy="70" rx="44" ry="15" fill="#cfe6d6" stroke="#5f927c" stroke-width="2" opacity=".9"/>
@@ -178,11 +151,11 @@ function anteriorSegment(mode='flow'){
   <rect x="700" y="170" width="236" height="290" rx="14" fill="#eef4ee"/>
   ${badge(724,206,'①','#c08a2c')}${text(750,212,'안약',16,700,'#294f43')}${text(724,240,'만드는 양 줄이기 또는',14,400,'#36594c')}${text(724,262,'빠져나가는 양 늘리기',14,400,'#36594c')}
   ${badge(724,300,'②','#c4675a')}${text(750,306,'SLT 레이저',16,700,'#294f43')}${text(724,334,'섬유주의 배출 기능 개선',14,400,'#36594c')}
-  ${badge(724,372,'③','#5f927c')}${text(750,378,'수술',16,700,'#294f43')}${text(724,406,'새 배출 통로를 만들어',14,400,'#36594c')}${text(724,428,'결막 아래로 빠져나가게',14,400,'#36594c')}`;
+  ${badge(724,372,'③','#5f927c')}${text(750,378,'여과수술의 예',16,700,'#294f43')}${text(724,406,'새 배출 통로를 만들어',14,400,'#36594c')}${text(724,428,'결막 아래로 빠져나가게',14,400,'#36594c')}`;
   const body=`<defs>${arrowDefs('as-flow','#3f8fb3')}${arrowDefs('as-new','#5f927c')}</defs><rect width="960" height="500" rx="14" fill="#faf9f2"/>
   ${text(30,40,mode==='treatment'?'녹내장 치료가 작용하는 곳 (눈 앞부분 단면)':'눈 속 물(방수)이 만들어지고 빠져나가는 길',19,700,'#294f43')}
   ${anatomy}${flow}${labels}${mode==='treatment'?treat:flowInfo}`;
-  return svg(`anterior-${mode}`,mode==='treatment'?'녹내장 치료가 작용하는 위치':'방수의 생성과 배출 경로',mode==='treatment'?'눈 앞부분 단면에서 안약은 섬모체의 방수 생성을 줄이거나 배출을 늘리고, SLT 레이저는 섬유주의 배출을 돕고, 수술은 결막 아래로 새 배출 통로를 만듭니다.':'섬모체에서 만들어진 방수가 동공을 지나 앞방으로 나와 전방각의 섬유주와 쉴렘관을 통해 빠져나가는 경로. 생성과 배출의 균형이 안압을 결정합니다.',body);
+  return svg(`anterior-${mode}`,mode==='treatment'?'녹내장 치료가 작용하는 위치':'방수의 생성과 배출 경로',mode==='treatment'?'눈 앞부분 단면에서 안약은 섬모체의 방수 생성을 줄이거나 배출을 늘리고, SLT 레이저는 섬유주의 배출을 돕고, 여과수술은 결막 아래로 새 배출 통로를 만듭니다. 수술 종류별 배출 경로는 다를 수 있습니다.':'섬모체에서 만들어진 방수가 동공을 지나 앞방으로 나와 전방각의 섬유주와 쉴렘관을 통해 빠져나가는 경로. 생성과 배출의 균형이 안압을 결정합니다.',body);
 }
 
 /* ---------- 7. 정상 시신경과 녹내장 시신경 ---------- */
@@ -193,22 +166,22 @@ function cupDisc(){
   <ellipse cx="${cx}" cy="215" rx="${cupR}" ry="${cupR*1.08}" fill="#fff1d2"/>
   <g clip-path="url(#clip-disc-${cx})" stroke="#a3342a" stroke-width="3.5" fill="none" stroke-linecap="round" opacity=".9"><path d="M${cx-4} ${215-cupR*0.7}C${cx-8} ${150-cupR*0.2} ${cx-20} 110 ${cx-40} 92S${cx-100} 66 ${cx-136} 76"/><path d="M${cx+4} ${215-cupR*0.7}C${cx+10} ${150-cupR*0.2} ${cx+26} 112 ${cx+48} 96S${cx+104} 72 ${cx+138} 84"/><path d="M${cx-4} ${215+cupR*0.7}C${cx-8} ${280+cupR*0.2} ${cx-20} 320 ${cx-40} 338S${cx-100} 362 ${cx-136} 352"/><path d="M${cx+4} ${215+cupR*0.7}C${cx+10} ${280+cupR*0.2} ${cx+26} 318 ${cx+48} 334S${cx+104} 358 ${cx+138} 346"/><path d="M${cx-cupR*0.6} 215C${cx-60} 210 ${cx-90} 204 ${cx-120} 208" stroke-width="2.5"/></g>
   ${text(cx,410,label,19,700,'#294f43','middle')}${text(cx,436,sub,15,400,'#61776c','middle')}${text(cx,458,ratio,14,700,'#a47c1d','middle')}`;
-  const body=`<rect width="960" height="480" rx="14" fill="#faf9f2"/>${disc(250,22,'정상 시신경','가운데 패임이 작고 테두리가 두꺼움','패임 비율 약 0.3')}${disc(710,58,'녹내장 시신경','신경섬유가 줄어 패임이 커짐','패임 비율 약 0.8')}
+  const body=`<rect width="960" height="480" rx="14" fill="#faf9f2"/>${disc(250,22,'손상 없는 구조의 한 예','신경 테두리를 함께 살펴봅니다.','패임 크기에는 개인차가 있습니다.')}${disc(710,58,'신경 테두리가 줄어든 예','손상 부위와 시간에 따른 변화를 봅니다.','패임 비율 하나로 진단하지 않습니다.')}
   <path d="M310 200L424 150" stroke="#294f43" stroke-width="1.5"/>${text(428,148,'두꺼운',15,700,'#294f43')}${text(428,168,'신경 테두리',15,700,'#294f43')}
   <path d="M774 196L880 150" stroke="#294f43" stroke-width="1.5"/>${text(884,148,'얇아진',15,700,'#294f43')}${text(884,168,'테두리',15,700,'#294f43')}`;
-  return svg('cup-disc','정상 시신경과 녹내장 시신경 비교','눈 안쪽을 들여다본 안저 모식도. 정상 시신경유두는 가운데 하얀 패임이 작고 주황색 신경 테두리가 두껍지만, 녹내장에서는 신경섬유가 줄어 패임이 커지고 테두리가 얇아집니다.',body,'0 0 960 480')+note('안저 검사와 OCT에서 이 패임과 신경섬유층 두께를 확인합니다. 패임이 원래 큰 사람도 있어, 한 번의 사진보다 시야검사·OCT와 시간에 따른 변화를 함께 봅니다.');
+  return svg('cup-disc','시신경 테두리의 구조 차이 · 개념 비교','눈 안쪽을 들여다본 안저 모식도. 가운데 패임과 그 주위 신경 테두리를 비교합니다. 패임의 원래 크기에는 개인차가 크며, 국소적인 테두리·신경섬유 손상과 시간에 따른 변화를 함께 평가합니다.',body,'0 0 960 480')+note('안저 검사와 OCT에서 이 패임과 신경섬유층 두께를 확인합니다. 패임이 원래 큰 사람도 있어, 한 번의 사진보다 시야검사·OCT와 시간에 따른 변화를 함께 봅니다.');
 }
 
 /* ---------- 8. 녹내장 진행 요인 ---------- */
 function glaucomaRisk(){
   const col=(title,cls,items)=>`<div class="trigger-card ${cls}"><strong>${title}</strong><ul class="visual-list">${items.map(([b,d])=>`<li><b>${b}</b> · ${d}</li>`).join('')}</ul></div>`;
-  return `<div class="trigger-grid">${col('조절할 수 있는 요인','',[['안압','가장 중요한 요인, 안약으로 낮춤'],['안약 꾸준히','빠뜨리면 안압이 오르내림'],['혈압·혈류','밤에 너무 떨어지지 않게 내과와 상의'],['수면무호흡','코골이·무호흡은 진료로 확인'],['스테로이드','안약·흡입제·연고 사용을 알림']])}${col('조절하기 어려운 요인','is-caution',[['나이','나이가 많을수록 위험↑'],['가족력','부모·형제자매 녹내장'],['근시','근시가 심할수록 위험↑'],['얇은 각막','안압이 낮게 측정될 수도'],['시신경 출혈·진행 정도','진행의 신호일 수 있음']])}</div>${note('조절하기 어려운 요인이 있다면 검사를 더 자주, 더 꼼꼼히 받는 것이 대응 방법입니다.')}`;
+  return `<div class="trigger-grid">${col('조절할 수 있는 요인','',[['안압','치료로 목표 안압을 유지'],['안약 꾸준히','사용이 어렵다면 방법을 상담'],['혈압·혈류','혈압약을 임의로 조절하지 않음'],['수면무호흡','코골이·무호흡은 진료로 확인'],['스테로이드','안약·흡입제·연고 사용을 알림']])}${col('조절하기 어려운 요인','is-caution',[['나이','나이가 많을수록 위험↑'],['가족력','부모·형제자매 녹내장'],['근시','근시가 심할수록 위험↑'],['얇은 각막','안압이 낮게 측정될 수도'],['시신경 출혈·진행 정도','진행의 신호일 수 있음']])}</div>${note('발생 위험 정보와 실제 진행 소견을 구분합니다. 진행 속도는 반복한 시야검사와 OCT로 평가하며, 검사 간격은 눈 상태에 맞춥니다.')}`;
 }
 
 /* ---------- 9. 녹내장 생활 습관 ---------- */
 function glaucomaLifestyle(){
-  const cards=[['✓','정기 검진','40세 이후 증상이 없어도','good'],['✓','유산소 운동','걷기·자전거 등 꾸준히','good'],['✓','금연·수면 관리','코골이·무호흡은 진료로','good'],['✓','혈압·혈당 관리','너무 높거나 낮지 않게','good'],['!','머리를 오래 낮추는 자세','물구나무·요가 역자세','caution'],['!','숨 참고 힘주기','무거운 중량은 숨 쉬면서','caution'],['!','물 한꺼번에 많이','1L 이상은 나눠 마시기','caution'],['!','눈·목 압박','꽉 끼는 넥타이, 엎드려 자기','caution']];
-  return `<div class="trigger-grid lifestyle-grid">${cards.map(([icon,title,desc,kind])=>`<div class="trigger-card ${kind==='caution'?'is-caution':''}"><span aria-hidden="true">${icon}</span><strong>${title}</strong><p>${desc}</p></div>`).join('')}</div>${note('초록색은 도움이 될 수 있는 습관, 주황색은 안압을 일시적으로 올릴 수 있어 주의할 습관입니다. 생활 습관은 안약·레이저·수술을 대신하지 않습니다.')}`;
+  const cards=[['✓','예약된 검사·치료','목표 안압과 진행 추세 확인','good'],['✓','안약 사용 방법','빠뜨리거나 불편하면 상담','good'],['✓','유산소 운동·금연','전반적인 건강을 위한 습관','good'],['✓','수면·혈압 관리','무호흡 상담 · 혈압약 임의 변경 금지','good'],['!','머리를 오래 낮추거나 힘주기','일시적 안압 상승 · 상태별 상담','caution'],['!','수분은 적당히 나누어','수분 제한·탈수는 피하기','caution']];
+  return `<div class="trigger-grid lifestyle-grid">${cards.map(([icon,title,desc,kind])=>`<div class="trigger-card ${kind==='caution'?'is-caution':''}"><span aria-hidden="true">${icon}</span><strong>${title}</strong><p>${desc}</p></div>`).join('')}</div>${note('우선은 처방된 치료와 반복 검사입니다. 생활 습관의 장기적인 진행 억제 근거는 제한적이며, 일시적인 안압 변화가 곧 시야 손상을 뜻하지는 않습니다. 일상생활을 과도하게 제한하지 마세요.')}`;
 }
 
 /* ---------- 10. 녹내장 진행 판단: 변동과 추세 ---------- */
@@ -249,37 +222,38 @@ function anglePanels(){
     ${text(x0+96,V[1]-196,'각막',14,700,'#4d7b80')}${text(V[0]-6,V[1]-92,'섬유주',14,700,'#6b5a3a','middle')}<path d="M${V[0]-12} ${V[1]-86}L${V[0]-30} ${V[1]-38}" stroke="#a69676" stroke-width="1.5"/>${text(x0+44,V[1]+42,'홍채',14,700,'#6b4a36')}${text(x0+120,V[1]+128,'수정체',14,400,'#8a7535')}</g>`;};
   const body=`<defs>${arrowDefs('ap-flow','#3f8fb3')}</defs><rect width="960" height="500" rx="14" fill="#faf9f2"/>
   <rect x="10" y="14" width="300" height="472" rx="12" fill="#eef4ee"/><rect x="330" y="14" width="300" height="472" rx="12" fill="#f8efe6"/><rect x="650" y="14" width="300" height="472" rx="12" fill="#eef4ee"/>
-  ${text(26,46,'① 열린 전방각',18,700,'#294f43')}${text(346,46,'② 좁은·닫힌 전방각',18,700,'#a9473b')}${text(666,46,'③ 레이저 홍채절개술 후',18,700,'#294f43')}
+  ${text(26,46,'① 열린 전방각',18,700,'#294f43')}${text(346,46,'② 전방각이 막힌 예',18,700,'#a9473b')}${text(666,46,'③ 동공차단을 줄인 예',18,700,'#294f43')}
   ${panel(10,'open')}${panel(330,'narrow')}${panel(650,'lpi')}
-  ${text(26,440,'홍채와 각막 사이가 넓어',14,400,'#36594c')}${text(26,462,'방수가 섬유주로 잘 빠짐',14,400,'#36594c')}
+  ${text(26,440,'홍채와 각막 사이가 넓어',14,400,'#36594c')}${text(26,462,'열려 있어도 배출 저항은 클 수 있음',12,400,'#36594c')}
   ${text(346,440,'홍채가 앞으로 밀려 배출구를',14,400,'#36594c')}${text(346,462,'막으면 안압이 급격히 오름',14,700,'#a9473b')}
-  ${text(666,440,'홍채에 작은 구멍(우회로)을 내',14,400,'#36594c')}${text(666,462,'홍채가 평평해지고 배출구가 열림',14,400,'#36594c')}`;
-  return svg('angle-panels','열린 전방각, 좁은 전방각, 레이저 홍채절개술 후 비교','전방각 확대 단면 세 개. 열린 각에서는 방수가 섬유주로 잘 빠지고, 좁은 각에서는 홍채가 앞으로 밀려 배출구를 막으며, 레이저 홍채절개술 후에는 홍채의 작은 구멍으로 방수가 우회해 홍채가 평평해집니다.',body)+note('파란 점선은 눈 속 물(방수)의 흐름입니다. 레이저 홍채절개술은 급성 발작 위험을 줄이는 치료이며, 이후에도 전방각과 안압을 계속 확인합니다.');
+  ${text(666,440,'홍채에 작은 구멍(우회로)을 내',14,400,'#36594c')}${text(666,462,'동공차단 완화 · 좁은 각이 남을 수도',14,400,'#36594c')}`;
+  return svg('angle-panels','열린 전방각, 좁은 전방각, 레이저 홍채절개술 후 비교','전방각 확대 단면 세 개. 열린 각에서는 방수가 섬유주로 잘 빠지고, 좁은 각에서는 홍채가 앞으로 밀려 배출구를 막으며, 레이저 홍채절개술 후에는 홍채 구멍으로 방수가 우회해 동공차단을 줄일 수 있습니다. 시술 뒤에도 좁은 전방각이나 유착이 남을 수 있습니다.',body)+note('파란 점선은 눈 속 물(방수)의 흐름입니다. 레이저 홍채절개술은 급성 발작 위험을 줄이는 치료이며, 이후에도 전방각과 안압을 계속 확인합니다.');
 }
 
 /* ---------- 12. 필로카르핀: 동공과 핀홀 효과 ---------- */
 function pilocarpinePupil(){
   const eye=(cx,r,label,sub)=>`<clipPath id="pl-eye-${cx}"><path d="M${cx-110} 150Q${cx} 60 ${cx+110} 150Q${cx} 240 ${cx-110} 150Z"/></clipPath><path d="M${cx-110} 150Q${cx} 60 ${cx+110} 150Q${cx} 240 ${cx-110} 150Z" fill="#fff"/><g clip-path="url(#pl-eye-${cx})"><circle cx="${cx}" cy="150" r="48" fill="#7b6a52"/><circle cx="${cx}" cy="150" r="${r}" fill="#22211f"/><circle cx="${cx-12}" cy="136" r="6" fill="#fff"/></g><path d="M${cx-110} 150Q${cx} 60 ${cx+110} 150Q${cx} 240 ${cx-110} 150Z" fill="none" stroke="#b9a08c" stroke-width="4"/>${text(cx,268,label,17,700,'#294f43','middle')}${text(cx,292,sub,14,400,'#61776c','middle')}`;
-  const rays=(y0,half,blur,label)=>`<path d="M520 ${y0}L700 ${y0-half}L880 ${y0+blur}M520 ${y0}L700 ${y0+half}L880 ${y0-blur}" stroke="#e0a83a" stroke-width="2.5" fill="none"/><path d="M700 ${y0-half-6}v${2*half+12}" stroke="#7c5b45" stroke-width="5"/><ellipse cx="700" cy="${y0}" rx="8" ry="${half}" fill="#f6edc9" stroke="#c9b67a"/><path d="M880 ${y0-60}v120" stroke="#c4675a" stroke-width="4"/><path d="M880 ${y0-blur}v${2*blur}" stroke="#294f43" stroke-width="10"/><circle cx="520" cy="${y0}" r="5" fill="#a47c1d"/>${text(520,y0-70,label,15,700,'#294f43')}`;
+  const rays=(y0,half,blur,label)=>`<path d="M520 ${y0}L700 ${y0-half}L880 ${y0-blur}M520 ${y0}L700 ${y0+half}L880 ${y0+blur}" stroke="#e0a83a" stroke-width="2.5" fill="none"/><ellipse cx="700" cy="${y0}" rx="8" ry="52" fill="#f6edc944" stroke="#c9b67a"/><path d="M692 ${y0-60}v${60-half}M692 ${y0+half}v${60-half}" stroke="#7c5b45" stroke-width="5"/><path d="M880 ${y0-60}v120" stroke="#c4675a" stroke-width="4"/><path d="M880 ${y0-blur}v${2*blur}" stroke="#294f43" stroke-width="10"/><circle cx="520" cy="${y0}" r="5" fill="#a47c1d"/>${text(520,y0-70,label,15,700,'#294f43')}`;
   const body=`<rect width="960" height="420" rx="14" fill="#faf9f2"/>${text(30,40,'필로카르핀이 가까운 것을 잘 보이게 하는 원리',19,700,'#294f43')}
   ${eye(150,24,'평소 동공','밝은 곳 기준')}${eye(390,10,'안약 넣은 뒤','동공이 작아짐')}
-  ${rays(150,40,26,'큰 동공: 초점이 흩어짐')}${rays(320,14,8,'작은 동공: 흐림이 줄어듦 (핀홀 효과)')}
+  ${rays(150,40,26,'가까운 물체에 초점이 맞지 않는 예')}${rays(320,14,9.1,'같은 초점 상태에서 동공을 줄인 예')}
   ${text(888,150,'망막',13,400,'#a9473b')}${text(470,402,'검은 막대 길이 = 망막에 맺히는 흐림의 크기',14,400,'#61776c','middle')}`;
-  return svg('pilocarpine-pupil','필로카르핀 안약의 핀홀 효과','왼쪽은 평소 동공과 안약을 넣은 뒤 작아진 동공. 오른쪽 광선 그림에서 동공이 작으면 가까운 물체의 빛이 좁게 들어와 망막의 흐림이 줄어듭니다.',body,'0 0 960 420')+note('동공이 작아지면 가까운 곳이 선명해지지만, 들어오는 빛도 줄어 어두운 곳에서는 시야가 어둡게 느껴집니다. 밤 운전은 피하세요. 노안 자체를 치료하는 약은 아닙니다.');
+  return svg('pilocarpine-pupil','필로카르핀 안약의 핀홀 효과','왼쪽은 평소 동공과 안약을 넣은 뒤 작아진 동공. 오른쪽은 수정체 크기와 초점 상태를 같게 둔 개념 비교입니다. 광선 그림에서 동공이 작으면 가까운 물체의 빛이 좁게 들어와 망막의 흐림이 줄어듭니다.',body,'0 0 960 420')+note('동공이 작아지면 일부에서 가까운 곳의 흐림이 줄 수 있지만, 들어오는 빛도 줄어 어두운 곳에서는 시야가 어둡게 느껴집니다. 어둡거나 흐리게 보이면 운전하지 마세요. 수정체의 노화 자체를 되돌리지는 않습니다.');
 }
 
 export const extraVisuals={
-  'tear-film':()=>tearFilm('all')+note(TEAR_NOTES.all)+credit(source(NEI_DRY,'NEI · 안구건조증')+' · '+source(TFOS,'TFOS DEWS II')),
-  'tear-film-artificial':()=>tearFilm('artificial')+note(TEAR_NOTES.artificial)+credit(source(TFOS,'TFOS DEWS II 치료 보고서')),
-  'tear-film-mucin':()=>tearFilm('mucin')+note(TEAR_NOTES.mucin)+credit(source(TFOS,'TFOS DEWS II 치료 보고서')),
-  'tear-film-inflammation':()=>tearFilm('inflammation')+note(TEAR_NOTES.inflammation)+credit(source(TFOS,'TFOS DEWS II 치료 보고서')),
-  'tear-film-serum':()=>tearFilm('serum')+note(TEAR_NOTES.serum)+credit(source(TFOS,'TFOS DEWS II 치료 보고서')),
-  'serum-steps':()=>serumSteps()+credit(source(TFOS,'TFOS DEWS II 치료 보고서')),
+  'cilia-contact':()=>ciliaContactReviewed()+credit(source('https://eyewiki.aao.org/Entropion','AAO EyeWiki · 안검내반')),
+  'tear-film':()=>tearFilm('all')+note(TEAR_NOTES.all)+credit(source(NEI_DRY,'NEI · 안구건조증')+' · '+source(TFOS,'TFOS DEWS III 2025')),
+  'tear-film-artificial':()=>tearFilm('artificial')+note(TEAR_NOTES.artificial)+credit(source(TFOS,'TFOS DEWS III 2025 치료 보고서')),
+  'tear-film-mucin':()=>tearFilm('mucin')+note(TEAR_NOTES.mucin)+credit(source(TFOS,'TFOS DEWS III 2025 치료 보고서')),
+  'tear-film-inflammation':()=>tearFilm('inflammation')+note(TEAR_NOTES.inflammation)+credit(source(TFOS,'TFOS DEWS III 2025 치료 보고서')),
+  'tear-film-serum':()=>tearFilm('serum')+note(TEAR_NOTES.serum)+credit(source(TFOS,'TFOS DEWS III 2025 치료 보고서')),
+  'serum-steps':()=>serumSteps()+credit(source(TFOS,'TFOS DEWS III 2025 치료 보고서')),
   'incision-approaches':()=>incisionApproaches()+credit(source('https://www.aao.org/eye-health/diseases/what-are-chalazia-styes','AAO · 다래끼와 콩다래끼')),
   'punctal-plug':()=>punctalPlug()+credit(source('https://www.aao.org/eye-health/treatments/punctal-plugs','AAO · Punctal Plugs')),
   'ipl-treatment':()=>iplTreatment()+credit(source('https://eyewiki.aao.org/Intense_Pulsed_Light_%28IPL%29_therapy','AAO EyeWiki · IPL')),
   'aqueous-flow':()=>anteriorSegment('flow')+note('파란 점선은 눈 속 물(방수)의 흐름입니다. 이 물은 눈물과 다르며, 눈 안을 채우고 영양을 공급한 뒤 혈관으로 빠져나갑니다.')+credit(source(NEI_GLAUCOMA,'NEI · 녹내장')),
-  'glaucoma-treatment-routes':()=>anteriorSegment('treatment')+note('치료는 모두 안압을 낮추는 방향으로 작용합니다. 어떤 치료를 먼저, 어떻게 조합할지는 녹내장 유형과 진행 정도에 따라 정합니다.')+credit(source('https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/glaucoma/glaucoma-medicines','NEI · 녹내장 약물')+' · '+source('https://www.nice.org.uk/guidance/ng81/chapter/Recommendations','NICE NG81')),
+  'glaucoma-treatment-routes':()=>anteriorSegment('treatment')+note('치료는 안압을 낮추는 방향으로 작용합니다. 수술 종류에 따라 기존 배출 경로를 개선하거나 새 경로를 만듭니다. 어떤 치료를 먼저, 어떻게 조합할지는 녹내장 유형과 진행 정도에 따라 정합니다.')+credit(source('https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/glaucoma/glaucoma-medicines','NEI · 녹내장 약물')+' · '+source('https://www.nice.org.uk/guidance/ng81/chapter/Recommendations','NICE NG81')),
   'cup-disc':()=>cupDisc()+credit(source(NEI_GLAUCOMA,'NEI · 녹내장')),
   'glaucoma-risk':()=>glaucomaRisk()+credit(source('https://www.nice.org.uk/guidance/ng81/chapter/Recommendations','NICE NG81')+' · '+source(NEI_GLAUCOMA,'NEI · 녹내장')),
   'glaucoma-lifestyle':()=>glaucomaLifestyle()+credit(source(NEI_GLAUCOMA,'NEI · 녹내장')),

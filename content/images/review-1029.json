@@ -154,10 +154,10 @@
   {
     "id": "glaucoma-field-defects",
     "src": "./images/glaucoma-field-defects.png",
-    "title": "녹내장에서 나타나는 시야 결손의 단계",
+    "title": "녹내장에서 볼 수 있는 여러 시야 결손 양상",
     "originalTitle": "Glaucomatous field defects.png",
-    "alt": "원형 시야도 8개에서 검은 결손 부위가 코쪽 계단, 활 모양 결손을 거쳐 중심만 남거나 전체로 커지는 과정을 보여주는 그림",
-    "caption": "시야검사 결과를 단순화한 그림입니다. (a)~(d) 초기에는 코쪽이나 중심 위쪽 일부가 작게 빠지고, (e)~(f) 활 모양으로 넓어지며, (g)~(h) 말기에는 중심만 남거나 전체가 빠집니다. 초기 단계는 본인이 거의 느끼지 못합니다.",
+    "alt": "빛 감지 능력이 낮아진 위치를 표시한 여러 시야검사 예시. 실제 생활에서 보이는 장면이나 개인의 필수 진행 순서가 아닙니다.",
+    "caption": "녹내장에서 나타날 수 있는 여러 시야검사 소견입니다. 검은 부분은 빛 감지 능력이 낮은 위치를 표시하며 실제로 검게 보인다는 뜻은 아닙니다. 한 사람이 반드시 a부터 h까지 진행하는 순서도 아닙니다. 결손 위치와 속도는 사람마다 다릅니다.",
     "author": "Broadway DC",
     "license": "CC BY 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",

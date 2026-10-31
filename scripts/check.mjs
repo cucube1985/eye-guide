@@ -37,7 +37,7 @@ assert.ok(!renderMarkdown('<script>alert(1)</script>').includes('<script>'));
 assert.ok(!renderMarkdown('[bad](javascript:alert(1))').includes('href="javascript:'));
 assert.match(resolveLinks('[[#1.6 눈꺼풀염·마이봄샘 기능장애]]'),/#\/blepharitis/);
 assert.match(renderMarkdown('| 구분 | 내용 |\n|---|---|\n| A | B |','비교'),/class="table-scroll"/);
-for(const file of ['dist/app.js','dist/views.js','dist/markdown.js','dist/image-gallery.js','dist/educational-visuals.js','dist/vitreous-model.js','dist/data/topics.js','scripts/import-guide.mjs'])execFileSync(process.execPath,['--check',file],{stdio:'pipe'});
+for(const file of ['dist/app.js','dist/views.js','dist/markdown.js','dist/image-gallery.js','dist/educational-visuals.js','dist/vitreous-model.js','dist/reviewed-visuals.js','dist/education-visuals-extra.js','dist/data/topics.js','scripts/import-guide.mjs'])execFileSync(process.execPath,['--check',file],{stdio:'pipe'});
 const html=await readFile('dist/index.html','utf8');
 assert.match(html,/<html lang="ko">/);
 for(const file of ['dist/styles.css','dist/favicon.svg','dist/.nojekyll','dist/vendor/markdown-it.mjs','dist/vendor/markdown-it.LICENSE.txt'])await access(file);

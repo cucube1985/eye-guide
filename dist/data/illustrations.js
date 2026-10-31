@@ -357,27 +357,6 @@ export const assets = {
     "bytes": 60609,
     "originalTitle": "Simulated floaters.jpg"
   },
-  "glaucoma-process": {
-    "id": "glaucoma-process",
-    "src": "./images/glaucoma-process.png",
-    "title": "방수 배출·시신경과 녹내장 시야의 예시",
-    "originalTitle": "Depiction of vision for a Glaucoma patient.png",
-    "alt": "방수 배출·시신경과 녹내장 시야의 예시 — 오른쪽은 눈 속 액체가 빠지는 길과 시신경의 위치, 왼쪽 아래는 진행된 경우 좁아진 시야를 단순화한 예시입니다. 초기에는 불편이 없을 수 있고, 안압이 정상이어도 녹내장이 생길 수 있습니다.",
-    "caption": "오른쪽은 눈 속 액체가 빠지는 길과 시신경의 위치, 왼쪽 아래는 진행된 경우 좁아진 시야를 단순화한 예시입니다. 초기에는 불편이 없을 수 있고, 안압이 정상이어도 녹내장이 생길 수 있습니다.",
-    "author": "https://www.myupchar.com/en",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Depiction_of_vision_for_a_Glaucoma_patient.png",
-    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Depiction_of_vision_for_a_Glaucoma_patient.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Depiction_of_vision_for_a_Glaucoma_patient.png/960px-Depiction_of_vision_for_a_Glaucoma_patient.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "width": 960,
-    "height": 614,
-    "kind": "diagram",
-    "checked": "2026-10-29",
-    "changes": "원본 이미지 내용 변경 없음. 제공처의 미리보기 또는 원본을 저장하고 화면 크기에 맞춰 표시.",
-    "sha256": "570c1cd189541804acfe6634dc2e130f942d02c57e998d5ee4a64306754ddd4a",
-    "bytes": 530061
-  },
   "glaucoma-angle-closure": {
     "id": "glaucoma-angle-closure",
     "src": "./images/glaucoma-angle-closure.jpg",
@@ -1011,10 +990,10 @@ export const assets = {
   "glaucoma-field-defects": {
     "id": "glaucoma-field-defects",
     "src": "./images/glaucoma-field-defects.png",
-    "title": "녹내장에서 나타나는 시야 결손의 단계",
+    "title": "녹내장에서 볼 수 있는 여러 시야 결손 양상",
     "originalTitle": "Glaucomatous field defects.png",
-    "alt": "원형 시야도 8개에서 검은 결손 부위가 코쪽 계단, 활 모양 결손을 거쳐 중심만 남거나 전체로 커지는 과정을 보여주는 그림",
-    "caption": "시야검사 결과를 단순화한 그림입니다. (a)~(d) 초기에는 코쪽이나 중심 위쪽 일부가 작게 빠지고, (e)~(f) 활 모양으로 넓어지며, (g)~(h) 말기에는 중심만 남거나 전체가 빠집니다. 초기 단계는 본인이 거의 느끼지 못합니다.",
+    "alt": "빛 감지 능력이 낮아진 위치를 표시한 여러 시야검사 예시. 실제 생활에서 보이는 장면이나 개인의 필수 진행 순서가 아닙니다.",
+    "caption": "녹내장에서 나타날 수 있는 여러 시야검사 소견입니다. 검은 부분은 빛 감지 능력이 낮은 위치를 표시하며 실제로 검게 보인다는 뜻은 아닙니다. 한 사람이 반드시 a부터 h까지 진행하는 순서도 아닙니다. 결손 위치와 속도는 사람마다 다릅니다.",
     "author": "Broadway DC",
     "license": "CC BY 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
@@ -1164,8 +1143,8 @@ export const topicImages = {
     ]
   },
   "dry-eye": {
-    "heading": "눈물막의 세 층과 치료",
-    "intro": "눈물막은 기름층·물층·점액층으로 이루어집니다. 어느 층이 부족한지에 따라 치료가 달라지며, 기름층을 만드는 눈꺼풀 기름샘의 상태도 함께 봅니다.",
+    "heading": "눈물막의 성분과 치료의 역할",
+    "intro": "눈물막의 물과 뮤신은 섞여 있고 바깥에 얇은 기름 성분이 있습니다. 여러 치료는 눈물과 표면 기능에 함께 작용하므로 검사로 원인을 확인하고 조합합니다.",
     "visualId": "tear-film",
     "items": [
       {
@@ -1175,7 +1154,7 @@ export const topicImages = {
   },
   "artificial-tears": {
     "heading": "인공눈물이 돕는 곳",
-    "intro": "인공눈물은 주로 부족한 물층을 보충합니다. 아래 사진처럼 아래 눈꺼풀을 살짝 당겨 한 방울 넣으세요.",
+    "intro": "인공눈물은 수분과 윤활을 보충합니다. 지질 등을 포함한 제제도 있어 성분과 용법을 확인합니다. 아래 사진은 점안 방법의 예입니다.",
     "visualId": "tear-film-artificial",
     "items": [
       {
@@ -1185,7 +1164,7 @@ export const topicImages = {
   },
   "mucin-secretagogues": {
     "heading": "뮤신 분비 촉진제가 돕는 곳",
-    "intro": "디쿠아포솔과 레바미피드는 눈 스스로 점액층과 수분을 더 만들도록 도와, 눈물이 표면에 오래 붙어 있게 합니다.",
+    "intro": "뮤신 분비와 수분 공급, 눈 표면 상태를 돕는 약입니다. 약제별 작용과 용법은 다르며, 독립된 한 층만 채우는 치료로 보지는 않습니다.",
     "visualId": "tear-film-mucin",
     "items": []
   },
@@ -1201,7 +1180,7 @@ export const topicImages = {
   },
   "serum-eye-drops": {
     "heading": "자가혈청이 돕는 곳",
-    "intro": "자가혈청에는 실제 눈물에 가까운 성장인자가 들어 있어, 잘 낫지 않는 눈 표면 세포의 회복을 돕습니다.",
+    "intro": "혈청 점안제는 성장인자 등을 포함하며, 잘 낫지 않는 눈 표면 손상 등에서 추가로 고려합니다. 모든 건조증 환자에게 필요한 것은 아닙니다.",
     "visualId": "tear-film-serum",
     "items": [],
     "sectionGroups": [
@@ -1418,7 +1397,7 @@ export const topicImages = {
     ]
   },
   "glaucoma-risk-factors": {
-    "heading": "진행에 영향을 주는 요인 한눈에 보기",
+    "heading": "발생·진행 위험 평가에 참고하는 요인",
     "intro": "안압처럼 치료로 조절할 수 있는 요인과, 나이·가족력처럼 바꾸기 어려운 요인을 나누어 봅니다.",
     "visualId": "glaucoma-risk",
     "items": []
@@ -1462,14 +1441,11 @@ export const topicImages = {
     ]
   },
   "glaucoma-prognosis": {
-    "heading": "시야 결손이 넓어지는 과정",
-    "intro": "치료하지 않으면 시야 결손이 가장자리에서 시작해 넓어질 수 있습니다. 일찍 발견해 치료를 이어가면 초기 단계에서 오래 머무는 경우가 많습니다.",
+    "heading": "녹내장에서 볼 수 있는 시야검사 소견",
+    "intro": "손상 위치와 진행 속도는 사람마다 다릅니다. 주변부뿐 아니라 중심 가까운 시야도 손상될 수 있고, 뚜렷한 검은 부분으로 느끼지 않아 스스로 알아채기 어려울 수 있습니다. 아래는 빛을 감지하는 능력을 표시한 검사 예시이며 실제로 검게 보이는 장면이 아닙니다.",
     "items": [
       {
         "assetId": "glaucoma-field-defects"
-      },
-      {
-        "assetId": "glaucoma-process"
       }
     ]
   },
@@ -1529,14 +1505,14 @@ export const topicImages = {
   },
   "macular-degeneration": {
     "heading": "드루젠이 쌓이는 위치와 실제 안저 소견",
-    "intro": "시세포 아래의 망막색소상피와 브루크막 사이에 드루젠이 쌓이는 원리입니다. 모식도 아래의 안저 사진에서 크기와 분포의 차이를 비교해 보세요.",
+    "intro": "시세포 아래 망막색소상피와 브루크막 사이에 드루젠이 쌓이는 원리를 보여줍니다. 아래 안저 사진은 서로 다른 사례이며 같은 사람의 시간에 따른 변화 사진이 아닙니다.",
     "visualId": "drusen-layers",
     "layout": "compare",
     "items": [
       {
         "assetId": "retina-revision-amd-fundus-stages",
         "title": "초기 건성 AMD의 드루젠",
-        "label": "① 작은 드루젠이 보이는 예",
+        "label": "① 드루젠이 흩어져 보이는 예",
         "region": {
           "x": 1081,
           "y": 78,
@@ -1544,13 +1520,13 @@ export const topicImages = {
           "height": 829
         },
         "regionLabel": "B",
-        "caption": "원본 B: 황반 주변에 노란 드루젠이 흩어져 보이는 초기 건성 황반변성의 예입니다.",
+        "caption": "원본 B: 출처에서 초기 건성 황반변성으로 분류한 사례입니다. 이 사진만으로 드루젠의 실제 크기를 계측할 수는 없습니다. 작은 드루젠만 있고 다른 변화가 없으면 정상 노화 범주일 수도 있습니다.",
         "alt": "초기 건성 AMD의 드루젠 — 원본의 B 부분을 확대해 표시한 사진입니다. 전체 원본은 크게 보기에서 확인할 수 있습니다."
       },
       {
         "assetId": "retina-revision-amd-fundus-stages",
         "title": "크고 넓게 분포한 드루젠",
-        "label": "② 드루젠의 크기·범위 증가",
+        "label": "② 크거나 뭉친 드루젠 예",
         "region": {
           "x": 2104,
           "y": 78,
@@ -1667,7 +1643,7 @@ export const topicImages = {
   "myopia-prevalence": {
     "heading": "나이에 따른 국내 소아 근시 유병률",
     "tocLabel": "근시 유병률 그래프",
-    "intro": "국민건강영양조사 2016–2017년 자료를 분석한 논문의 연령별 원본 그래프입니다. 짙은 영역과 체크무늬 영역을 합치면 전체 근시 비율입니다. 아래의 근사 백분위표와는 별도의 집단 자료입니다.",
+    "intro": "국민건강영양조사 2016–2017년 국내 5~18세 자료의 연령별 원본 그래프입니다. 짙은 영역과 체크무늬 영역을 합치면 전체 근시 비율입니다. 과거 집단의 유병률이며 개인의 근시 백분위나 치료 기준은 아닙니다.",
     "items": [
       {
         "assetId": "pediatric-myopia-prevalence-chart"
@@ -1749,14 +1725,12 @@ export const topicImages = {
     ]
   },
   "trichiasis": {
-    "heading": "속눈썹 접촉과 각막 반흔의 실제 사진",
-    "layout": "compare",
-    "intro": "① 속눈썹이 각막에 닿는 모습과 ② 오래된 손상 후 각막에 흉터가 남은 모습을 봅니다. 서로 다른 환자의 사례이며 시간 경과나 치료 전후 비교가 아닙니다.",
+    "heading": "속눈썹 접촉과 각막 표면 손상",
+    "intro": "각막에 닿은 속눈썹은 눈물·이물감과 표면 손상을 일으킬 수 있습니다. 실제 접촉 사진과 표면 손상을 단순화한 모식도를 함께 봅니다.",
     "items": [
       {
         "assetId": "clinical-revision-cilia-contact",
         "title": "속눈썹이 각막에 닿는 전안부 사진",
-        "label": "① 속눈썹과 각막의 접촉",
         "region": {
           "x": 0,
           "y": 0,
@@ -1766,20 +1740,29 @@ export const topicImages = {
         "regionLabel": "A",
         "caption": "덧눈꺼풀로 아래 속눈썹이 각막 쪽으로 눕고 닿은 수술 전 모습입니다. 반복 접촉하면 눈물·이물감·각막 상피 손상이 생길 수 있습니다.",
         "alt": "속눈썹이 각막에 닿는 전안부 사진 — 원본의 A 부분을 확대해 표시한 사진입니다. 전체 원본은 크게 보기에서 확인할 수 있습니다."
-      },
+      }
+    ],
+    "visualId": "cilia-contact",
+    "sectionGroups": [
       {
-        "assetId": "clinical-revision-corneal-scar",
-        "label": "② 오래된 손상 뒤 각막 혼탁",
-        "caption": "각막염이 지나간 뒤 혼탁과 혈관이 남은 반흔의 실제 사례입니다. 이 환자의 원인은 헤르페스각막염으로, 속눈썹에 찔려 생긴 흉터는 아닙니다. 오래된 각막 손상 뒤 투명도가 떨어질 수 있음을 설명하는 참고 사진이며, 시력 영향은 흉터의 위치·깊이·범위에 따라 다릅니다.",
-        "title": "각막염이 지나간 뒤 남은 각막 반흔",
-        "region": {
-          "x": 0,
-          "y": 0,
-          "width": 1120,
-          "height": 1101
-        },
-        "regionLabel": "A",
-        "alt": "각막염 뒤 혼탁과 신생혈관이 남은 각막의 실제 사진. 원본 A 패널을 화면에서 확대했습니다."
+        "sectionTitle": "어떻게 치료하나요?",
+        "heading": "다른 원인으로 생긴 각막 흉터 · 참고",
+        "intro": "이 사진은 헤르페스각막염의 후유증이며 위 속눈썹 접촉 환자와 관련이 없습니다. 오래된 각막 손상의 결과를 설명하는 참고 사례로, 속눈썹 접촉의 일반적인 경과나 발생 빈도를 보여주는 사진은 아닙니다.",
+        "items": [
+          {
+            "assetId": "clinical-revision-corneal-scar",
+            "caption": "각막염이 지나간 뒤 혼탁과 혈관이 남은 반흔의 실제 사례입니다. 이 환자의 원인은 헤르페스각막염으로, 속눈썹에 찔려 생긴 흉터는 아닙니다. 오래된 각막 손상 뒤 투명도가 떨어질 수 있음을 설명하는 참고 사진이며, 시력 영향은 흉터의 위치·깊이·범위에 따라 다릅니다.",
+            "title": "각막염이 지나간 뒤 남은 각막 반흔",
+            "region": {
+              "x": 0,
+              "y": 0,
+              "width": 1120,
+              "height": 1101
+            },
+            "regionLabel": "A",
+            "alt": "각막염 뒤 혼탁과 신생혈관이 남은 각막의 실제 사진. 원본 A 패널을 화면에서 확대했습니다."
+          }
+        ]
       }
     ]
   }

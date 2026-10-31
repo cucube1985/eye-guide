@@ -135,7 +135,7 @@ $('#menu-toggle').addEventListener('click',()=>{const open=$('.sidebar').classLi
 document.addEventListener('keydown',e=>{if(e.key==='Escape'){$('.sidebar').classList.remove('menu-open');$('#menu-toggle').setAttribute('aria-expanded','false');$('#menu-toggle').setAttribute('aria-label','질환 메뉴 열기');}});
 document.addEventListener('click',e=>{if(window.innerWidth<=700&&!e.target.closest('.sidebar,.mobile-bar')){$('.sidebar').classList.remove('menu-open');$('#menu-toggle').setAttribute('aria-expanded','false');$('#menu-toggle').setAttribute('aria-label','질환 메뉴 열기');}});
 let printClosed=[];
-window.addEventListener('beforeprint',()=>{printClosed=[...document.querySelectorAll('.faq details:not([open])')];printClosed.forEach(d=>d.open=true);});
+window.addEventListener('beforeprint',()=>{printClosed=[...document.querySelectorAll('.faq details:not([open]),.image-attribution:not([open])')];printClosed.forEach(d=>d.open=true);});
 window.addEventListener('afterprint',()=>{printClosed.forEach(d=>d.open=false);printClosed=[];});
 window.addEventListener('hashchange',route);
 setupIllustrationViewer();

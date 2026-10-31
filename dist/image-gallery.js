@@ -3,7 +3,7 @@ import {educationalVisualHTML} from './educational-visuals.js';
 
 const escape=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const external=(url,label)=>`<a href="${escape(url)}" target="_blank" rel="noopener noreferrer">${escape(label)}</a>`;
-const credit=asset=>`<div class="image-credit"><span class="image-original-title">원작: ${escape(asset.originalTitle)}</span><span>${escape(asset.author)}</span><span aria-hidden="true"> · </span>${external(asset.licenseUrl,asset.license)}<span aria-hidden="true"> · </span>${external(asset.sourceUrl,'원본·출처')}<span class="image-change-note">${escape(asset.changes)}</span></div>`;
+const credit=asset=>`<details class="image-attribution"><summary>출처·저작자·이용허락 · ${escape(asset.license)}</summary><div class="image-credit"><span class="image-original-title">원작: ${escape(asset.originalTitle)}</span><span>${escape(asset.author)}</span><span aria-hidden="true"> · </span>${external(asset.licenseUrl,asset.license)}<span aria-hidden="true"> · </span>${external(asset.sourceUrl,'원본·출처')}<span class="image-change-note">${escape(asset.changes)}</span></div></details>`;
 
 function thumbnail(asset,item){
   const r=item.region;

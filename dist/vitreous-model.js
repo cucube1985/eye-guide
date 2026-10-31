@@ -6,7 +6,7 @@ export function setupVitreousModels(){
   document.querySelectorAll('[data-vitreous-model]').forEach(root=>{
     const canvas=root.querySelector('canvas'),ctx=canvas.getContext('2d');
     if(!ctx)return;
-    const progress=root.querySelector('#vitreous-progress'),angle=root.querySelector('#vitreous-angle'),haze=root.querySelector('[data-vitreous-haze]'),motion=root.querySelector('[data-vitreous-motion]');
+    const progress=root.querySelector('#vitreous-progress'),angle=root.querySelector('#vitreous-angle'),motion=root.querySelector('[data-vitreous-motion]');
     let playing=false,frame=0,time=0,stopped=false;
     const points=Array.from({length:27},(_,i)=>{const theta=seed(i+2)*Math.PI*2,r=Math.cbrt(seed(i+66))*.82,z=(seed(i+100)*2-1)*.7;return {x:Math.cos(theta)*r*.74+.12,y:Math.sin(theta)*r*.74,z,i};});
     function draw(){
@@ -34,15 +34,13 @@ export function setupVitreousModels(){
       const x=narrow?40:642,y=narrow?555:136,w=narrow?520:320,h=244;
       ctx.fillStyle='#315e49';ctx.font='bold 22px sans-serif';ctx.fillText('부유물이 보이는 시야의 예',x,y-28);
       ctx.save();ctx.beginPath();ctx.rect(x,y,w,h);ctx.clip();
-      if(haze.checked)ctx.filter=`blur(${p*1.5}px)`;
       ctx.fillStyle='#e4f0f2';ctx.fillRect(x,y,w,h);ctx.fillStyle='#b6cba9';ctx.beginPath();ctx.moveTo(x,y+h*.63);ctx.quadraticCurveTo(x+w*.3,y+h*.3,x+w,y+h*.68);ctx.lineTo(x+w,y+h);ctx.lineTo(x,y+h);ctx.fill();ctx.fillStyle='#ede4cb';ctx.beginPath();ctx.moveTo(x+w*.3,y+h);ctx.lineTo(x+w*.55,y+h*.59);ctx.lineTo(x+w*.73,y+h);ctx.fill();ctx.fillStyle='#748f75';ctx.fillRect(x+w*.2,y+h*.35,5,h*.39);ctx.beginPath();ctx.arc(x+w*.2,y+h*.35,29,0,Math.PI*2);ctx.fill();ctx.font='22px sans-serif';ctx.fillStyle='#416451';ctx.fillText('밝은 배경에서 잘 보여요',x+18,y+h-20);ctx.filter='none';
-      if(haze.checked){ctx.fillStyle=`rgba(190,199,193,${p*.1})`;ctx.fillRect(x,y,w,h);}
       for(const pt of points.slice(0,18)){const visibility=clamp((p*23-pt.i)/6,0,1);if(!visibility)continue;const xx=x+w*(.1+seed(pt.i+321)*.8)+(playing?Math.sin(time*.55+pt.i)*8:0),yy=y+h*(.15+seed(pt.i+421)*.65);ctx.strokeStyle=`rgba(52,61,54,${visibility*.38})`;ctx.lineWidth=2+seed(pt.i+81)*2;ctx.filter='blur(1px)';ctx.beginPath();ctx.moveTo(xx,yy);ctx.bezierCurveTo(xx+9,yy-15,xx+23,yy+17,xx+32,yy-6);ctx.stroke();}ctx.filter='none';ctx.restore();ctx.strokeStyle='#a8beb0';ctx.lineWidth=2;ctx.strokeRect(x,y,w,h);
-      const stage=p<.33?'초기':p<.67?'중간':'진행';root.querySelector('output').textContent=stage;progress.setAttribute('aria-valuetext',`${stage} 개념 단계`);
-      root.querySelector('[data-vitreous-description]').textContent=p<.33?'젤 구조 사이에 작은 액체 공간이 생기는 단계를 표현했습니다.':p<.67?'액체 공간이 커지고 남은 콜라겐 섬유가 뭉쳐 그림자를 만드는 모습을 강조했습니다.':'액체 공간과 섬유 뭉침을 더 강조한 개념 표현입니다. 부유물의 수와 흐림은 실제 진행 속도나 중증도를 뜻하지 않습니다.';
+      const stage=p<.33?'설명 1':p<.67?'설명 2':'설명 3';root.querySelector('output').textContent=stage;progress.setAttribute('aria-valuetext',`${stage}, 실제 병기나 진행률이 아님`);
+      root.querySelector('[data-vitreous-description]').textContent=p<.33?'젤 구조 사이에 작은 액체 공간이 생기는 단계를 표현했습니다.':p<.67?'액체 공간이 커지고 남은 콜라겐 섬유가 뭉쳐 그림자를 만드는 모습을 강조했습니다.':'액체 공간과 섬유 뭉침을 더 강조한 개념 표현입니다. 부유물의 수는 실제 진행 속도나 중증도를 뜻하지 않습니다.';
     }
     function tick(){if(stopped||!playing)return;time+=.018;draw();frame=requestAnimationFrame(tick);}
-    for(const control of [progress,angle,haze])control.addEventListener('input',draw);
+    for(const control of [progress,angle])control.addEventListener('input',draw);
     motion.addEventListener('click',()=>{playing=!playing;motion.setAttribute('aria-pressed',String(playing));motion.textContent=playing?'움직임 멈추기':'부유물 움직임 보기';if(playing)tick();else{cancelAnimationFrame(frame);draw();}});
     const observer=new ResizeObserver(draw);observer.observe(root);draw();
     cleanups.push(()=>{stopped=true;cancelAnimationFrame(frame);observer.disconnect();});
