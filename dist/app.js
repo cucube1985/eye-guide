@@ -66,7 +66,7 @@ function renderCards() {
   $('#result-info').hidden=!query;
   $('#disease-grid').innerHTML=found.length ? found.map(t=>{
     const c=categories.find(c=>c.id===t.category);
-    return `<a class="disease-card category-${t.category}" href="#/${t.id}" aria-label="${escape(t.title)} 설명 보기"><div class="card-illustration"><span class="card-index">${t.number}</span><span class="card-category">${c.label}</span>${eyeDiagram(t.id)}</div><div class="card-body"><h3>${escape(t.title)}</h3><p>${escape(t.summary)}</p><div class="card-bottom"><span>${t.number.split('.').length>2?'더 자세한 설명':'증상 · 치료 · 생활 관리'}</span><span class="card-arrow" aria-hidden="true">↗</span></div></div></a>`;
+    return `<a class="disease-card category-${t.category}" href="#/${t.id}" aria-label="${escape(t.title)} 설명 보기"><div class="card-illustration cartoon-card"><span class="card-index">${t.number}</span><span class="card-category">${c.label}</span><img class="card-cartoon" src="./images/cards/${t.id}.svg" width="320" height="180" alt="" aria-hidden="true" loading="lazy" decoding="async"></div><div class="card-body"><h3>${escape(t.title)}</h3><p>${escape(t.summary)}</p><div class="card-bottom"><span>${t.number.split('.').length>2?'더 자세한 설명':'증상 · 치료 · 생활 관리'}</span><span class="card-arrow" aria-hidden="true">↗</span></div></div></a>`;
   }).join('') : `<div class="empty-state"><h3>일치하는 설명이 없어요.</h3><p>검색어를 짧게 바꾸거나 다른 분류를 선택해 보세요.</p><button class="secondary-button" id="reset-search">전체 안내 보기</button></div>`;
   $('#reset-search')?.addEventListener('click',()=>{query='';filter='all';renderHome();$('#search').focus();});
 }

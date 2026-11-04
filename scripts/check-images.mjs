@@ -51,3 +51,10 @@ for(const t of topics){
 const credits=await readFile('IMAGE_CREDITS.md','utf8');
 for(const a of Object.values(assets)){assert.ok(credits.includes(a.sourceUrl));assert.ok(credits.includes(a.license));}
 console.log(`PASS: ${Object.keys(assets).length} licensed images, ${placements} placements in ${topics.length} guides, credits, file integrity and dimensions`);
+for(const topic of topics){
+  const cartoon=await readFile(`dist/images/cards/${topic.id}.svg`,'utf8');
+  assert.match(cartoon,/<svg[^>]+viewBox="0 0 320 180"/);
+  assert.ok(cartoon.includes(topic.title.replaceAll('&','&amp;').replaceAll('<','&lt;')),`${topic.id}: card artwork title mismatch`);
+  assert.ok(!/<(?:script|foreignObject)\b|https?:\/\/(?!www\.w3\.org\/2000\/svg)/.test(cartoon),`${topic.id}: unexpected remote or active SVG content`);
+}
+console.log(`PASS: ${topics.length} local cartoon card images, topic mapping and SVG structure`);
