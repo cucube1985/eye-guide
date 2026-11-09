@@ -2,11 +2,11 @@
 
 안과 외래에서 환자·보호자와 함께 보는 한국어 설명 사이트입니다. **6개 분류, 51개 안내**에 검색·분류, 큰 글씨, 인쇄, 질환별 링크 공유를 제공합니다. 환자정보를 입력하거나 저장하지 않습니다.
 
-공개 사이트: https://eye-guide-clinic.cucube.chatgpt.site
+공식 공개 사이트: https://cucube1985.github.io/eye-guide/
 
 GitHub 저장소: https://github.com/cucube1985/eye-guide
 
-GitHub Pages: https://cucube1985.github.io/eye-guide/
+운영 방침(2026-11-09): GitHub Pages만 공개 운영합니다. 기존 ChatGPT Sites 주소는 소유자만 접근하는 비공개 보관 상태로 전환했습니다. 이후 콘텐츠 수정은 GitHub에 반영하며, 사용자의 별도 요청 없이 Sites를 재공개하거나 배포하지 않습니다.
 
 ## 포함된 설명
 
