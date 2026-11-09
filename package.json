@@ -6,7 +6,7 @@
   "description": "안과 외래에서 함께 보는 한국어 환자교육 사이트",
   "scripts": {
     "dev": "node scripts/serve.mjs",
-    "build": "node scripts/import-guide.mjs && node scripts/build-images.mjs && node scripts/build-cards.mjs",
+    "build": "node scripts/import-guide.mjs && node scripts/build-images.mjs && node scripts/build-cards.mjs && node scripts/build-briefs.mjs",
     "check": "node scripts/check.mjs"
   }
 }

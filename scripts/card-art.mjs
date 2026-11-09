@@ -1,6 +1,7 @@
 // Original vector cartoons for navigation cards. Not clinical illustrations.
 // Keep these independent from the licensed clinical figures inside each guide.
 import {customCards} from './card-art-custom.mjs';
+import {reviewedCards} from './card-art-reviewed.mjs';
 const ink='#345d59', coral='#e88475', blue='#79b9ca', gold='#edbf65';
 const palette={anterior:['#e5f0e8','#b6d9c4'],cataract:['#f7edd9','#eed8a4'],glaucoma:['#e6eaeF','#c3cde0'],retina:['#f6e5df','#edc0b1'],pediatric:['#e5eff0','#b6d9de'],other:['#eee8f1','#d8c4df']};
 export const cardConcepts={
@@ -97,7 +98,7 @@ function symbol(type){
     case 'procedure':return `<path d="M-25 17q25-30 50 0" fill="#edc0ad" stroke="${ink}" stroke-width="3"/>${line('M-12 8h21',coral,4)}<path d="M20-29l8 6-23 29-7-5Z" fill="#a7c9cb" stroke="${ink}" stroke-width="2.5"/>`;
     case 'spot':return `<path d="M-29-3q29-28 58 0-29 30-58 0Z" fill="#fffaf3" stroke="${ink}" stroke-width="3"/><path d="M8-15l16 9-3 12-18 4-7-8Z" fill="#da6c61"/>`;
     case 'drop':return drop(0,-2,1.25);
-    case 'tear-layers':return `<defs><clipPath id="tl"><circle r="41"/></clipPath></defs><g clip-path="url(#tl)"><rect x="-43" y="-43" width="86" height="20" fill="#eef5f8"/><rect x="-43" y="-23" width="86" height="11" fill="#f2cd68"/><rect x="-43" y="-12" width="86" height="26" fill="#bfe0ec"/><rect x="-43" y="14" width="86" height="10" fill="#ecc6da"/><rect x="-43" y="24" width="86" height="20" fill="#f4e5d6"/>${[-30,-10,10,30].map(x=>`<rect x="${x-9}" y="26" width="18" height="16" rx="5" fill="#f4e5d6" stroke="#cfae90" stroke-width="1.5"/>`).join('')}</g><g font-family="sans-serif" font-size="9" font-weight="700" text-anchor="middle"><text y="-14" fill="#6b5313">기름층</text><text y="5" fill="#2f6377">물층</text><text y="22" fill="#7b3b5d">점액층</text></g>`;
+    case 'tear-layers':return `<rect x="-33" y="-25" width="66" height="10" fill="#edbf65"/><rect x="-33" y="-15" width="66" height="45" fill="#d5e3e5"/><text y="-16" font-size="9" fill="#6b5313" text-anchor="middle">기름 성분</text><text y="10" font-size="10" fill="#466963" text-anchor="middle">물·뮤신 혼합</text>`;
     case 'breeze':return line('M-29-12h41q17 0 12-12M-34 1h30q18 0 16 11M-28 18h18',blue,4)+circle(27,20,5,gold,'none',0);
     case 'bottle':return bottle();
     case 'mucin':return `<path d="M-27 17Q0 2 27 17" fill="none" stroke="${blue}" stroke-width="8"/>${[-20,0,20].map(x=>`<path d="M${x} 12v-19m0 2-9-11m9 11 9-11" stroke="#b48bb5" stroke-width="3" fill="none"/>${circle(x-9,-18,3,'#d9bdd7','none',0)}${circle(x+9,-18,3,'#d9bdd7','none',0)}`).join('')}`;
@@ -142,7 +143,8 @@ export function cardSVG(topic){
   const concept=cardConcepts[topic.id];if(!concept)throw Error(`Card concept missing: ${topic.id}`);
   const [kind,motif]=concept,[wash,accent]=palette[topic.category];
   const backdrop=`<path d="M50 41Q91 15 139 31t56 60q4 49-42 61-59 20-101-16Q7 96 50 41Z" fill="${wash}"/><path d="M185 60q46-35 88 1t3 72q-29 30-62-5t-29-68Z" fill="${accent}" opacity=".42"/>`;
-  if(customCards[topic.id])return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>${topic.title.replaceAll('&','&amp;').replaceAll('<','&lt;')} 카드 일러스트</title>${backdrop}${customCards[topic.id]()}</svg>`;
+  const draw=reviewedCards[topic.id] || customCards[topic.id];
+  if(draw)return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>${topic.title.replaceAll('&','&amp;').replaceAll('<','&lt;')} 카드 일러스트</title>${backdrop}${draw()}</svg>`;
   const main=kind==='pair'?eye('calm',102,101,.64)+eye('calm',202,104,.64,-15):eye(kind);
   const left=motif==='pollen'?symbol('pollen'):motif==='germ'?symbol('germ'):motif==='breeze'?symbol('breeze'):motif==='book'?symbol('book'):motif==='floaters'?symbol('floaters'):motif==='lens'?symbol('lens'):null;
   return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>${topic.title.replaceAll('&','&amp;').replaceAll('<','&lt;')} 카드 일러스트</title><path d="M50 41Q91 15 139 31t56 60q4 49-42 61-59 20-101-16Q7 96 50 41Z" fill="${wash}"/><path d="M185 60q46-35 88 1t3 72q-29 30-62-5t-29-68Z" fill="${accent}" opacity=".42"/><ellipse cx="139" cy="153" rx="64" ry="7" fill="${accent}" opacity=".36"/>${circle(279,38,4,accent,'none',0)}${circle(38,132,5,accent,'none',0)}${line('M52 35v10m-5-5h10',accent,2.5)}${main}<g transform="translate(247 111)"><circle cy="4" r="43" fill="${accent}" opacity=".55"/><circle r="43" fill="#fffdf5" stroke="${ink}" stroke-width="2.5"/>${symbol(motif)}</g>${left?`<g transform="translate(53 58) rotate(-13) scale(.45)">${left}</g>`:''}</svg>`;

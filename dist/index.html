@@ -8,6 +8,7 @@
   <title>눈에 담다 · 안과 진료 안내</title>
   <link rel="icon" href="./favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./clinic.css">
 </head>
 <body>
   <a class="skip-link" href="#main">본문 바로가기</a>
@@ -27,7 +28,7 @@
     <footer class="page-footer"><a href="#/" class="footer-brand">눈에 담다.</a><p>이 자료는 질환의 이해를 돕는 일반적인 안내입니다. 진단과 치료 계획은 진료 결과에 따라 달라집니다.</p><span>문구 갱신 2026.10.31</span></footer>
   </div>
   <div id="toast" role="status" aria-live="polite"></div>
-  <dialog id="share-dialog"><div class="dialog-head"><h2>이 설명 공유하기</h2><button class="icon-button" data-close-dialog aria-label="닫기">×</button></div><p>아래 주소를 복사해 환자나 보호자에게 전달하세요.</p><label for="share-url">질환별 주소</label><input id="share-url" readonly><button class="primary-button" id="dialog-copy">주소 복사</button></dialog>
+  <dialog id="share-dialog" class="share-dialog" aria-labelledby="share-title"></dialog>
   <script type="module" src="./app.js"></script>
 </body>
 </html>

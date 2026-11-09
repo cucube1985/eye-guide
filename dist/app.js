@@ -3,6 +3,8 @@ import {navigationHTML,articleHTML} from './views.js';
 import {setupIllustrationViewer} from './image-gallery.js';
 import {setupPdtInfo} from './educational-visuals.js';
 import {setupVitreousModels} from './vitreous-model.js';
+import {parseGuideRoute,sectionElementId} from './guide-links.js';
+import {setupGuideSharing} from './guide-sharing.js';
 
 const $ = selector => document.querySelector(selector);
 const escape = value => String(value ?? '').replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
@@ -12,6 +14,8 @@ let filter = 'all';
 let query = '';
 let toastTimer;
 let stopVisuals=()=>{};
+let routeSerial=0;
+if('scrollRestoration' in history)history.scrollRestoration='manual';
 
 function eyeDiagram(id='overview', hero=false) {
   const anteriorEye = ['conjunctivitis','stye','subconjunctival-hemorrhage','tearing'].includes(id);
@@ -71,17 +75,15 @@ function renderCards() {
   $('#reset-search')?.addEventListener('click',()=>{query='';filter='all';renderHome();$('#search').focus();});
 }
 
-function renderArticle(t) {
+function renderArticle(t,routeState) {
   const category=categories.find(c=>c.id===t.category);
   document.title=`${t.title} · 눈에 담다`;
   $('#breadcrumb').innerHTML=`<a href="#/">눈 건강 라이브러리</a> <span>/</span> ${category.label}`;
-  $('#main').innerHTML=articleHTML(t,{icon,groupIcon,eyeDiagram});
+  $('#main').innerHTML=articleHTML(t,{icon,groupIcon},routeState);
   stopVisuals=setupVitreousModels();
-  document.querySelectorAll('[data-scroll]').forEach(a=>a.addEventListener('click',e=>{e.preventDefault();document.getElementById(a.dataset.scroll)?.scrollIntoView({behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'});}));
-  $('#share-guide').addEventListener('click',share);
   $('#print-guide').addEventListener('click',()=>window.print());
-  $('#font-smaller').addEventListener('click',()=>adjustFont(-1));
-  $('#font-larger').addEventListener('click',()=>adjustFont(1));
+  $('#font-smaller')?.addEventListener('click',()=>adjustFont(-1));
+  $('#font-larger')?.addEventListener('click',()=>adjustFont(1));
 }
 
 function adjustFont(change) {
@@ -92,13 +94,15 @@ function adjustFont(change) {
 }
 
 function route() {
+  const serial=++routeSerial;
   stopVisuals();stopVisuals=()=>{};
-  const id=location.hash.replace(/^#\/?/,'').split('?')[0];
+  const routeState=parseGuideRoute(location.hash),id=routeState.topicId;
+  if(routeState.section)routeState.view='detail';
   renderNavigation(id);
   if(!id) renderHome();
   else {
     const topic=topics.find(t=>t.id===id);
-    if(topic) renderArticle(topic);
+    if(topic) renderArticle(topic,routeState);
     else {
       document.title='설명을 찾을 수 없어요 · 눈에 담다';
       $('#breadcrumb').textContent='눈 건강 라이브러리';
@@ -108,24 +112,19 @@ function route() {
   $('.sidebar').classList.remove('menu-open');$('#menu-toggle').setAttribute('aria-expanded','false');$('#menu-toggle').setAttribute('aria-label','질환 메뉴 열기');
   window.scrollTo({top:0,behavior:'instant'});
   $('#main').focus({preventScroll:true});
+  if(routeState.section){
+    const fontsReady=document.fonts?.ready || Promise.resolve();
+    Promise.race([fontsReady,new Promise(resolve=>setTimeout(resolve,1500))]).then(()=>requestAnimationFrame(()=>{
+      if(serial!==routeSerial)return;
+      const target=document.getElementById(sectionElementId(routeState.section));
+      if(target){target.scrollIntoView({block:'start',behavior:'instant'});target.setAttribute('tabindex','-1');target.focus({preventScroll:true});}
+      else toast('설명 구역이 바뀌어 전체 안내를 열었어요.');
+    }));
+  }
 }
 
 function toast(message) {$('#toast').textContent=message;$('#toast').classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>$('#toast').classList.remove('show'),3000);}
-async function copyLink() {
-  try {await navigator.clipboard.writeText(location.href);toast('설명 링크를 복사했어요.');return true;}
-  catch {return false;}
-}
-async function share() {
-  if(await copyLink()) return;
-  $('#share-url').value=location.href;$('#share-dialog').showModal();$('#share-url').select();
-}
 $('.skip-link').addEventListener('click',e=>{e.preventDefault();$('#main').focus();$('#main').scrollIntoView();});
-$('#dialog-copy').addEventListener('click',async()=>{
-  if(await copyLink()) $('#share-dialog').close();
-  else {$('#share-url').focus();$('#share-url').select();toast('선택된 주소를 Ctrl+C로 복사하세요.');}
-});
-$('[data-close-dialog]').addEventListener('click',()=>$('#share-dialog').close());
-$('#share-dialog').addEventListener('click',e=>{if(e.target===$('#share-dialog')){const r=e.target.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)e.target.close();}});
 $('#reading-toggle').addEventListener('click',()=>{
   const enabled=document.body.classList.toggle('reading-mode');document.body.style.removeProperty('--article-size');
   $('#reading-toggle').setAttribute('aria-pressed',enabled);$('#reading-toggle').innerHTML=`<span aria-hidden="true">Aa</span> ${enabled?'기본 글씨':'큰 글씨'}`;
@@ -140,4 +139,5 @@ window.addEventListener('afterprint',()=>{printClosed.forEach(d=>d.open=false);p
 window.addEventListener('hashchange',route);
 setupIllustrationViewer();
 setupPdtInfo();
+setupGuideSharing(toast);
 route();
