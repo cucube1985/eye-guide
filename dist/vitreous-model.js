@@ -17,8 +17,10 @@ function surface(u,p){
   const amount=smooth(.36,.86,p)*.32;
   const macularFirst=mix(Math.exp(-((1-dot(u,MACULA))/.45)),1,smooth(.55,.8,p));
   const discHold=Math.exp(-((1-dot(u,DISC))/.012))*(1-smooth(.7,.8,p));
+  // Perifoveal separation can leave a firm central foveal attachment before release.
+  const fovealHold=Math.exp(-((1-dot(u,MACULA))/.004))*(1-smooth(.52,.62,p));
   const ripple=.035*smooth(.78,1,p)*behindBase*Math.sin(7*Math.atan2(u[1],u[2])+u[0]*5);
-  return fossa*(1-amount*behindBase*macularFirst*(1-discHold)-ripple);
+  return fossa*(1-amount*behindBase*macularFirst*(1-discHold)*(1-fovealHold)-ripple);
 }
 
 export function setupVitreousModels(){
@@ -89,14 +91,14 @@ export function setupVitreousModels(){
       ctx.beginPath();
       for(let k=0;k<=40;k++){const t=k/40*Math.PI*2,u=norm([0,1,2].map(j=>DISC[j]+.13*(Math.cos(t)*b1[j]+Math.sin(t)*b2[j])));const r=mix(surface(u,p),surface(DISC,p)*.97,released);const q=project([u[0]*r+sway(7)*released,u[1]*r+sway(3)*released,u[2]*r]);k?ctx.lineTo(q.x,q.y):ctx.moveTo(q.x,q.y);}
       ctx.strokeStyle=released?'rgba(70,64,60,.85)':'#c4675a';ctx.lineWidth=released?5:6;ctx.stroke();
-      // Macula: a weaker attachment that separates first.
-      const macAttached=1-smooth(.4,.58,p);
+      // A residual central foveal attachment in this example; not a weak macula.
+      const macAttached=1-smooth(.52,.62,p);
       if(macAttached>.02){const q=project(at(MACULA));ctx.fillStyle=`rgba(141,96,158,${.85*macAttached})`;ctx.beginPath();ctx.ellipse(q.x,q.y,10*q.s,14*q.s,0,0,Math.PI*2);ctx.fill();}
       // Labels with leader lines.
       const label=(anchor,tx,ty,lines,color)=>{ctx.font='bold 16px sans-serif';const tw=ctx.measureText(lines[0]).width;ctx.strokeStyle='rgba(80,104,90,.7)';ctx.lineWidth=1.3;ctx.beginPath();ctx.moveTo(anchor.x,anchor.y);ctx.lineTo(tx<anchor.x?tx+tw+6:tx-6,ty+3);ctx.stroke();lines.forEach((l,k)=>{ctx.font=k?'14px sans-serif':'bold 16px sans-serif';ctx.fillStyle=k?'#5d7466':color;ctx.fillText(l,tx,ty+k*19);});};
       label(project([BASE_X,baseR*.98,0]),30,104,['유리체 기저부','평생 단단히 붙어 있음'],'#9c7420');
       label(project(at(DISC)),narrow?380:430,narrow?478:478,released?['바이스 고리','시신경에서 떨어진 고리']:['시신경 둘레 부착부','단단히 붙어 있음'],released?'#46403c':'#a9473b');
-      if(macAttached>.3)label(project(at(MACULA)),narrow?452:470,narrow?150:150,['황반 부착부','약해서 먼저 떨어짐'],'#7a4f8a');
+      if(macAttached>.3)label(project(at(MACULA)),narrow?430:470,150,['중심와 부착부','주변이 분리되어도','붙어 남을 수 있음'],'#7a4f8a');
       else if(detached>.5)label(project(wallAt(norm([.85,.5,0]))),narrow?452:470,narrow?130:118,['액체가 찬 공간','점선: 원래 망막 위치'],'#3f6f86');
       const pocket=project([.42,-.02,-.05]);
       if(p>.25)label({x:pocket.x,y:pocket.y+10},30,430,['액체로 변한 공간','젤이 묽어진 부분'],'#3f6f86');
@@ -110,9 +112,9 @@ export function setupVitreousModels(){
       if(released){const rx=x+w*.62+(playing?Math.sin(time*.4)*10:0),ry=y+h*.32;ctx.strokeStyle=`rgba(40,40,38,${.55*released})`;ctx.lineWidth=5;ctx.beginPath();ctx.ellipse(rx,ry,26,19,.3,0,Math.PI*2);ctx.stroke();}
       ctx.filter='none';ctx.restore();ctx.strokeStyle='#a8beb0';ctx.lineWidth=2;ctx.strokeRect(x,y,w,h);
       ctx.font='15px sans-serif';ctx.fillStyle='#5d7466';ctx.fillText(released?'고리 모양 그림자: 바이스 고리':clump>.1?'실·점 모양 그림자: 뭉친 섬유':'아직 그림자가 거의 없음',x,y+h+26);
-      const stage=p<.36?'① 액화 시작':p<.72?'② 황반 주변부터 분리':'③ 후유리체박리';
+      const stage=p<.36?'① 액화 시작':p<.8?'② 황반 주변 분리의 예':'③ 후유리체박리';
       root.querySelector('output').textContent=stage;progress.setAttribute('aria-valuetext',`${stage}, 개념 단계이며 실제 진행 속도가 아님`);
-      root.querySelector('[data-vitreous-description]').textContent=p<.36?'젤 같던 유리체 가운데에 묽은 액체 공간이 생기고, 남은 섬유가 서로 뭉치기 시작합니다. 아직 유리체 전체가 망막에 붙어 있습니다.':p<.72?'액체 공간이 커지면서 유리체가 줄어들어, 붙는 힘이 약한 황반 주변부터 망막에서 떨어지기 시작합니다. 시신경 둘레와 유리체 기저부는 아직 단단히 붙어 있습니다.':'시신경 둘레의 부착부까지 떨어지면 뒤쪽 유리체가 앞으로 내려앉고, 떨어진 고리(바이스 고리)가 큰 그림자로 보일 수 있습니다. 유리체 기저부는 그대로 붙어 있어, 이때 앞쪽 망막이 당겨져 찢어질 수 있습니다.';
+      root.querySelector('[data-vitreous-description]').textContent=p<.36?'젤 같던 유리체 가운데에 묽은 액체 공간이 생기고, 남은 섬유가 서로 뭉치기 시작합니다. 이 단계의 예에서는 뒤쪽 유리체가 아직 망막에 붙어 있습니다.':p<.8?'이 예에서는 황반 주변에서 분리가 시작됩니다. 중심와(황반의 한가운데)에는 단단한 부착이 남아 당김을 일으킬 수도 있으며, 이후 이 부착도 풀릴 수 있습니다. 시신경 둘레는 마지막까지 남았다가 떨어지고 유리체 기저부는 붙어 남습니다.':'시신경 둘레의 부착부까지 떨어지면 뒤쪽 유리체가 앞으로 모이고, 떨어진 고리(바이스 고리)가 그림자로 보일 수 있습니다. 유리체 기저부는 붙어 남습니다. 박리가 진행되는 동안 망막이 당겨져 찢어질 수 있으므로 새 증상은 검사로 확인해야 합니다.';
     }
     function tick(){if(stopped||!playing)return;time+=.018;draw();frame=requestAnimationFrame(tick);}
     for(const control of [progress,angle])control.addEventListener('input',draw);

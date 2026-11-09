@@ -1301,7 +1301,7 @@ Cataract: When to Operate
 
 **갑작스러운 변화는 백내장 탓으로 넘기지 마세요**
 
-백내장은 대개 천천히 진행합니다. 시력이 갑자기 떨어지거나, 눈이 아프고 충혈되거나, 두통·구토가 함께 생기면 즉시 진료받으세요.
+백내장은 대개 천천히 진행합니다. 갑작스러운 시력저하나 심한 눈 통증은 즉시 진료받으세요. 눈 통증·충혈·흐림에 두통·구토가 동반되는 경우도 기다리지 마세요.
 
 #### 자주 묻는 질문
 
@@ -1515,7 +1515,7 @@ Understanding glaucoma
 
 **갑작스러운 심한 눈 통증은 즉시 진료**
 
-심한 눈 통증, 충혈, 갑작스러운 시력 저하, 불빛 주위 무지개 달무리, 두통이나 메스꺼움·구토가 생기면 급성 폐쇄각 녹내장 등 응급 질환 가능성이 있습니다. 예약일까지 기다리지 말고 즉시 안과 또는 응급실을 방문하세요.
+갑작스러운 시력저하나 심한 눈 통증은 즉시 안과 또는 응급실에서 확인하세요. 눈 통증·충혈·불빛 주위 무지개 달무리·흐림에 두통이나 메스꺼움·구토가 동반되면 급성 폐쇄각 발작 등 응급 질환 가능성이 있습니다. 모든 증상이 나타날 때까지 기다리지 마세요.
 
 #### 자주 묻는 질문
 
@@ -1582,7 +1582,7 @@ Glaucoma: Prevalence and Risk Factors for Progression
 
 #### 진료가 필요한 신호
 
-심한 눈 통증, 충혈, 갑작스러운 시력 저하, 두통·구토가 생기면 즉시 안과 또는 응급실을 방문하세요.
+갑작스러운 시력저하나 심한 눈 통증은 위험 요인과 별개로 즉시 확인하세요. 눈 통증·충혈·달무리·흐림에 두통·구토가 동반될 때도 예약을 기다리지 말고 안과 또는 응급실을 방문하세요.
 
 #### 자주 묻는 질문
 
@@ -1643,7 +1643,7 @@ Lifestyle and Glaucoma
 
 #### 진료가 필요한 신호
 
-생활 습관과 관계없이, 갑작스러운 눈 통증·충혈·시력저하·두통·구토는 즉시 진료가 필요합니다.
+갑작스러운 시력저하나 심한 눈 통증은 생활 습관과 별개로 즉시 확인하세요. 눈 통증·충혈·달무리·흐림에 두통·구토가 동반될 때도 안과 또는 응급실에서 확인하세요.
 
 #### 자주 묻는 질문
 
@@ -1710,7 +1710,7 @@ OCT에서는 시신경과 신경섬유층의 두께와 형태(구조)를 확인�
 
 **갑자기 안 보이는 것은 별도로 확인해야 합니다**
 
-갑작스러운 시력 저하나 심한 눈 통증·충혈, 두통·구토는 만성 녹내장의 통상적인 경과로 넘기지 마세요. 즉시 안과 또는 응급실에서 확인하세요.
+갑작스러운 시력저하나 심한 눈 통증은 만성 녹내장의 통상적인 경과로 넘기지 마세요. 눈 통증·충혈·흐림에 두통·구토가 동반될 때도 다음 검사를 기다리지 말고 즉시 안과 또는 응급실에서 확인하세요.
 
 #### 자주 묻는 질문
 
@@ -1852,7 +1852,7 @@ Looking ahead with glaucoma
 
 **급격한 변화는 기다리지 마세요**
 
-갑자기 시력이 떨어지거나 심한 눈 통증·충혈, 두통·메스꺼움이 생기면 예정된 추적검사와 별도로 즉시 안과 또는 응급실에서 확인하세요.
+갑작스러운 시력저하나 심한 눈 통증은 평소 예후와 별개로 즉시 확인하세요. 눈 통증·충혈·달무리·흐림에 두통·메스꺼움이 동반될 때도 예정된 추적검사를 기다리지 말고 안과 또는 응급실에서 확인하세요.
 
 #### 자주 묻는 질문
 
@@ -1882,7 +1882,7 @@ Narrow angle · Angle-closure glaucoma
 
 #### 이것만은 기억하세요
 
-전방각이 좁다는 말은 아직 녹내장이 아니어도 미리 관리가 필요하다는 뜻일 수 있습니다. 갑작스러운 눈 통증·충혈·두통·구토와 시력저하는 즉시 응급 진료가 필요합니다.
+전방각이 좁다는 말은 아직 녹내장이 아니어도 미리 관리가 필요하다는 뜻일 수 있습니다. 갑작스러운 심한 눈 통증이나 시력저하, 눈 증상에 동반되는 두통·구토는 즉시 응급 진료가 필요합니다. 모든 증상이 함께 생기는 것을 기다리지 마세요.
 
 #### 이런 증상이 나타날 수 있어요
 
@@ -1914,9 +1914,9 @@ Narrow angle · Angle-closure glaucoma
 
 #### 진료가 필요한 신호
 
-**갑작스러운 눈 통증·두통·구토는 즉시 응급실로**
+**갑작스러운 심한 눈 통증·시력저하는 즉시 진료**
 
-한쪽 눈이 갑자기 심하게 아프고 빨개지며 흐려지고, 두통·메스꺼움·구토가 함께 오면 급성 폐쇄각 발작일 수 있습니다. 위장 문제나 편두통으로 오인하기 쉬우니 즉시 안과 또는 응급실을 방문하세요. 수 시간 안의 치료가 시신경을 지키는 데 중요합니다.
+갑작스러운 심한 눈 통증이나 시력저하는 즉시 안과 또는 응급실에서 확인하세요. 급성 폐쇄각 발작에는 충혈·불빛 주위 무지개 달무리·두통·메스꺼움·구토가 동반될 수 있으며, 모든 증상이 나타날 때까지 기다리면 안 됩니다. 눈 증상이 있는데 위장 문제나 편두통으로 단정하지 마세요. 빠른 치료가 시신경을 지키는 데 중요합니다.
 
 #### 자주 묻는 질문
 
@@ -2009,6 +2009,8 @@ Retinal detachment
 
 - [NEI · Retinal Detachment](https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/retinal-detachment)
 - [NHS · Detached retina](https://www.nhs.uk/conditions/detached-retina-retinal-detachment/)
+
+- [South Tees NHS · 눈 안 가스와 다른 수술·마취 시 주의](https://www.southtees.nhs.uk/resources/gas-in-your-eye/)
 
 #### 소견 그림 도구 · 의료진·제작자 참고
 
@@ -2755,7 +2757,7 @@ Retinal vein occlusion
 #### 어떻게 치료하나요?
 
 - **눈 속 주사**: 황반부종이 시력을 떨어뜨리면 항VEGF 주사나 스테로이드 주사를 반복하며 부종을 줄입니다.
-- **레이저**: 혈관이 막혀 비정상 혈관이 자랄 위험이 있으면 시행합니다.
+- **레이저**: 망막·홍채 등에 비정상 혈관이 생기면 고려합니다. 일부 분지정맥폐쇄의 황반부종에도 선택적으로 사용할 수 있습니다. 예방 레이저는 정기 추적이 어려운 경우 등에서 제한적으로 고려하며, 허혈·부종과 추적 가능성을 함께 보고 결정합니다.
 - **전신 평가**: 내과에서 혈압, 혈당, 지질 등을 확인합니다.
 
 막힌 혈관을 즉시 다시 뚫는 치료는 아직 확립되어 있지 않으며, 치료는 합병증을 줄이고 시력을 지키는 데 목적이 있습니다.
@@ -2785,8 +2787,10 @@ Retinal vein occlusion
 
 #### 더 읽어보기 · 참고 자료
 
-- [ASRS · Branch Retinal Vein Occlusion](https://www.asrs.org/patients/retinal-diseases/9/branch-retinal-vein-occlusion)
-- [ASRS · Central Retinal Vein Occlusion](https://www.asrs.org/patients/retinal-diseases/10/central-retinal-vein-occlusion)
+- [ASRS · Branch Retinal Vein Occlusion](https://www.asrs.org/patients/retinal-diseases/24/retinal-vein-occlusions)
+- [ASRS · Central Retinal Vein Occlusion](https://www.asrs.org/patients/retinal-diseases/22/central-retinal-vein-occlusion)
+
+- [RCOphth · 망막정맥폐쇄 진료지침](https://www.rcophth.ac.uk/guidance-resources/retinal-vein-occlusion-guideline/)
 
 ---
 
@@ -2845,7 +2849,7 @@ Macular hole
 #### 더 읽어보기 · 참고 자료
 
 - [NEI · Macular Hole](https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/macular-hole)
-- [ASRS · Macular Hole](https://www.asrs.org/patients/retinal-diseases/8/macular-hole)
+- [ASRS · Macular Hole](https://www.asrs.org/patients/retinal-diseases/4/macular-hole)
 
 ---
 
@@ -3281,7 +3285,7 @@ Ptosis
 
 **갑자기 생긴 처짐은 즉시 진료**
 
-눈꺼풀이 수일 안에 갑자기 처지거나, 사물이 둘로 보이거나, 두통·눈 통증이 있거나, 양쪽 동공 크기가 다르면 신경 문제일 수 있어 즉시 응급실을 방문하세요. 하루 중 피곤할수록 처짐이 심해지고 복시·삼킴 곤란·팔다리 힘 빠짐이 함께 있으면 빨리 진료받으세요.
+눈꺼풀이 수일 안에 갑자기 처지거나, 사물이 둘로 보이거나, 처짐에 두통·눈 통증이 동반되거나, 양쪽 동공 크기가 다르면 신경 문제일 수 있어 즉시 응급실을 방문하세요. 하루 중 피곤할수록 처짐이 심해지거나 복시·삼킴 곤란·팔다리 힘 빠짐이 있으면 빨리 진료받으세요. 숨쉬기나 삼키기가 심하게 어렵거나 악화하면 119에 연락하거나 즉시 응급실로 가세요.
 
 #### 자주 묻는 질문
 
@@ -3296,6 +3300,8 @@ Ptosis
 #### 더 읽어보기 · 참고 자료
 
 - [AAO · What Is Ptosis?](https://www.aao.org/eye-health/diseases/what-is-ptosis)
+
+- [NHS · 중증근무력증의 삼킴·호흡 응급 증상](https://www.nhs.uk/conditions/myasthenia-gravis/symptoms/)
 
 ---
 
